@@ -144,7 +144,7 @@ h2 {
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-.MenuLinks{
+.MenuLinks {
   line-height: 20px;
   font-family: "Rubik", sans-serif;
   font-size: 17pt;
@@ -206,11 +206,14 @@ h2 {
   width: 300px;
 }
 
+.CaseStudyButton {
+  text-align: center;
+}
+
 .button {
   font-family: "Rubik", sans-serif;
   font-size: 16pt;
   font-weight: Bold;
-  align-items: center;
   background-color: #18EBED;
   color: #000000;
   padding-top: 5px;
