@@ -8,8 +8,8 @@
   </head>
 
   <body>
-    <section class=hometouch>
-      <img src="graphics/digitaltouch_bg_mobile.png" class="touchbg">
+    <section class=HomeBackground>
+      <img src="graphics/digitaltouch_bg_mobile.png" class="bgimage">
       <header>
 
         <nav class="nav_header">
@@ -46,23 +46,25 @@
       <section class="PortfolioBanner">
         <h4>Portfolio</h4>
       </section>
+      <section class="HomeBgTexture">
+        <!-- <img src="graphics/background_pattern_mobile.png" class="bgimage">-->
 
-      <!-- Featured project 1-->
-      <section class="FeaturedProject">
-        <img src="graphics/HighlightDashMain.png" alt="Highlight screenshot"> <!-- width="413" height="293" -->
-        <h3>Highlight</h3>
-        <p>Highlight is a cloud storage site built by gamers, for gamers to upload, create, and share all of their favorite content.</p>
-        <a href="project_highlight.html" class="button">View Case Study</a>
-      </section>
+        <!-- Featured project 1-->
+        <section class="FeaturedProject">
+          <img src="graphics/HighlightDashMain.png" alt="Highlight screenshot" class="FeaturedScreenshot HighlightScreenshot"> <!-- width="413" height="293" -->
+          <h3 class="FeaturedTitle1">Highlight</h3>
+          <p>Highlight is a cloud storage site built by gamers, for gamers to upload, create, and share all of their favorite content.</p>
+          <a href="project_highlight.html" class="button">View Case Study</a>
+        </section>
 
-      <!-- Featured project 2-->
-      <section class="FeaturedProject">
-        <img src="graphics/IronSilverSalt.jpg" alt="Iron, Silver, and Salt screenshot"> <!-- width="413" height="293" -->
-        <h3>Iron, Silver, and Salt</h3>
-        <p>Iron, Silver, and Salt is a monster hunting podcast that needed a home.</p>
-        <a href class="button">Coming Soon</a>
-      </section>
-
+        <!-- Featured project 2-->
+        <section class="FeaturedProject">
+          <img src="graphics/IronSilverSalt.jpg" alt="Iron, Silver, and Salt screenshot" class="FeaturedScreenshot ISSScreenshot"> <!-- width="413" height="293" -->
+          <h3 class="FeaturedTitle2">Iron, Silver, and Salt</h3>
+          <p class="card2text">Iron, Silver, and Salt is a monster hunting podcast that needed a home.</p>
+          <a href class="button">Coming Soon</a>
+        </section>
+    </section>
       <!-- more projects button-->
       <!--<a href="projects.html" class="button">Additional Projects</a>-->
     </main>
@@ -70,30 +72,26 @@
   </body>
 
   <footer id="contact_anchor">
-    <ul class="left half">
-      <li>
+    <ul>
+      <li class="BottomLogo">
         <img src="graphics/BWLogo.png" alt="Personal Logo"> <!-- width="64" height="22"-->
       </li>
-    </ul>
-    <ul class="right half">
-      <li>
+      <li class="ContactLinks">
         <a href="https://www.linkedin.com/in/elrodmark/">
-          <img src="graphics/linkedin.png" alt="Linkedin link">
+          <img src="graphics/linkedin.png" alt="Linkedin link" class="BottomNavLink">
         </a>
       </li>
-      <li>
+      <li class="ContactLinks">
         <a href="https://github.com/mmelrod">
-          <img src="graphics/github.png" alt="Github link">
+          <img src="graphics/github.png" alt="Github link" class="BottomNavLink">
         </a>
       </li>
-      <li>
+      <li class="ContactLinks">
         <a href="mailto:melrod8@gmail.com">
-          <img src="graphics/email.png" alt="email link">
+          <img src="graphics/email.png" alt="email link" class="BottomNavLink">
         </a>
       </li>
     </ul>
-    <span class="Contact_Separator"></span>
-    <span class="Contact_Separator"></span>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>

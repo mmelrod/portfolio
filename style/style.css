@@ -23,11 +23,6 @@ h2 {
   text-align: left;
 }
 
-.hometouch {
-  position: relative;
-  background-color: #002937;
-}
-
 /* Portfolio banner properties*/
 .PortfolioBanner {
   height: 45px;
@@ -169,11 +164,88 @@ h2 {
 }
 
 /* background images */
-.touchbg {
+.HomeBackground {
+  position: relative;
+  background-color: #002937;
+}
+
+.bgimage {
   width:100%
 }
 
+/* Featured Project Cards*/
+.HomeBgTexture {
+  background-image: url(../graphics/background_pattern_mobile.png);
+  background-color: #002937;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  color: #ffffff;
+  padding-bottom: 55px;
+}
 
+.FeaturedProject {
+  width: 300px;
+  margin-left: 8.33%;
+  margin-right: 8.33%;
+  font-size: 16pt;
+  font-family: "Oxygen", sans-serif;
+  line-height: 1.6em;
+}
+
+.FeaturedProject h3 {
+  font-family: "Museo Sans Rounded", sans-serif;
+  font-size: 20pt;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.FeaturedScreenshot {
+  margin-top: 50px;
+  width: 300px;
+}
+
+.button {
+  font-family: "Rubik", sans-serif;
+  font-size: 16pt;
+  font-weight: Bold;
+  align-items: center;
+  background-color: #18EBED;
+  color: #000000;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 11px;
+  padding-right: 11px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/*Footer stuff*/
+footer {
+  background-color: #18EBED;
+  height: 100px;
+}
+
+.BottomNavLink{
+  margin-top: 30px;
+  height: 45px;
+  width: 45px;
+}
+
+.BottomLogo {
+  display: inline;
+  margin-left: 8.33%;
+  margin-right: 14.44%;
+}
+
+.ContactLinks {
+  display: inline;
+  margin-left: 37px;
+}
 
 /* hifi mockup carousel */
 * {box-sizing:border-box}
