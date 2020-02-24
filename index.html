@@ -3,53 +3,49 @@
   <head>
     <meta charset="utf-8">
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
   </head>
 
   <body>
+    <section class=hometouch>
+      <img src="graphics/digitaltouch_bg_mobile.png" class="touchbg">
+      <header>
 
-    <header>
-      <a href ="#" class="burger menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </a>
+        <nav class="nav_header">
+          <a href="index.html">
+            <img src="graphics/TealLogo.png" alt="Personal Logo" class="TopLogo"> <!-- width ="91.5" height = "31"-->
+          </a>
+          <section class="BurgerMenu">
+              <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                  <img src="graphics/BurgerTop.png" class="MenuTop">
+                  <!--<a href="projects.html">Work</a>-->
+                  <a href="about.html" class="MenuLinks"><li>About</li></a>
+                  <a href="#contact_anchor" class="MenuLinks"><li>Contact</li></a>
+                </ul>
+          </section>
+        </nav>
+      </header>
 
-      <nav class="nav_header">
-        <a href="index.html">
-          <img src="graphics/TealLogo.png" alt="Personal Logo"> <!-- width ="91.5" height = "31"-->
-        </a>
-        <span></span> <!--mobile only-->
-        <ul>
-          <!--<li>
-            <a href="projects.html">Work</a>
-          </li>-->
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="#contact_anchor">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <section class="banner">
-      <img src="graphics/digitaltouch_bg.jpg" alt="Background Image"> <!-- width="1440" height="960" -->
-      <div class="banner_text">
-        <h1>I am Mark Elrod</h1>
-        <h2>a Philadelphia-based UX designer.</h2>
-        <p>I am a problem solver, with a keen ear for what users want.</p>
-      </div>
+      <section class="banner">
+        <div class="banner_text">
+          <h1>I am Mark Elrod</h1>
+          <h2>a Philadelphia-based UX designer.</h2>
+          <p>I am a problem solver, with a keen ear for what users want.</p>
+        </div>
+      </section>
     </section>
 
     <main>
       <!-- Portfolio banner-->
       <section class="PortfolioBanner">
-        <h3>Portfolio</h3>
+        <h4>Portfolio</h4>
       </section>
-
-      <img src="graphics/background_pattern.jpg" alt="Background pattern"> <!-- width="1440" height="858"-->
 
       <!-- Featured project 1-->
       <section class="FeaturedProject">
@@ -99,5 +95,8 @@
     <span class="Contact_Separator"></span>
     <span class="Contact_Separator"></span>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script type="text/javascript" src="JS/BurgerMenu.js"></script>
 
 </html>
