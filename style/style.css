@@ -163,7 +163,7 @@ h2 {
   left: 8.33%;
 }
 
-/* background images */
+/* pointing background image */
 .HomeBackground {
   position: relative;
   background-color: #002937;
@@ -231,23 +231,27 @@ h2 {
 footer {
   background-color: #18EBED;
   height: 100px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  padding-top: 30px;
 }
 
-.BottomNavLink{
-  margin-top: 30px;
+.BottomLogo {
+  float: left;
+}
+
+.BottomNavLink {
   height: 45px;
   width: 45px;
 }
 
-.BottomLogo {
+.FooterContent {
   display: inline;
-  margin-left: 8.33%;
-  margin-right: 14.44%;
 }
 
 .ContactLinks {
-  display: inline;
   margin-left: 37px;
+  float: right;
 }
 
 /* hifi mockup carousel */
