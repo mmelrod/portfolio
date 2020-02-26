@@ -7,32 +7,34 @@
     <link rel="stylesheet" type="text/css" href="style/style.css">
   </head>
 
-  <section class=HomeBackground>
-    <img src="graphics/MobileTopGraphic.png" class="bgimage ShortHeader">
-    <header>
-
-      <nav class="nav_header">
-        <a href="index.html">
-          <img src="graphics/TealLogo.png" alt="Personal Logo" class="TopLogo"> <!-- width ="91.5" height = "31"-->
-        </a>
-        <section class="BurgerMenu">
-            <div id="menuToggle">
-              <input type="checkbox" />
-              <span></span>
-              <span></span>
-              <span></span>
-              <ul id="menu">
-                <img src="graphics/BurgerTop.png" class="MenuTop">
-                <!--<a href="projects.html">Work</a>-->
-                <a href="about.html" class="MenuLinks"><li>About</li></a>
-                <a href="#contact_anchor" class="MenuLinks"><li>Contact</li></a>
-              </ul>
-        </section>
-      </nav>
-    </header>
-  </section>
-
   <body class="AboutBody">
+    <section class=HomeBackground>
+      <img src="graphics/MobileTopGraphic.png" alt="Header image" class="bgimage ShortHeader">
+      <header>
+
+        <nav class="nav_header">
+          <a href="index.html">
+            <img src="graphics/TealLogo.png" alt="Personal Logo" class="TopLogo"> <!-- width ="91.5" height = "31"-->
+          </a>
+          <section class="BurgerMenu">
+              <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                  <img src="graphics/TealLogo.png" alt="Personal Logo" class="MenuTop">
+                  <!--<a href="projects.html">Work</a>-->
+                  <span></span>
+                  <a href="about.html" class="MenuLinks"><li>About</li></a>
+                  <a href="#contact_anchor" class="MenuLinks"><li>Contact</li></a>
+                </ul>
+              </div>
+          </section>
+        </nav>
+      </header>
+    </section>
+
     <section class="AboutContent">
       <h2>About Me</h2>
       <span></span>
@@ -42,36 +44,37 @@
       <br>
       <p>This drive to take ideas, both my own and others’, and help shape them into something people get to use and enjoy, has kept me on a path destined for design. For me, there is no greater satisfaction than watching something you helped create be used and enjoyed by the people around you. If at the end of our next project, you also look forward to thinking, “We made that. We molded that idea into reality.”, please feel free to contact me. I would love to help.</p>
     </section>
+
+    <footer id="contact_anchor">
+      <ul class="FooterContent">
+        <li class="BottomLogo">
+          <img src="graphics/BWLogo.png" alt="Personal Logo"> <!-- width="64" height="22"-->
+        </li>
+        <li>
+          <ul>
+            <li class="ContactLinks">
+              <a href="https://www.linkedin.com/in/elrodmark/">
+                <img src="graphics/linkedin.png" alt="Linkedin link" class="BottomNavLink">
+              </a>
+            </li>
+            <li class="ContactLinks">
+              <a href="https://github.com/mmelrod">
+                <img src="graphics/github.png" alt="Github link" class="BottomNavLink">
+              </a>
+            </li>
+            <li class="ContactLinks">
+              <a href="mailto:melrod8@gmail.com">
+                <img src="graphics/email.png" alt="email link" class="BottomNavLink">
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="JS/BurgerMenu.js"></script>
+
   </body>
-
-  <footer id="contact_anchor">
-    <ul class="FooterContent">
-      <li class="BottomLogo">
-        <img src="graphics/BWLogo.png" alt="Personal Logo"> <!-- width="64" height="22"-->
-      </li>
-      <li>
-        <ul>
-          <li class="ContactLinks">
-            <a href="https://www.linkedin.com/in/elrodmark/">
-              <img src="graphics/linkedin.png" alt="Linkedin link" class="BottomNavLink">
-            </a>
-          </li>
-          <li class="ContactLinks">
-            <a href="https://github.com/mmelrod">
-              <img src="graphics/github.png" alt="Github link" class="BottomNavLink">
-            </a>
-          </li>
-          <li class="ContactLinks">
-            <a href="mailto:melrod8@gmail.com">
-              <img src="graphics/email.png" alt="email link" class="BottomNavLink">
-            </a>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </footer>
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script type="text/javascript" src="JS/BurgerMenu.js"></script>
 
 </html>
