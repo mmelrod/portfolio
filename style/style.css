@@ -23,6 +23,24 @@ h2 {
   text-align: left;
 }
 
+.AboutContent {
+  font-size: 18pt;
+  font-family: "Oxygen", sans-serif;
+  line-height: 1.5em;
+  width: 83.33%;
+  margin-left: 8.33%;
+  margin-bottom: 50px;
+}
+
+.AboutBody h2 {
+  font-size: 36pt;
+  font-family: "Museo Sans Rounded", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  border-bottom: 2px solid #18EBED;
+  margin-bottom: 30px;
+}
+
 /* Portfolio banner properties*/
 .PortfolioBanner {
   height: 45px;
@@ -173,6 +191,21 @@ h2 {
   width:100%
 }
 
+.ShortHeader {
+  max-height: 111px;
+}
+
+/*About Body*/
+.AboutBody {
+  background-color: #E1E8F0;
+}
+
+.portrait {
+  max-width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 /* Featured Project Cards*/
 .HomeBgTexture {
   background-image: url(../graphics/background_pattern_mobile.png);
@@ -227,6 +260,295 @@ h2 {
   text-decoration: none;
 }
 
+/*case study TOC*/
+#menu span {
+  background-color: #ffffff;
+  opacity: 20%;
+  border-top: 50px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+/*highlight general*/
+.HighlightCaseStudyBody {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16pt;
+  line-height: 150%;
+}
+
+.HighlightCaseStudyBody h3 {
+  font-family: "Museo Sans Rounded", sans-serif;
+  font-size: 22pt;
+  margin-bottom: 35px;
+  line-height: 150%;
+}
+
+.HighlightCaseStudyBody h2 {
+  font-family: "Museo Sans Rounded", sans-serif;
+  font-size: 24pt;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20pt;
+}
+
+/*highlight opening*/
+.opening {
+  padding-top: 25px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  background-color: #E1E8F0;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.opening2 {
+  padding-top: 25px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.opening h1 {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  font-size: 32pt;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.opening span {
+  background-color: #18EBED;
+  border-top: 2px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.HighlightOpener {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+/*Highlight Discovery*/
+.DiscoveryTop {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  background-image: url(../graphics/Discovery_BG.png);
+  background-repeat: no-repeat;
+  background-color: #D3ECFC;
+  background-position: center;
+  background-position: top;
+}
+
+.Discovery2 {
+  padding-left: 8.33%;
+  width: 83.33%;
+  margin-top: 25px;
+}
+
+.DiscoveryImage {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/*Highlight IA*/
+.IATop {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  background-image: url(../graphics/IA_BG.png);
+  background-repeat: no-repeat;
+  background-color: #D3ECFC;
+  background-position: center;
+  background-position: top;
+}
+
+.HighlightPersona {
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  line-height: 150%;
+}
+
+.HighlightPersona b {
+  line-height: 2em;
+  font-weight: bold;
+}
+
+.HighlightPersona li {
+  margin-top: 5px;
+  margin-left: 40px;
+  padding-left: 5px;
+  list-style-type: decimal;
+}
+
+.HighlightPersona1 {
+  background-color: #FDE0DD;
+}
+
+.HighlightPersona2 {
+  background-color: #FEF1DE;
+}
+
+.PersonaPortrait {
+  width: 221px;
+}
+
+.IAMain {
+  background-image: url(../graphics/hexagon-background.png);
+  background-position: center;
+  background-position: top;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  line-height: 150%;
+  background-repeat: repeat;
+}
+
+.IAImage {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.WireframeSketches {
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+}
+
+.IASketch {
+  width: 100%;
+}
+
+.IAMain ul {
+  list-style-type: circle;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  padding-left: 5px;
+}
+
+/*Visual Design*/
+.VDTop {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  background-image: url(../graphics/Branding_BG.png);
+  background-color: #D3ECFC;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top;
+}
+
+.VDTop ul {
+  list-style-type: circle;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  padding-left: 5px;
+}
+
+.VDMain {
+  background-image: url(../graphics/hexagon-background.png);
+  background-position: center;
+  background-position: top;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  line-height: 1.5em;
+  background-repeat: repeat;
+}
+
+.VDImage {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.StyleGuide {
+  padding-top: 20px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  background-color: #B6E3FA;
+}
+
+.StyleGuideImage {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.ControllerImage {
+  margin-top: -10px;
+  width: 100%;
+}
+
+/*Highlight Prototyping and Testing*/
+.ProtoTest {
+  margin-top: 25pt;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+}
+
+.ProtoTest ul {
+  list-style-type: circle;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  padding-left: 5px;
+}
+
+.ProtoTestImage {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ProtoTest .text {
+  font-size: 10pt;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+/*Highlight Conclusion*/
+.Conclusion {
+  margin-top: 25pt;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  background-image: url(../graphics/Branding_BG.png);
+  background-color: #D3ECFC;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top;
+}
+
+.Conclusion b {
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+.Conclusion ul {
+  list-style-type: circle;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 40px;
+  padding-left: 5px;
+}
+
 /*Footer stuff*/
 footer {
   background-color: #18EBED;
@@ -252,91 +574,4 @@ footer {
 .ContactLinks {
   margin-left: 37px;
   float: right;
-}
-
-/* hifi mockup carousel */
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 710px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: hsla(210,29,92,0.9);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #E4EAF0;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #18EBED;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
 }
