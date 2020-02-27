@@ -73,8 +73,8 @@ h2 {
 
 #menuToggle
 {
-  float: right;
-  position: absolute;
+  display: block;
+  position: relative;
   top: 35px;
   right: 8.33%;
 
@@ -162,19 +162,19 @@ h2 {
 #menu
 {
   position: absolute;
-  width: 100%;
+  width: 92.67%;
   left: -100%;
   top: -50px;
   padding-top: 50px;
   padding-bottom: 100%;
-  padding-left: 100%;
+  padding-left: 8.33%;
   background: #002937;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
 
   transform-origin: 0 0;
-  transform: translate(100%, 0);
+  transform: translate(107%, 0);
 
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
