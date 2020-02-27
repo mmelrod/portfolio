@@ -66,10 +66,15 @@ h2 {
 /*Hamburger Menu*/
 /*Huge thank you to Erik Terwan https://codepen.io/erikterwan/pen/EVzeRP*/
 
+.BurgerMenu {
+  position: relative;
+  width: 100%;
+}
+
 #menuToggle
 {
   float: right;
-  position: relative;
+  position: absolute;
   top: 35px;
   right: 8.33%;
 
@@ -79,7 +84,7 @@ h2 {
   user-select: none;
 }
 
-#menuToggle a
+.BurgerMenu a
 {
   text-decoration: none;
   color: #ffffff;
@@ -129,7 +134,7 @@ h2 {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
+#menuToggle span:nth-last-child(1)
 {
   transform-origin: 0% 100%;
 }
@@ -143,13 +148,13 @@ h2 {
 }
 
   /* hide the middle one */
-#menuToggle input:checked ~ span:nth-last-child(3)
+#menuToggle input:checked ~ span:nth-last-child(2)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#menuToggle input:checked ~ span:nth-last-child(2)
+#menuToggle input:checked ~ span:nth-last-child(1)
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
@@ -169,7 +174,7 @@ h2 {
   /* to stop flickering of text in safari */
 
   transform-origin: 0 0;
-  transform: translate(-100%, 0);
+  transform: translate(100%, 0);
 
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
