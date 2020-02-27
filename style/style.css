@@ -221,8 +221,8 @@ h2 {
   font-family: "Oxygen", sans-serif;
   font-size: 16pt;
   line-height: 1.6em;
-  margin-left: 8.33%;
-  margin-right: 8.33%;
+  margin-left: auto;
+  margin-right: auto;
   width: 300px;
 }
 
@@ -375,7 +375,7 @@ h2 {
   padding-left: 8.33%;
   padding-right: 8.33%;
   padding-top: 25px;
-  width: 100%;
+  width: 83.33%;
 }
 
 .HighlightPersona b {
@@ -556,6 +556,7 @@ footer {
   padding-left: 8.33%;
   padding-right: 8.33%;
   padding-top: 30px;
+  
 }
 
 .BottomLogo {
