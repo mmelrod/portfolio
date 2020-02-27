@@ -10,6 +10,17 @@ h2 {
 }
 
 /*Home Page*/
+.HomeBackground {
+  background-image: url(../graphics/digitaltouch_bg_mobile.png);
+  background-color: #002937;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top;
+  background-size: 100%;
+  color: #ffffff;
+  padding-bottom: 183%;
+}
+
 .banner {
   color: #ffffff;
   font-family: "Oxygen", sans-serif;
@@ -147,17 +158,19 @@ h2 {
 #menu
 {
   position: absolute;
-  width: 500px;
-  left: -500px;
-  padding-top: 72px;
+  width: 1345%;
+  left: -1375%;
+  top: -50px;
+  padding-top: 50px;
   padding-bottom: 100%;
+  padding-left: 250%;
   background: #002937;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
 
   transform-origin: 0 0;
-  transform: translate(-500px, 0);
+  transform: translate(-100%, 0);
 
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
@@ -556,7 +569,7 @@ footer {
   padding-left: 8.33%;
   padding-right: 8.33%;
   padding-top: 30px;
-  
+
 }
 
 .BottomLogo {
