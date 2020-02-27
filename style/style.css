@@ -18,7 +18,7 @@ h2 {
   background-position: top;
   background-size: 100%;
   color: #ffffff;
-  padding-bottom: 183%;
+  padding-bottom: 178%;
 }
 
 .banner {
@@ -34,16 +34,23 @@ h2 {
   width: 83.33%;
 }
 
+.AboutBody2 {
+  background-color: #E1E8F0;
+}
+
 .AboutContent {
+  background-color: #E1E8F0;
   font-size: 18pt;
   font-family: "Oxygen", sans-serif;
   line-height: 1.5em;
-  margin-left: 8.33%;
-  margin-bottom: 50px;
+  padding-left: 8.33%;
+  margin-top: 100px;
+  padding-bottom: 50px;
+  padding-right: 8.33%;
   width: 83.33%;
 }
 
-.AboutBody h2 {
+.AboutContent h2 {
   border-bottom: 2px solid #18EBED;
   font-size: 36pt;
   font-family: "Museo Sans Rounded", sans-serif;
@@ -55,7 +62,7 @@ h2 {
 /* Portfolio banner properties*/
 .PortfolioBanner {
   background-color: #18E8ED;
-  font-family: "Museo Sans Rounded", Museo, sans-serif;
+  font-family: "Museo Sans Rounded", sans-serif;
   font-size: 24pt;
   font-weight: 900;
   height: 45px;
@@ -96,7 +103,7 @@ h2 {
   width: 40px;
   height: 32px;
   position: absolute;
-  right: 8.33%;
+  right: 0%;
 
   cursor: pointer;
 
@@ -115,6 +122,7 @@ h2 {
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
+  margin-left: 92%;
   position: relative;
 
   background: #18EBED;
@@ -162,19 +170,20 @@ h2 {
 #menu
 {
   position: absolute;
-  width: 92.67%;
-  left: -100%;
+  width: 91.67%;
+  left: 0%;
   top: -50px;
   padding-top: 50px;
   padding-bottom: 100%;
   padding-left: 8.33%;
+  margin-left: 8.33%;
   background: #002937;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
 
   transform-origin: 0 0;
-  transform: translate(107%, 0);
+  transform: translate(-107%, 0);
 
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
@@ -196,6 +205,15 @@ h2 {
   position: absolute;
   top: 35px;
   left: 8.33%;
+}
+
+.AboutBody {
+  background-image: url(../graphics/MobileTopGraphic.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  max-height: 110px;
+  float: none;
 }
 
 /* pointing background image */
@@ -282,15 +300,18 @@ h2 {
   background-color: #ffffff;
   border-top: 50px;
   margin-top: 20px;
+  margin-left: 0px;
   opacity: 20%;
   width: 300px;
 }
 
 /*highlight general*/
 .HighlightCaseStudyBody {
+  background-color: #E1E8F0;
   font-family: "Oxygen", sans-serif;
   font-size: 16pt;
   line-height: 150%;
+  /*background-color: #E1E8F0;*/
 }
 
 .HighlightCaseStudyBody h3 {
@@ -311,6 +332,7 @@ h2 {
 /*highlight opening*/
 .opening {
   background-color: #E1E8F0;
+  margin-top: 100px;
   margin-bottom: 25px;
   padding-bottom: 25px;
   padding-left: 8.33%;
@@ -318,7 +340,12 @@ h2 {
   padding-top: 25px;
 }
 
+.opening h1 {
+  border-bottom: 2px solid #18EBED;
+}
+
 .opening2 {
+  background-color: #ffffff;
   margin-bottom: 25px;
   padding-bottom: 25px;
   padding-left: 8.33%;
@@ -362,9 +389,11 @@ h2 {
 }
 
 .Discovery2 {
-  margin-top: 25px;
+  padding-top: 25px;
   padding-left: 8.33%;
+  padding-right: 8.33%;
   width: 83.33%;
+  background-color: #ffffff;
 }
 
 .DiscoveryImage {
@@ -420,6 +449,7 @@ h2 {
 }
 
 .IAMain {
+  background-color: #ffffff;
   background-image: url(../graphics/hexagon-background.png);
   background-position: center;
   background-position: top;
@@ -476,6 +506,7 @@ h2 {
 }
 
 .VDMain {
+  background-color: #ffffff;
   background-image: url(../graphics/hexagon-background.png);
   background-position: center;
   background-position: top;
@@ -506,17 +537,18 @@ h2 {
 }
 
 .ControllerImage {
+  background-color: #ffffff;
   margin-top: -10px;
   width: 100%;
 }
 
 /*Highlight Prototyping and Testing*/
 .ProtoTest {
-  margin-top: 25pt;
+  background-color: #ffffff;
   padding-bottom: 25px;
   padding-left: 8.33%;
   padding-right: 8.33%;
-  padding-top: 25px;
+  padding-top: 50px;
 }
 
 .ProtoTest ul {
@@ -546,11 +578,10 @@ h2 {
   background-position: center;
   background-position: top;
   background-repeat: no-repeat;
-  margin-top: 25pt;
   padding-bottom: 25px;
   padding-left: 8.33%;
   padding-right: 8.33%;
-  padding-top: 25px;
+  padding-top: 50px;
 }
 
 .Conclusion b {
@@ -596,3 +627,4 @@ footer {
 
 
 /*Media Queries*/
+© 2020 GitHub, Inc.
