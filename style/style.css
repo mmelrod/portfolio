@@ -68,8 +68,8 @@ h2 {
 
 #menuToggle
 {
-  display: block;
-  position: absolute;
+  float: right;
+  position: relative;
   top: 35px;
   right: 8.33%;
 
@@ -87,12 +87,11 @@ h2 {
 
 #menuToggle input
 {
-  display: block;
+  float: right;
   width: 40px;
   height: 32px;
   position: absolute;
-  top: -7px;
-  left: -5px;
+  right: 8.33%;
 
   cursor: pointer;
 
@@ -158,12 +157,12 @@ h2 {
 #menu
 {
   position: absolute;
-  width: 1345%;
-  left: -1375%;
+  width: 100%;
+  left: -100%;
   top: -50px;
   padding-top: 50px;
   padding-bottom: 100%;
-  padding-left: 250%;
+  padding-left: 100%;
   background: #002937;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
