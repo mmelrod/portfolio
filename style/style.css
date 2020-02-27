@@ -134,7 +134,7 @@ h2 {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(1)
+#menuToggle span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
 }
@@ -148,13 +148,13 @@ h2 {
 }
 
   /* hide the middle one */
-#menuToggle input:checked ~ span:nth-last-child(2)
+#menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#menuToggle input:checked ~ span:nth-last-child(1)
+#menuToggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
@@ -593,3 +593,6 @@ footer {
   float: right;
   margin-left: 37px;
 }
+
+
+/*Media Queries*/
