@@ -189,10 +189,9 @@ h2 {
 }
 
 .MenuLinks {
-  line-height: 20px;
+  line-height: 50px;
   font-family: "Rubik", sans-serif;
   font-size: 17pt;
-  padding-left: 8.33%;
 }
 
 #menuToggle input:checked ~ ul
@@ -205,6 +204,7 @@ h2 {
   position: absolute;
   top: 35px;
   left: 8.33%;
+  z-index: 3;
 }
 
 .AboutBody {
