@@ -605,28 +605,21 @@ footer {
   padding-left: 8.33%;
   padding-right: 8.33%;
   padding-top: 30px;
-
+  text-align: center;
 }
 
-.BottomLogo {
-  float: left;
-  width: 50px;
+.BottomLogoImage {
+  width: 18%;
+  max-width: 55px;
+  padding-bottom: 20px;
 }
 
 .BottomNavLink {
-  width: 45px;
-  height: 45px;
+  width: 14%;
+  max-width: 55px;
+  max-height: 55px;
+  margin: 10px;
 }
-
-.FooterContent {
-  display: inline;
-}
-
-.ContactLinks {
-  float: right;
-  margin-left: 37px;
-}
-
 
 /*Media Queries*/
 © 2020 GitHub, Inc.
