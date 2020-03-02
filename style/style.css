@@ -610,11 +610,12 @@ footer {
 
 .BottomLogo {
   float: left;
+  width: 50px;
 }
 
 .BottomNavLink {
-  height: 45px;
   width: 45px;
+  height: 45px;
 }
 
 .FooterContent {
