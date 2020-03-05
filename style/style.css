@@ -120,7 +120,7 @@ h2 {
   font-family: "Oxygen", sans-serif;
   line-height: 1.5em;
   padding-left: 8.33%;
-  margin-top: 100px;
+  margin-top: 80px;
   padding-bottom: 50px;
   padding-right: 8.33%;
   width: 83.33%;
@@ -136,9 +136,6 @@ h2 {
 }
 
 /*About Body*/
-.AboutBody {
-  background-color: #E1E8F0;
-}
 
 .portrait {
   margin-bottom: 30px;
@@ -276,11 +273,12 @@ h2 {
 }
 
 .AboutBody {
+  background-color: #E1E8F0;
   background-image: url(../graphics/MobileTopGraphic.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
-  max-height: 110px;
+  height: 110px;
   float: none;
 }
 
@@ -318,10 +316,13 @@ h2 {
   text-align: center;
 }
 
+.DesktopTOC {
+  display: none;
+}
+
 /*highlight opening*/
 .opening {
   background-color: #E1E8F0;
-  margin-top: 100px;
   margin-bottom: 25px;
   padding-bottom: 25px;
   padding-left: 8.33%;
@@ -763,7 +764,6 @@ footer {
   }
 
   .HomeBgTexture {
-
     background-image: url(../graphics/background_pattern.png);
     background-color: #002937;
     background-repeat: no-repeat;
@@ -844,7 +844,6 @@ footer {
     grid-row-gap: 18px;
     line-height: 1.6em;
     padding-left: 17%;
-    margin-top: 100px;
     padding-bottom: 50px;
     padding-right: 17%;
     width: 66%;
@@ -880,11 +879,10 @@ footer {
 
   .AboutBody {
     background-image: url(../graphics/Top_bg.png);
-    background-color: #E1E8F0;
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
-    max-height: 110px;
+    height: 110px;
     float: none;
   }
 
@@ -918,7 +916,7 @@ footer {
 
 /*Highlight Case Study*/
   .HighlightNav {
-    display: flex;
+    display: none;
   }
 
   /*highlight general*/
@@ -939,10 +937,38 @@ footer {
     text-align: center;
   }
 
+  .DesktopTOC {
+    align-items: center;
+    background-color: #A0BBD6;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .DesktopTOC a {
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    font-size: 20pt;
+    font-weight: medium;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 22px;;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .DesktopTOC a:hover {
+    color: #18EBED;
+    background-color: #01283A;
+  }
+
   /*highlight opening*/
   .opening {
-    display: flex;
-    flex-direction: column;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 49.3%;
@@ -1024,49 +1050,11 @@ footer {
     display: flex;
   }
 
-  .HighlightPersona {
-    padding-bottom: 25px;
-    padding-left: 8.33%;
-    padding-right: 8.33%;
-    padding-top: 25px;
-    width: 83.33%;
-  }
-
-  .HighlightPersona b {
-    font-weight: bold;
-    line-height: 2em;
-  }
-
-  .HighlightPersona li {
-    list-style-type: decimal;
-    margin-left: 40px;
-    margin-top: 5px;
-    padding-left: 5px;
-  }
-
-  .HighlightPersona1 {
-    background-color: #FDE0DD;
-  }
-
-  .HighlightPersona2 {
-    background-color: #FEF1DE;
-  }
-
-  .PersonaPortrait {
-    width: 221px;
-  }
-
   .IAMain {
-    background-color: #ffffff;
-    background-image: url(../graphics/hexagon-background.png);
-    background-position: center;
-    background-position: top;
-    background-repeat: repeat;
-    line-height: 150%;
-    padding-bottom: 25px;
-    padding-left: 8.33%;
-    padding-right: 8.33%;
+    padding-left: 25.35%;
+    padding-right: 25.35%;
     padding-top: 25px;
+    width: 49.3%
   }
 
   .IAImage {
@@ -1076,12 +1064,16 @@ footer {
   }
 
   .WireframeSketches {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 20pt;
     margin-top: 20pt;
   }
 
   .IASketch {
-    width: 100%;
+    max-width: 350px;
   }
 
   .IAMain ul {
@@ -1094,15 +1086,13 @@ footer {
 
   /*Highlight Visual Design*/
   .VDTop {
-    background-color: #D3ECFC;
-    background-image: url(../graphics/Branding_BG.png);
-    background-position: center;
-    background-position: top;
-    background-repeat: no-repeat;
+    background-color: #DEF2FD;
+    background-image: url(../graphics/Branding_BG_desktop.png);
     padding-bottom: 25px;
-    padding-left: 8.33%;
-    padding-right: 8.33%;
+    padding-left: 25.35%;
+    padding-right: 25.35%;
     padding-top: 25px;
+    width: 49.3%;
   }
 
   .VDTop ul {
@@ -1114,16 +1104,9 @@ footer {
   }
 
   .VDMain {
-    background-color: #ffffff;
-    background-image: url(../graphics/hexagon-background.png);
-    background-position: center;
-    background-position: top;
-    background-repeat: repeat;
-    line-height: 1.5em;
-    padding-bottom: 25px;
-    padding-left: 8.33%;
-    padding-top: 25px;
-    padding-right: 8.33%;
+    padding-left: 25.35%;
+    padding-right: 25.35%;
+    width: 49.3%;
   }
 
   .VDImage {
@@ -1133,10 +1116,9 @@ footer {
   }
 
   .StyleGuide {
-    background-color: #B6E3FA;
-    padding-left: 8.33%;
-    padding-right: 8.33%;
-    padding-top: 20px;
+    padding-left: 25.35%;
+    padding-right: 25.35%;
+    width: 49.3%;
   }
 
   .StyleGuideImage {
@@ -1152,19 +1134,8 @@ footer {
 
   /*Highlight Prototyping and Testing*/
   .ProtoTest {
-    background-color: #ffffff;
-    padding-bottom: 25px;
-    padding-left: 8.33%;
-    padding-right: 8.33%;
-    padding-top: 50px;
-  }
-
-  .ProtoTest ul {
-    list-style-type: circle;
-    margin-bottom: 20px;
-    margin-left: 40px;
-    margin-top: 20px;
-    padding-left: 5px;
+    padding-left: 25.35%;
+    padding-right: 25.35%;
   }
 
   .ProtoTestImage {
@@ -1174,22 +1145,109 @@ footer {
   }
 
   .ProtoTest .text {
-    font-size: 10pt;
-    margin-bottom: 15px;
-    margin-top: -15px;
+    font-size: 14pt;
   }
+
+
+  /* hifi mockup carousel */
+  .slideshow-container {
+    box-sizing:border-box;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+/*
+  .prev {
+    background-image: url(../graphics/ChevronRight.png);
+    background-repeat: no-repeat;
+  }
+
+  .next {
+    background-image: url(../graphics/ChevronLeft.png);
+    background-repeat: no-repeat;
+  }
+*/
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: hsla(210,29,92,0.9);
+  }
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #E4EAF0;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #18EBED;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
 
   /*Highlight Conclusion*/
   .Conclusion {
-    background-color: #D3ECFC;
-    background-image: url(../graphics/Branding_BG.png);
-    background-position: center;
-    background-position: top;
-    background-repeat: no-repeat;
-    padding-bottom: 25px;
-    padding-left: 8.33%;
-    padding-right: 8.33%;
-    padding-top: 50px;
+    background-color: #DEF2FD;
+    background-image: url(../graphics/Conclusion_Background_desktop.png);
+    padding-left: 25.35%;
+    padding-right: 25.35%;
+    width: 49.3%;
   }
 
   .Conclusion b {
