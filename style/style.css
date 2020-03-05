@@ -1172,17 +1172,6 @@ footer {
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
-/*
-  .prev {
-    background-image: url(../graphics/ChevronRight.png);
-    background-repeat: no-repeat;
-  }
-
-  .next {
-    background-image: url(../graphics/ChevronLeft.png);
-    background-repeat: no-repeat;
-  }
-*/
 
   /* Position the "next button" to the right */
   .next {
