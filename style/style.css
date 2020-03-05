@@ -646,7 +646,6 @@ footer {
 
   /* Featured Project Cards*/
   .FeaturedProject {
-    display: flex;
     width: 413px;
     margin-bottom: 20px;
   }
@@ -665,17 +664,58 @@ footer {
     width: 413px;
   }
 
+  #menuToggle input
+  {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -10px;
+    right: 3.5%;
+
+    cursor: pointer;
+
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+  }
+
   /*About Body*/
   .portrait {
     margin-bottom: 30px;
     margin-top: 30px;
     max-width: 350px;
+    float: left;
+    margin-right: 50px;
   }
 
   /*Footer stuff*/
 
   .BottomLogoImage {
+    padding-top: 20px;
     max-width: 64px;
+    max-height: 22px;
+  }
+
+  #contact_anchor {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 8.33%;
+    padding-right: 8.33%;
+    height: 100px;
+    align-items: center;
+  }
+
+  .ContactLinks {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .BottomNavLink {
+    height: 40px;
+    width: 40px;
   }
 
 }
@@ -714,6 +754,31 @@ footer {
     top: 10%;
     width: 50%;
   }
+
+  .FeaturedProject {
+    display: inline-block;
+    margin-left: 75px;
+    margin-right: 75px;
+    top: 0px;
+  }
+
+  .HomeBgTexture {
+
+    background-image: url(../graphics/background_pattern.png);
+    background-color: #002937;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #ffffff;
+    display: flex;
+    padding-bottom: 55px;
+    justify-content: center;
+  }
+
+  .MenuTop {
+    display: none;
+  }
+
   .TopLogo {
     margin-left: 8%;
   }
@@ -723,11 +788,10 @@ footer {
     position: absolute;
     width: 100%;
     text-align: center;
-
+    top: 0%;
   }
 
-  #menuToggle
-  {
+  #menuToggle {
     display: inline;
     position: absolute;
     top: 35px;
@@ -735,32 +799,26 @@ footer {
     width: 50px;
   }
 
-  .BurgerMenu a
-  {
+  .BurgerMenu a {
     color: #18EBED;
     position: relative;
     margin-left: 80px;
   }
 
-  #menuToggle input
-  {
+  #menuToggle input {
     display: none;
   }
 
-  #menuToggle span
-  {
+  #menuToggle span {
     display: none;
   }
 
-  #menu
-  {
-    position: relative;
-    width: 100%;
-    right: 0%;
+  #menu {
+    display: flex;
+    justify-content: flex-end;
     top: 0px;
     padding-top: 0px;
     padding-bottom: 0%;
-    padding-left: 0%;
     margin-left: 0%;
     background: none;
     list-style-type: none;
@@ -777,18 +835,13 @@ footer {
     display: none;
   }
 
-  .HomeBgTexture {
-    background-image: url(../graphics/background_pattern.png);
-    background-color: #002937;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    color: #ffffff;
-    padding-bottom: 55px;
-  }
-
   /*Bio page*/
   .AboutContent {
+    display: grid;
+    grid-template-columns: 43.45% auto;
+    grid-template-rows: auto auto 0px auto;
+    grid-column-gap: 70px;
+    grid-row-gap: 18px;
     line-height: 1.6em;
     padding-left: 17%;
     margin-top: 100px;
@@ -798,30 +851,36 @@ footer {
   }
 
   .AboutContent h2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
     border-bottom: 2px solid #18EBED;
     font-size: 36pt;
-    font-family: "Museo Sans Rounded", sans-serif;
     font-weight: 500;
     margin-bottom: 30px;
     text-align: center;
   }
 
   .AboutContent p {
-    width: 49.2%;
-    display: inline-block;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 100%;
+    display: flex;
   }
 
-  /*About Body*/
   .portrait {
-    display: inline-block;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 0px;
     max-width: 413px;
+    width: 100%;
   }
 
   .AboutBody {
-    background-color: #E1E8F0;
     background-image: url(../graphics/Top_bg.png);
+    background-color: #E1E8F0;
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -832,7 +891,29 @@ footer {
   /*Footer stuff*/
 
   .BottomLogoImage {
+    padding-top: 20px;
     max-width: 64px;
+    max-height: 22px;
+  }
+
+  #contact_anchor {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 17%;
+    padding-right: 17%;
+    height: 100px;
+    align-items: center;
+  }
+
+  .ContactLinks {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .BottomNavLink {
+    height: 40px;
+    width: 40px;
   }
 
 }
