@@ -562,6 +562,10 @@ h2 {
   margin-top: -15px;
 }
 
+.mySlides {
+  display: block;
+}
+
 /*Highlight Conclusion*/
 .Conclusion {
   background-color: #D3ECFC;
@@ -691,6 +695,10 @@ footer {
     margin-right: 50px;
   }
 
+  .prev, .next, .dot {
+    display: none;
+  }
+
   /*Footer stuff*/
 
   .BottomLogoImage {
@@ -783,7 +791,7 @@ footer {
     margin-left: 8%;
   }
 
-/*undoing burger menu*/
+  /*undoing burger menu*/
   .BurgerMenu {
     position: absolute;
     width: 100%;
@@ -914,7 +922,7 @@ footer {
     width: 40px;
   }
 
-/*Highlight Case Study*/
+  /*Highlight Case Study*/
   .HighlightNav {
     display: none;
   }
@@ -1163,9 +1171,10 @@ footer {
 
   /* Next & previous buttons */
   .prev, .next {
+    background-color: rgba(228, 234, 240, .5);
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 58%;
     width: 100px;
     height: 100px;
     transition: 0.6s ease;
@@ -1179,9 +1188,9 @@ footer {
     border-radius: 3px 0 0 3px;
   }
 
-  /* On hover, add a black background color with a little bit see-through */
+  /* On hover, add a background color with a little bit see-through */
   .prev:hover, .next:hover {
-    background-color: hsla(210,29,92,0.9);
+    background-color: rgba(24,235,237,0.9);
   }
 
   /* Caption text */
