@@ -1,10 +1,10 @@
 /* text */
 h1 {
-  font-size: 30pt;
+  font-size: 40px;
 }
 
 h2 {
-  font-size: 24pt;
+  font-size: 32px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -19,7 +19,7 @@ h2 {
 
 /*Home Page*/
 .HomeBackground {
-  background-image: url(../graphics/digitaltouch_bg_mobile.png);
+  background-image: url(../graphics/digitaltouch_bg_mobile.jpg);
   background-color: #002937;
   background-repeat: no-repeat;
   background-position: center;
@@ -33,7 +33,7 @@ h2 {
 .banner {
   color: #ffffff;
   font-family: "Oxygen", sans-serif;
-  font-size: 20pt;
+  font-size: 26.66px;
   font-weight: bold;
   left: 8.33%;
   line-height: 150%;
@@ -47,7 +47,7 @@ h2 {
 .PortfolioBanner {
   background-color: #18E8ED;
   font-family: "Museo Sans Rounded", sans-serif;
-  font-size: 24pt;
+  font-size: 32px;
   font-weight: 900;
   height: 45px;
   line-height: 45px;
@@ -67,7 +67,7 @@ h2 {
 
 .FeaturedProject {
   font-family: "Oxygen", sans-serif;
-  font-size: 16pt;
+  font-size: 21.33px;
   line-height: 1.6em;
   margin-left: auto;
   margin-right: auto;
@@ -76,7 +76,7 @@ h2 {
 
 .FeaturedProject h3 {
   font-family: "Museo Sans Rounded", sans-serif;
-  font-size: 20pt;
+  font-size: 26.66px;
   font-weight: 500;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -97,7 +97,7 @@ h2 {
   color: #000000;
   display: inline-block;
   font-family: "Rubik", sans-serif;
-  font-size: 16pt;
+  font-size: 21.33px;
   font-weight: Bold;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -116,7 +116,7 @@ h2 {
 
 .AboutContent {
   background-color: #E1E8F0;
-  font-size: 18pt;
+  font-size: 24px;
   font-family: "Oxygen", sans-serif;
   line-height: 1.5em;
   padding-left: 8.33%;
@@ -128,7 +128,7 @@ h2 {
 
 .AboutContent h2 {
   border-bottom: 2px solid #18EBED;
-  font-size: 36pt;
+  font-size: 48px;
   font-family: "Museo Sans Rounded", sans-serif;
   font-weight: 500;
   margin-bottom: 30px;
@@ -155,13 +155,17 @@ h2 {
 {
   display: block;
   position: relative;
-  top: 35px;
+  top: 42px;
   right: 8.33%;
 
   z-index: 1;
 
   -webkit-user-select: none;
   user-select: none;
+}
+
+.MenuTop {
+  opacity: 0%;
 }
 
 .BurgerMenu a
@@ -176,7 +180,8 @@ h2 {
   width: 40px;
   height: 32px;
   position: absolute;
-  right: 0%;
+  right: -1%;
+  top: -9px;
 
   cursor: pointer;
 
@@ -264,7 +269,7 @@ h2 {
 .MenuLinks {
   line-height: 50px;
   font-family: "Rubik", sans-serif;
-  font-size: 17pt;
+  font-size: 22.66px;
 }
 
 #menuToggle input:checked ~ ul
@@ -296,23 +301,24 @@ h2 {
 .HighlightCaseStudyBody {
   background-color: #E1E8F0;
   font-family: "Oxygen", sans-serif;
-  font-size: 16pt;
+  font-size: 21.33px;
   line-height: 150%;
   /*background-color: #E1E8F0;*/
 }
 
 .HighlightCaseStudyBody h3 {
   font-family: "Museo Sans Rounded", sans-serif;
-  font-size: 22pt;
+  font-size: 29.33px;
   line-height: 150%;
   margin-bottom: 35px;
+  margin-top: 50px;
 }
 
 .HighlightCaseStudyBody h2 {
   font-family: "Museo Sans Rounded", sans-serif;
-  font-size: 24pt;
+  font-size: 32px;
   font-weight: 500;
-  margin-bottom: 20pt;
+  margin-bottom: 26.66px;
   text-align: center;
 }
 
@@ -337,8 +343,7 @@ h2 {
 
 .opening2 {
   background-color: #ffffff;
-  margin-bottom: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
   padding-left: 8.33%;
   padding-right: 8.33%;
   padding-top: 25px;
@@ -346,7 +351,7 @@ h2 {
 
 .opening h1 {
   font-family: "Orbitron", sans-serif;
-  font-size: 32pt;
+  font-size: 42.66px;
   font-weight: 500;
   margin-top: 30px;
   text-align: center;
@@ -459,8 +464,8 @@ h2 {
 }
 
 .WireframeSketches {
-  margin-bottom: 20pt;
-  margin-top: 20pt;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .IASketch {
@@ -557,7 +562,7 @@ h2 {
 }
 
 .ProtoTest .text {
-  font-size: 10pt;
+  font-size: 13.33px;
   margin-bottom: 15px;
   margin-top: -15px;
 }
@@ -621,12 +626,12 @@ footer {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* text */
   h1 {
-    font-size: 64pt;
+    font-size: 85.33px;
     line-height: 1.5em;
   }
 
   h2 {
-    font-size: 40pt;
+    font-size: 53.33px;
     padding-top: 20px;
     padding-bottom: 25px;
     line-height: 1.5em;
@@ -639,8 +644,13 @@ footer {
     z-index: 3;
   }
 
+  .HomeBackground {
+    background-image: url(../graphics/digitaltouch_bg_tablet.jpg);
+    padding-bottom: 130%;
+  }
+
   .banner {
-    font-size: 20pt;
+    font-size: 26.66px;
     font-weight: bold;
     left: 8.33%;
     line-height: 150%;
@@ -656,10 +666,10 @@ footer {
   }
 
   .FeaturedProject h3 {
-    font-size: 24pt;
+    font-size: 32px;
     font-weight: 500;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .FeaturedScreenshot {
@@ -699,6 +709,91 @@ footer {
     display: none;
   }
 
+  /*undoing burger menu*/
+  .BurgerMenu {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 0%;
+  }
+
+  #menuToggle {
+    display: inline;
+    position: absolute;
+    top: 35px;
+    right: 2%;
+    width: 50px;
+  }
+
+  .BurgerMenu a {
+    color: #18EBED;
+    position: relative;
+    margin-left: 80px;
+  }
+
+  .MenuTop {
+    display: none;
+  }
+
+  #menuToggle input {
+    display: none;
+  }
+
+  #menuToggle span {
+    display: none;
+  }
+
+  #menu {
+    display: flex;
+    justify-content: flex-end;
+    top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0%;
+    margin-left: 0%;
+    background: none;
+    list-style-type: none;
+  }
+
+  .MenuLinks {
+    line-height: 50px;
+    display: inline;
+    font-family: "Rubik", sans-serif;
+    font-size: 22.66px;
+  }
+
+  .MenuLogoLink {
+    display: none;
+  }
+
+  /*Highlight Case Study*/
+  .HighlightNav {
+    display: none;
+  }
+
+.DesktopTOC {
+    align-items: center;
+    background-color: #A0BBD6;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .DesktopTOC a {
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    font-size: 26.66px;
+    font-weight: medium;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 22px;;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
   /*Footer stuff*/
 
   .BottomLogoImage {
@@ -733,12 +828,12 @@ footer {
 @media only screen and (min-width: 991px) {
   /* text */
   h1 {
-    font-size: 50pt;
+    font-size: 66.66px;
     line-height: 1.5em;
   }
 
   h2 {
-    font-size: 40pt;
+    font-size: 53.33px;
     padding-top: 0px;
     padding-bottom: 15px;
     line-height: 1.25em;
@@ -750,7 +845,7 @@ footer {
 
   /*Home Page*/
   .HomeBackground {
-    background-image: url(../graphics/digitaltouch_bg.png);
+    background-image: url(../graphics/digitaltouch_bg.jpg);
     background-size: 100%;
     padding-bottom: 65%;
     padding-right: 17%;
@@ -836,7 +931,7 @@ footer {
     line-height: 50px;
     display: inline;
     font-family: "Rubik", sans-serif;
-    font-size: 17pt;
+    font-size: 22.66px;
   }
 
   .MenuLogoLink {
@@ -861,7 +956,7 @@ footer {
     grid-column-start: 1;
     grid-column-end: 3;
     border-bottom: 2px solid #18EBED;
-    font-size: 36pt;
+    font-size: 48px;
     font-weight: 500;
     margin-bottom: 30px;
     text-align: center;
@@ -930,18 +1025,18 @@ footer {
   /*highlight general*/
   .HighlightCaseStudyBody {
     background-color: #E1E8F0;
-    font-size: 18pt;
+    font-size: 24px;
   }
 
   .HighlightCaseStudyBody h3 {
-    font-size: 24pt;
+    font-size: 32px;
     font-weight: 500;
   }
 
   .HighlightCaseStudyBody h2 {
-    font-size: 28pt;
+    font-size: 37.33px;
     font-weight: 500;
-    margin-bottom: 20pt;
+    margin-bottom: 20px;
     text-align: center;
   }
 
@@ -959,7 +1054,7 @@ footer {
   .DesktopTOC a {
     color: #000000;
     font-family: "Rubik", sans-serif;
-    font-size: 20pt;
+    font-size: 26.66px;
     font-weight: medium;
     text-decoration: none;
     text-align: center;
@@ -998,7 +1093,7 @@ footer {
   }
 
   .opening h1 {
-    font-size: 36pt;
+    font-size: 48px;
     font-weight: Light;
     margin-top: 30px;
     text-align: center;
@@ -1076,8 +1171,8 @@ footer {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 20pt;
-    margin-top: 20pt;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   .IASketch {
@@ -1153,7 +1248,7 @@ footer {
   }
 
   .ProtoTest .text {
-    font-size: 14pt;
+    font-size: 18.66px;
   }
 
 
