@@ -46,7 +46,7 @@ h2 {
 /* Portfolio banner properties*/
 .PortfolioBanner {
   background-color: #18E8ED;
-  font-family: "Museo Sans Rounded", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 32px;
   font-weight: 900;
   height: 45px;
@@ -75,7 +75,7 @@ h2 {
 }
 
 .FeaturedProject h3 {
-  font-family: "Museo Sans Rounded", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 26.66px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -129,7 +129,7 @@ h2 {
 .AboutContent h2 {
   border-bottom: 2px solid #18EBED;
   font-size: 48px;
-  font-family: "Museo Sans Rounded", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   margin-bottom: 30px;
   text-align: center;
@@ -307,7 +307,7 @@ h2 {
 }
 
 .HighlightCaseStudyBody h3 {
-  font-family: "Museo Sans Rounded", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 29.33px;
   line-height: 150%;
   margin-bottom: 35px;
@@ -315,7 +315,7 @@ h2 {
 }
 
 .HighlightCaseStudyBody h2 {
-  font-family: "Museo Sans Rounded", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 32px;
   font-weight: 500;
   margin-bottom: 26.66px;
