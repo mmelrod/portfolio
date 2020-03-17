@@ -19,14 +19,14 @@ h2 {
 
 /*Home Page*/
 .HomeBackground {
-  background-image: url(../graphics/digitaltouch_bg_mobile.jpg);
+  background-image: url(../graphics/digitaltouch_bg_mobile.png);
   background-color: #002937;
   background-repeat: no-repeat;
   background-position: center;
   background-position: top;
   background-size: 100%;
   color: #ffffff;
-  padding-bottom: 178%;
+  height: 95vh;
   position: relative;
 }
 
@@ -160,7 +160,6 @@ h2 {
 
   z-index: 1;
 
-  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -182,13 +181,13 @@ h2 {
   position: absolute;
   right: -1%;
   top: -9px;
+  padding: 10px;
 
   cursor: pointer;
 
   opacity: 0; /* hide this */
   z-index: 2; /* and place it over the hamburger */
 
-  -webkit-touch-callout: none;
 }
 
 /*
@@ -258,7 +257,6 @@ h2 {
   margin-left: 8.33%;
   background: #002937;
   list-style-type: none;
-  -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
 
   transform-origin: 0 0;
@@ -281,7 +279,7 @@ h2 {
 
 .AboutBody {
   background-color: #E1E8F0;
-  background-image: url(../graphics/MobileTopGraphic.png);
+  background-image: url(../graphics/mobile_top_graphic.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -376,7 +374,7 @@ h2 {
 /*Highlight Discovery*/
 .DiscoveryTop {
   background-color: #D3ECFC;
-  background-image: url(../graphics/Discovery_BG.png);
+  background-image: url(../graphics/discovery_bg.png);
   background-position: center;
   background-position: top;
   background-repeat: no-repeat;
@@ -403,7 +401,7 @@ h2 {
 /*Highlight IA*/
 .IATop {
   background-color: #D3ECFC;
-  background-image: url(../graphics/IA_BG.png);
+  background-image: url(../graphics/ia_bg.png);
   background-position: center;
   background-position: top;
   background-repeat: no-repeat;
@@ -485,7 +483,7 @@ h2 {
 /*Highlight Visual Design*/
 .VDTop {
   background-color: #D3ECFC;
-  background-image: url(../graphics/Branding_BG.png);
+  background-image: url(../graphics/branding_bg.png);
   background-position: center;
   background-position: top;
   background-repeat: no-repeat;
@@ -576,7 +574,7 @@ h2 {
 /*Highlight Conclusion*/
 .Conclusion {
   background-color: #D3ECFC;
-  background-image: url(../graphics/Branding_BG.png);
+  background-image: url(../graphics/branding_bg.png);
   background-position: center;
   background-position: top;
   background-repeat: no-repeat;
@@ -638,7 +636,8 @@ footer {
   width: 14%;
   max-width: 55px;
   max-height: 55px;
-  margin: 10px;
+  padding: 5px;
+  margin: 5px;
 }
 
 /*Media Queries*/
@@ -666,8 +665,7 @@ footer {
   }
 
   .HomeBackground {
-    background-image: url(../graphics/digitaltouch_bg_tablet.jpg);
-    padding-bottom: 130%;
+    background-image: url(../graphics/digitaltouch_bg_tablet.png);
   }
 
   .banner {
@@ -698,7 +696,6 @@ footer {
   }
 
   .FeaturedScreenshot {
-    align: center;
     margin-top: 50px;
     margin-bottom: 50px;
     width: 413px;
@@ -718,7 +715,6 @@ footer {
     opacity: 0; /* hide this */
     z-index: 2; /* and place it over the hamburger */
 
-    -webkit-touch-callout: none;
   }
 
   /*About Body*/
@@ -810,7 +806,7 @@ footer {
     color: #000000;
     font-family: "Rubik", sans-serif;
     font-size: 26.66px;
-    font-weight: medium;
+    font-weight: normal;
     text-decoration: none;
     text-align: center;
     padding-top: 22px;
@@ -877,7 +873,6 @@ footer {
   .HomeBackground {
     background-image: url(../graphics/digitaltouch_bg.jpg);
     background-size: 100%;
-    padding-bottom: 65%;
     padding-right: 17%;
   }
 
@@ -1021,7 +1016,7 @@ footer {
   }
 
   .AboutBody {
-    background-image: url(../graphics/Top_bg.png);
+    background-image: url(../graphics/top_bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -1100,7 +1095,7 @@ footer {
     color: #000000;
     font-family: "Rubik", sans-serif;
     font-size: 26.66px;
-    font-weight: medium;
+    font-weight: normal;
     text-decoration: none;
     text-align: center;
     padding-top: 22px;
@@ -1139,7 +1134,7 @@ footer {
 
   .opening h1 {
     font-size: 48px;
-    font-weight: Light;
+    font-weight: normal;
     margin-top: 30px;
     text-align: center;
   }
@@ -1163,7 +1158,7 @@ footer {
   /*Highlight Discovery*/
   .DiscoveryTop {
     background-color: #DEF2FE;
-    background-image: url(../graphics/Discovery_background_desktop.png);
+    background-image: url(../graphics/discovery_background_desktop.png);
     padding-left: 25.35%;
     padding-right: 25.35%;
     width: 49.3%;
@@ -1186,7 +1181,7 @@ footer {
   /*Highlight IA*/
   .IATop {
     background-color: #DEF2FD;
-    background-image: url(../graphics/IA_BG_Desktop.png);
+    background-image: url(../graphics/ia_bg_desktop.png);
     padding-bottom: 25px;
     padding-left: 25.35%;
     padding-right: 25.35%;
@@ -1235,7 +1230,7 @@ footer {
   /*Highlight Visual Design*/
   .VDTop {
     background-color: #DEF2FD;
-    background-image: url(../graphics/Branding_BG_desktop.png);
+    background-image: url(../graphics/branding_bg_desktop.png);
     padding-bottom: 25px;
     padding-left: 25.35%;
     padding-right: 25.35%;
@@ -1362,8 +1357,6 @@ footer {
 
   /* Fading animation */
   .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
   }
@@ -1382,7 +1375,7 @@ footer {
   /*Highlight Conclusion*/
   .Conclusion {
     background-color: #DEF2FD;
-    background-image: url(../graphics/Conclusion_Background_desktop.png);
+    background-image: url(../graphics/conclusion_background_desktop.png);
     padding-left: 25.35%;
     padding-right: 25.35%;
     width: 49.3%;
