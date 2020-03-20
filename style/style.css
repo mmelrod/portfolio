@@ -317,7 +317,7 @@ h2 {
 .HighlightCaseStudyBody h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 26.66px;
   text-align: center;
 }
@@ -326,14 +326,29 @@ h2 {
   display: none;
 }
 
+.HighlightBTTChevron {
+  max-width: 30px;
+}
+
 /*highlight opening*/
 .opening {
-  background-color: #E1E8F0;
-  margin-bottom: 25px;
-  padding-bottom: 25px;
+  background-color: #DEF2FE;
+  padding-bottom: 50px;
   padding-left: 8.33%;
   padding-right: 8.33%;
   padding-top: 25px;
+}
+
+.opening p {
+  padding-bottom: 10px;
+}
+
+.opening a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 320px;
 }
 
 .opening h1 {
@@ -347,6 +362,10 @@ h2 {
   padding-left: 8.33%;
   padding-right: 8.33%;
   padding-top: 25px;
+}
+
+.opening2 p {
+  padding-bottom: 10px;
 }
 
 .opening h1 {
@@ -365,10 +384,43 @@ h2 {
   width: 100%;
 }
 
+.ToolLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.HighlightToolLogo {
+  width: 40px;
+  padding: 15px;
+}
+
 .HighlightOpener {
   margin-bottom: 50px;
   margin-top: 50px;
   width: 100%;
+}
+
+/*Back to Top button*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #18EBED; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #0B8889; /* Add a dark-grey background on hover */
 }
 
 /*Highlight Discovery*/
@@ -384,6 +436,10 @@ h2 {
   padding-right: 8.33%;
 }
 
+.DiscoveryTop p {
+  padding-bottom: 10px;
+}
+
 .Discovery2 {
   padding-top: 25px;
   padding-left: 8.33%;
@@ -392,9 +448,45 @@ h2 {
   background-color: #ffffff;
 }
 
-.DiscoveryImage {
-  margin-bottom: 20px;
+.Discovery2 a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 230px;
+}
+
+.HighlightSWOT {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #E1E8F0;
   margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.HighlightSWOT p {
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+}
+
+.HighlightSWOT ul{
+  list-style-type: square;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  line-height: 1.5em;
+}
+
+.SWOTImage {
+  background-color: #E1E8F0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.DiscoveryImage {
+  padding-bottom: 20px;
+  padding-top: 20px;
   width: 100%;
 }
 
@@ -433,11 +525,17 @@ h2 {
 }
 
 .HighlightPersona1 {
-  background-color: #FDE0DD;
+  background-color: #DEF2FE;
+  border-bottom-color: #002532;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
 }
 
 .HighlightPersona2 {
-  background-color: #FEF1DE;
+  background-color: #DEF2FE;
+  border-top-color: #002532;
+  border-top-width: 5px;
+  border-top-style: solid;
 }
 
 .PersonaPortrait {
@@ -446,10 +544,6 @@ h2 {
 
 .IAMain {
   background-color: #ffffff;
-  background-image: url(../graphics/hexagon-background.png);
-  background-position: center;
-  background-position: top;
-  background-repeat: repeat;
   line-height: 150%;
   padding-bottom: 25px;
   padding-left: 8.33%;
@@ -457,10 +551,29 @@ h2 {
   padding-top: 25px;
 }
 
+.IAMain a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 230px;
+}
+
 .IAImage {
   margin-bottom: 20px;
   margin-top: 20px;
   width: 100%;
+  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 7px 21px 0 rgba(0, 0, 0, 0.19);
+}
+
+.HighlightWireframes {
+  background-color: #DEF2FE;
+  width: 83.33vw;
+  padding-left: 8.33vw;
+  padding-right: 8.33vw;
+  margin-left: -8.33vw;
+  margin-right: -8.33vw;
+  padding-bottom: 20px;
 }
 
 .WireframeSketches {
@@ -503,10 +616,6 @@ h2 {
 
 .VDMain {
   background-color: #ffffff;
-  background-image: url(../graphics/hexagon-background.png);
-  background-position: center;
-  background-position: top;
-  background-repeat: repeat;
   line-height: 1.5em;
   padding-bottom: 25px;
   padding-left: 8.33%;
@@ -520,11 +629,37 @@ h2 {
   width: 100%;
 }
 
+.HighlightLogos {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #E5E5E5;
+}
+
+.HighlightLRFandB {
+  background-color: #DEF2FE;
+  margin-left: -8.33vw;
+  padding-left: 8.33%;
+  margin-right: -8.33vw;
+  padding-right: 8.33%;
+}
+
+.HighlightLRFandB p{
+  padding-bottom: 10px;
+}
+
 .StyleGuide {
   background-color: #B6E3FA;
   padding-left: 8.33%;
   padding-right: 8.33%;
   padding-top: 20px;
+}
+
+.StyleGuide a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 230px;
 }
 
 .StyleGuideImage {
@@ -582,6 +717,10 @@ h2 {
   padding-left: 8.33%;
   padding-right: 8.33%;
   padding-top: 50px;
+}
+
+.Conclusion p {
+  padding-bottom: 15px;
 }
 
 .Conclusion b {
@@ -680,6 +819,7 @@ footer {
 
   .button:hover {
     background-color: #0B8889;
+    color: #ffffff;
   }
 
   /* Featured Project Cards*/
@@ -815,6 +955,11 @@ footer {
     padding-right: 25px;
   }
 
+  .HighlightToolLogo {
+    width: 60px;
+    padding: 15px;
+  }
+
   /*Footer stuff*/
 
   .prefootertext {
@@ -893,6 +1038,7 @@ footer {
 
   .button:hover {
     background-color: #0B8889;
+    color: #ffffff;
   }
 
   .HomeBgTexture {
@@ -1075,7 +1221,7 @@ footer {
 
   .HighlightCaseStudyBody h2 {
     font-size: 37.33px;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
   }
@@ -1111,9 +1257,9 @@ footer {
 
   /*highlight opening*/
   .opening {
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 45px;
+    padding-left: 25.33%;
+    padding-right: 25.33%;
     width: 49.3%;
   }
 
@@ -1130,6 +1276,19 @@ footer {
     padding-bottom: 50px;
     padding-top: 25px;
     width: 49.3%;
+  }
+
+  .HighlightProblemHeader {
+    margin-left: -30%;
+    font-size: 50px !important;
+    font-weight: 600 !important;
+  }
+
+  .HighlightProblemText {
+    font-size: 40px;
+    line-height: 1.5em;
+    margin-left: -30%;
+    margin-right: -30%;
   }
 
   .opening h1 {
@@ -1152,13 +1311,22 @@ footer {
     margin-bottom: 50px;
     margin-top: 50px;
     width: 100%;
-    max-height: 369px;
+  }
+
+  .ToolLinks {
+    justify-content: flex-start;
+  }
+
+  .HighlightToolLogo {
+    width: 60px;
+    padding: 10px;
   }
 
   /*Highlight Discovery*/
   .DiscoveryTop {
     background-color: #DEF2FE;
     background-image: url(../graphics/discovery_background_desktop.png);
+    background-repeat: repeat;
     padding-left: 25.35%;
     padding-right: 25.35%;
     width: 49.3%;
@@ -1172,16 +1340,47 @@ footer {
     background-color: #ffffff;
   }
 
-  .DiscoveryImage {
-    margin-bottom: 20px;
-    margin-top: 20px;
+  .HighlightCompAnalysis {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-left: -25.33vw;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+  .HighlightSWOT {
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .HighlightSWOT ul{
+    list-style-type: square;
+    padding-left: 8.33%;
+    padding-right: 8.33%;
+    line-height: 1.5em;
+  }
+
+  .SWOTImage {
+    background-color: #DEF2FE;
+    padding-bottom: 20px;
+    padding-top: 20px;
     width: 100%;
+  }
+
+  .DiscoveryImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
   }
 
   /*Highlight IA*/
   .IATop {
     background-color: #DEF2FD;
     background-image: url(../graphics/ia_bg_desktop.png);
+    background-repeat: repeat;
     padding-bottom: 25px;
     padding-left: 25.35%;
     padding-right: 25.35%;
@@ -1191,6 +1390,31 @@ footer {
 
   .Personas {
     display: flex;
+    background-color: #ffffff;
+  }
+
+
+  .HighlightPersona {
+    padding-left: 2%;
+    margin-left:6.33%;
+    padding-right: 2%;
+    margin-right: 6.33%;
+  }
+
+  .HighlightPersona1 {
+    border-bottom-style: none;
+  }
+
+  .HighlightPersona2 {
+    border-top-style: none;
+  }
+
+  .HighlightMotivations {
+    height: 570px;
+  }
+
+  .HighlightGoals {
+    height: 400px;
   }
 
   .IAMain {
@@ -1200,10 +1424,14 @@ footer {
     width: 49.3%
   }
 
-  .IAImage {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    width: 100%;
+  .HighlightWireframes {
+    background-color: #DEF2FE;
+    width: 48.7vw;
+    padding-left: 25.35vw;
+    padding-right: 25.35vw;
+    margin-left: -25.35vw;
+    margin-right: -25.35vw;
+    padding-bottom: 20px;
   }
 
   .WireframeSketches {
@@ -1213,10 +1441,6 @@ footer {
     flex-wrap: wrap;
     margin-bottom: 20px;
     margin-top: 20px;
-  }
-
-  .IASketch {
-    max-width: 350px;
   }
 
   .IAMain ul {
@@ -1231,6 +1455,7 @@ footer {
   .VDTop {
     background-color: #DEF2FD;
     background-image: url(../graphics/branding_bg_desktop.png);
+    background-repeat: repeat;
     padding-bottom: 25px;
     padding-left: 25.35%;
     padding-right: 25.35%;
@@ -1256,6 +1481,14 @@ footer {
     margin-bottom: 20px;
     margin-top: 20px;
     width: 100%;
+  }
+
+  .HighlightLRFandB {
+    background-color: #DEF2FE;
+    margin-left: -25.35vw;
+    padding-left: 25vw;
+    margin-right: -25.35vw;
+    padding-right: 25vw;
   }
 
   .StyleGuide {
@@ -1306,7 +1539,7 @@ footer {
 
   /* Next & previous buttons */
   .prev, .next {
-    background-color: rgba(228, 234, 240, .5);
+    background-color: rgba(228, 234, 240, .8);
     cursor: pointer;
     position: absolute;
     top: 58%;
@@ -1319,8 +1552,12 @@ footer {
 
   /* Position the "next button" to the right */
   .next {
-    right: 0;
+    right: -100px;
     border-radius: 3px 0 0 3px;
+  }
+
+  .prev {
+    left: -100px;
   }
 
   /* On hover, add a background color with a little bit see-through */
@@ -1342,17 +1579,20 @@ footer {
   /* The dots/bullets/indicators */
   .dot {
     cursor: pointer;
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
     margin: 0 2px;
-    background-color: #E4EAF0;
+    background-color: #18EBED;
     border-radius: 50%;
+    border-color: #000000;
+    border-width: medium;
+    border-style: solid;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
 
   .active, .dot:hover {
-    background-color: #18EBED;
+    background-color: #0B8889;
   }
 
   /* Fading animation */
@@ -1376,6 +1616,7 @@ footer {
   .Conclusion {
     background-color: #DEF2FD;
     background-image: url(../graphics/conclusion_background_desktop.png);
+    background-repeat: repeat;
     padding-left: 25.35%;
     padding-right: 25.35%;
     width: 49.3%;
@@ -1394,4 +1635,34 @@ footer {
     padding-left: 5px;
   }
 
+}
+
+@media only screen and (min-width: 1201px) {
+  .HighlightMotivations {
+    height: 500px;
+  }
+
+  .HighlightGoals {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 1401px) {
+  .HighlightMotivations {
+    height: 420px;
+  }
+
+  .HighlightGoals {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .HighlightMotivations {
+    height: 320px;
+  }
+
+  .HighlightGoals {
+    height: 230px;
+  }
 }
