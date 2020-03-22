@@ -426,7 +426,7 @@ h2 {
 /*Highlight Discovery*/
 .DiscoveryTop {
   background-color: #D3ECFC;
-  background-image: url(../graphics/discovery_bg.png);
+  background-image: url(../graphics/Discovery_BG.png);
   background-position: center;
   background-position: top;
   background-repeat: no-repeat;
@@ -493,7 +493,7 @@ h2 {
 /*Highlight IA*/
 .IATop {
   background-color: #D3ECFC;
-  background-image: url(../graphics/ia_bg.png);
+  background-image: url(../graphics/IA_BG.png);
   background-position: center;
   background-position: top;
   background-repeat: no-repeat;
@@ -1379,7 +1379,7 @@ footer {
   /*Highlight IA*/
   .IATop {
     background-color: #DEF2FD;
-    background-image: url(../graphics/IA_BG_desktop.png);
+    background-image: url(../graphics/IA_BG_Desktop.png);
     background-repeat: repeat;
     padding-bottom: 25px;
     padding-left: 25.35%;
