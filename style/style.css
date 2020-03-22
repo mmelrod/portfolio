@@ -1162,7 +1162,7 @@ footer {
   }
 
   .AboutBody {
-    background-image: url(../graphics/top_bg.png);
+    background-image: url(../graphics/Top_bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -1379,7 +1379,7 @@ footer {
   /*Highlight IA*/
   .IATop {
     background-color: #DEF2FD;
-    background-image: url(../graphics/ia_bg_desktop.png);
+    background-image: url(../graphics/IA_BG_desktop.png);
     background-repeat: repeat;
     padding-bottom: 25px;
     padding-left: 25.35%;
@@ -1454,7 +1454,7 @@ footer {
   /*Highlight Visual Design*/
   .VDTop {
     background-color: #DEF2FD;
-    background-image: url(../graphics/branding_bg_desktop.png);
+    background-image: url(../graphics/Branding_BG_desktop.png);
     background-repeat: repeat;
     padding-bottom: 25px;
     padding-left: 25.35%;
@@ -1615,7 +1615,7 @@ footer {
   /*Highlight Conclusion*/
   .Conclusion {
     background-color: #DEF2FD;
-    background-image: url(../graphics/conclusion_background_desktop.png);
+    background-image: url(../graphics/Conclusion_Background_desktop.png);
     background-repeat: repeat;
     padding-left: 25.35%;
     padding-right: 25.35%;
