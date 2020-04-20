@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, width=device-width, viewport-fit=cover">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Highlight</title>
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="IronSilverSaltCaseStudyBody">
+    <section class="AboutBody">
+      <header>
+        <nav class="nav_header">
+          <a href="index.html" class="LogoLink">
+            <img src="graphics/teal_logo.png" alt="Personal Logo" class="TopLogo"> <!-- width ="91.5" height = "31"-->
+          </a>
+              <div class="BurgerMenu" id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                  <li>
+                    <a href="index.html" class="MenuLogoLink LogoLink">
+                      <img src="graphics/teal_logo.png" alt="Personal Logo" class="MenuTop"> <!-- width ="91.5" height = "31"-->
+                    </a>
+                  </li>
+                  <li><span></span></li>
+                  <!--<li><a href="projects.html"class="MenuLinks">Work</a></li>-->
+                  <li class="MenuLinks"><a href="about.html" class="MenuLinks">About</a></li>
+                  <li class="MenuLinks"><a href="mailto:melrod8@gmail.com" target="_blank" class="MenuLinks">Email</a></li>
+                  <li><span></span></li>
+                  <li class="MenuLinks HighlightNav"><a href="#Discovery_anchor" >Discovery</a></li>
+                  <li class="MenuLinks HighlightNav"><a href="#IA_anchor" >Information Architecture</a></li>
+                  <li class="MenuLinks HighlightNav"><a href="#VD_anchor" >Visual Design</a></li>
+                  <li class="MenuLinks HighlightNav"><a href="#PT_anchor" >Prototyping and Testing</a></li>
+                </ul>
+              </div>
+        </nav>
+      </header>
+    </section>
+
+    <section class="DesktopTOC">
+      <a href="#Discovery_anchor" >Discovery</a>
+      <a href="#IA_anchor" >Information Architecture</a>
+      <a href="#VD_anchor" >Visual Design</a>
+      <a href="#PT_anchor" >Prototyping</a>
+    </section>
+
+    <section class="ISSopening">
+      <h1>Iron, Silver, and Salt</h1>
+      <h3>Summary</h3>
+      <p>There are currently over 900,000 podcasts available (source) for listeners around the world. One way podcasts have distinguished themselves from the competition is by giving listeners a webpage to visit. Iron, Silver, and Salt is one such podcast that needed a home, and I was excited to design one for them.</p>
+      <a href="https://invis.io/NZWTDZJHQT6" class="button" target="_blank">Check out the final prototype</a>
+      <img src="graphics/iss_demo.png" alt="Highlight screenshot" class="ISSOpener">
+    </section>
+
+    <section class="ISSopening2">
+      <section class="ISSopening2Text">
+        <h3>The Problem</h3>
+        <p>Iron, Silver, and Salt is a monster hunting podcast that wants to expand their listener base. One way the hosts were looking to do so was by creating a website to direct listeners to. They weren’t sure what they wanted to include on their site however, and tasked me with not only designing their site, but also determining what content should appear on it.</p>
+        <h3>The Solution</h3>
+        <p>The solution was a virtual desktop, monster hunting journal on center-stage. Information about the hosts, monsters, and individual episodes all give users a better idea what the podcast is about. The information is all supported by a clear, consistent brand that helps convey the monster-hunting theme.</p>
+      </section>
+        <img src="graphics/iss_search_results_page.png" alt="Homepage of the mobile version." class="ISSmobilehome"></img>
+    </section>
+
+
+    <section id="Discovery_anchor" class="ISSDiscoveryTop">
+      <h2>Discovery</h2>
+    </section>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="graphics/chevron-up.png" alt="Back to top button" class="HighlightBTTChevron"></button>
+
+    <section class="ISSDiscovery2">
+      <h3>Competitive analysis</h3>
+      <p>My first task was to analyze the competition. In the cloud storage space, Google Drive and Dropbox are the two biggest players, so I performed a SWOT analysis on these two. As the number one video hosting service, I also checked out YouTube. Each of these three had issues with their platform hower, that could allow for a site like Highlight to break into the market.</p>
+      <section class="ISSCompAnalysis">
+        <section class="HighlightSWOT">
+          <img src="graphics/iss_competition1.png" alt="Google drive dashboard" class="SWOTImage">
+          <ul>
+            <li>Information about the podcast is not the highest priority of the site.</li>
+            <li>Site does not offer a way to search episodes.</li>
+            <li>The most eye-catching feature is a link to a different podcast.</li>
+          </ul>
+        </section>
+        <section class="HighlightSWOT">
+          <img src="graphics/iss_competition2.png" alt="Dropbox dashboard" class="SWOTImage">
+          <ul>
+            <li>Finding specific information on the ‘About’ page is confusing.</li>
+            <li>Navigation links are not consistant throughout the site.</li>
+            <li>It takes a long time to find a specific episoide.</li>
+          </ul>
+        </section>
+        <section class="HighlightSWOT">
+          <img src="graphics/iss_competition3.png" alt="Youtube homepage" class="SWOTImage">
+          <ul>
+            <li>Episodes are not available on-site.</li>
+            <li>It is difficult to find where episodes are available.</li>
+            <li>There are no other projects mentioned to expand appeal.</li>
+          </ul>
+        </section>
+      </section>
+      <a href="https://docs.google.com/document/d/1FlgZBWTIGFYwwHIG8w96oEqiwvT1yJf62zwAUGlLCSg/edit?usp=sharing" target="_blank" class="button">View full SWOT</a>
+      <h3>User Survey</h3>
+      <p>The first step was discovering what users wanted to see when visiting a podcast’s website. Were potential listeners more interested in learning what others thought about the podcast, or learning more about the hosts? Did they want to listen to episodes on-site, or follow links to outside streaming sources? The answers came by putting out a survey, asking potential listeners directly what they wanted.</p>
+      <img src="graphics/iss_survey_1.png" alt="Survey results" class="DiscoveryImage">
+      <p>Once I had a better idea of the features users wanted to find in the site, I asked several people to participate in a card sort to help determine where users expected to find each feature.</p>
+      <img src="graphics/iss_survey_2.png" alt="More survey results" class="DiscoveryImage">
+    </section>
+
+    <section id="IA_anchor" class="ISSIATop">
+      <h2>Information Architecture</h2>
+      <p>With the data gained from the survey, the SWOT analysis, and a few followup questions, I was able to create three user personas. These helped me to stay focused on the users’ wants throughout the design process.</p>
+    </section>
+
+    <section class="Personas">
+
+      <!-- Persona Krieg B-->
+      <section class="HighlightPersona ISSPersona">
+        <img src="graphics/iss_persona_1.png" alt="Krieg's portrait" class="PersonaPortrait">
+        <p><b>Krieg B, age 32</b></p>
+          <p><b>Motivations:</b></p>
+          <p>Krieg is always looking for new elements to incorporate into his DnD campaign, and loves learning about new monsters. His studies have to take priority however, and he needs to discern good resources from useless ones quickly.</p>
+          <p><b>Goals:</b></p>
+          <ol>
+            <li>Quickly determine if new information can be gained from the podcast.</li>
+            <li>Download episodes to listen to during commute.</li>
+            <li>Find information about specific episodes.</li>
+          </ol>
+          <p><b>Frustrations:</b></p>
+          <ol>
+            <li>No detailed episode information on spotify/itunes.</li>
+            <li>No way to access reference material for episodes.</li>
+            <li>Wants episode sparknotes to reference later without having to relisten to entire episodes.</li>
+          </ol>
+      </section>
+
+      <!-- Persona Angela W-->
+      <section class="HighlightPersona ISSPersona">
+        <img src="graphics/iss_persona_2.png" alt="Angela's portrait" class="PersonaPortrait">
+        <p><b>Anegla W, age 38</b></p>
+          <p><b>Motivations:</b></p>
+          <p>Angela enjoys listening to a variety of different topics, and is always looking for another podcast to help distract from one more commute. Since she listens to such a variety of podcasts, she feels a connection to them, and is looking to give back to the people providing her hours of entertainment.</p>
+          <p><b>Goals:</b></p>
+          <ol>
+            <li>Learn where she can listen to and download a given podcast.</li>
+            <li>Find the episode release schedule.</li>
+            <li>Contact the hosts with both tips and encouragement.</li>
+          </ol>
+          <p><b>Frustrations:</b></p>
+          <ol>
+            <li>Not all podcasts are available on the podcast services she already uses.</li>
+            <li>It can be difficult to find out when to expect a new episode from a given podcast.</li>
+            <li>Learning about the hosts frequently requires listening to a ton of episodes.</li>
+          </ol>
+      </section>
+
+      <!-- Persona Chris V-->
+      <section class="HighlightPersona ISSPersona">
+        <img src="graphics/iss_persona_3.png" alt="Chris' portrait" class="PersonaPortrait">
+        <p><b>Chris V, age 27</b></p>
+          <p><b>Motivations:</b></p>
+          <p>Chris is one of the hosts of the Iron, Silver, and Salt podcast. He is looking to expand the listener base, but has nowhere concrete to point them to. Furthermore, he wants to have the ability to interact with his listeners, collect feedback, and ultimately improve the podcast.</p>
+          <p><b>Goals:</b></p>
+          <ol>
+            <li>Attract new listeners.</li>
+            <li>Interact with listeners to collect feedback on individual episodes.</li>
+            <li>Provide details beyond the episode title.</li>
+          </ol>
+          <p><b>Frustrations:</b></p>
+          <ol>
+            <li>No central location to direct new listeners to.</li>
+            <li>No way to showcase supplementary work (art, music, etc.).</li>
+            <li>No way to include reference material, supplementary information best conveyed through a non-vocal medium.</li>
+          </ol>
+      </section>
+    </section>
+
+
+    <section class="ISSUserStories">
+      <h3>User stories</h3>
+      <img src="graphics/iss_user_stories.png" alt="User stories" class="IAImage">
+      <p>Information in hand, I created several user stories, ranking them based off of the data gained from earlier research. I also took input from Iron, Silver, and Salt into consideration, giving a little more weight to the features they wanted included in their site. This prioritization really helped me focus on the most important tasks- doubly important due to the very compressed timeline of this project.</p>
+      <a href="https://docs.google.com/spreadsheets/d/1-1ty_VqEFUEhXIQw60IXg7QJxR_aKBHho0iGv3tVudE/edit?usp=sharing" target="_blank" class="button">Check out User Stories</a>
+    </section>
+
+    <section class="IAMain">
+        <h3>User flows</h3>
+        <p>For each high-priority user story, I created user flows to outline how users would accomplish each essential task.</p>
+        <img src="graphics/iss_user_flow.png" alt="User flows" class="IAImage">
+        <a href="https://drive.google.com/file/d/1XYlWd2tspUvWGClaXnEAVrdcMwZ2N1N4/view?usp=sharing" target="_blank" class="button">Check out User Flows</a>
+          <h3>Wireframes</h3>
+          <p>With the user flows and card sort helping define the pages that would make up Iron, Silver, and Salt’s site, it was time to sketch out the wireframes. I sketched out several concepts, asking the hosts which idea they preferred. With their input, I sketched out the rest of the site, taking their continued feedback into consideration.</p>
+          <section class="WireframeSketches">
+            <img src="graphics/iss_landing_wireframe.png" alt="Dashboard sketch" class="ISSIASketch">
+          </section>
+          <a href="https://www.figma.com/file/Yy2STn68cpBO3PY1zMCaJp/Iron-Silver-and-Salt-Wireframes?node-id=0%3A1" target="_blank" class="button">Digital Wireframes</a>
+    </section>
+
+    <section ID="VD_anchor" class="ISSVDTop">
+      <h2>Visual Design</h2>
+    </section>
+
+    <section class="VDMain">
+      <h3>Branding</h3>
+      <p>While working on the wireframes, I also worked with Iron, Silver, and Salt to create a style guide to flesh out their young brand. They provided me with a logo they had already had made, and a font that came with it.</p>
+      <img src="graphics/iron_silver_salt.jpg" alt="Iron Silver and Salt's logo." class="ISSVDLogo"></img>
+      <p>From that, I selected a complimentary font to accompany their brand font, determined an appropriate color palette, and fleshed out a style guide for them.</p>
+      <a href="https://www.figma.com/file/TOeIwiXvcEDNMTVb52hQKe/Iron-Silver-Salt-Style-Guide?node-id=1%3A2" target="_blank" class="button ISSVDButton">Full style guide</a>
+      <img src="graphics/iss_style_guide.jpg" alt="Style guide" class="StyleGuideImage">
+    </section>
+
+      <section class="ISSProtoTest">
+        <h2>HiFi Mockups</h2>
+        <p>Once everybody was happy with the wireframes and style guide, I combined the two into a hi-fi mockup. As I worked on each screen, I reached out to the hosts and senior designers for feedback, tweaking each design so that the final result would leave each stakeholder pleased.</p>
+        <img src="graphics/iron_silver_salt_link.jpg" alt="Iron Silver and Salt's homepage." class="ISSHiFiScreen"></img>
+      </section>
+
+    <section id="PT_anchor" class="ProtoTest">
+      <section class="ISSUserTesting">
+        <h3>User testing</h3>
+        <p>The last step was to test the final prototype with potential users. Each testee was asked to do four tasks:</p>
+        <ul>
+          <li>Find more information about werewolves.</li>
+          <li>Find and listen to the werewolf episode.</li>
+          <li>Find more information about the hosts.</li>
+          <li>Find where else the podcast is available.</li>
+        </ul>
+        <p>After reviewing the results, a few key issues with the design became apparent.</p>
+
+        <section class="HighlightCompAnalysis">
+          <section class="HighlightSWOT ISSTestingChange">
+            <img src="graphics/iss_final_change_1_a.png" alt="Highlight share file screenshot" class="SWOTImage">
+            <section class="ISSHoverImage">
+              <img src="graphics/iss_final_change_1_b.png" alt="Highlight share file screenshot" class="SWOTImage">
+            </section>
+            <p><b>Problem:</b> Users had trouble finding the social media links.</p>
+            <p><b>Solution:</b> Move links from below the main content up into the hero.</p>
+          </section>
+          <section class="HighlightSWOT ISSTestingChange">
+            <img src="graphics/iss_final_change_2_a.png" alt="Highlight landing page screenshot" class="SWOTImage">
+            <section class="ISSHoverImage">
+              <img src="graphics/iss_final_change_2_b.png" alt="Highlight landing page screenshot" class="SWOTImage">
+            </section>
+            <p><b>Problem:</b> Users weren't sure what the search bar was for.</p>
+            <p><b>Solution:</b> Remove the search bar from the hero, and move it into the episode listing with pre-populated text clarifying its usage.</p>
+          </section>
+          <section class="HighlightSWOT ISSTestingChange">
+            <img src="graphics/iss_final_change_3_a.png" alt="Highlight dashboard screenshot" class="SWOTImage">
+            <section class="ISSHoverImage">
+              <img src="graphics/iss_final_change_3_b.png" alt="Highlight dashboard screenshot" class="SWOTImage">
+            </section>
+            <p><b>Problem:</b> Users were having trouble finding specific monsters using the map.</p>
+            <p><b>Solution:</b> Add a search bar to the map to give users another way to find specific monsters.</p>
+          </section>
+        </section>
+      </section>
+  </section>
+
+    <section class="ISSConclusion">
+      <h2>Conclusion</h2>
+      <p>Iron, Silver, and Salt was a very fun site to design. This opportunity taught me a lot about balancing the needs of a client with the needs of your superiors, while still keeping the focus of the designs on the users. Getting and incorporating feedback is always an important process of creating something new, but growing the ability to balance feedback from different stakeholders is an essential piece of that.</p>
+      <p>Moving forward, as the podcast grows, I would like to add pages to the site- a merch store if they create some, or pages dedicated to any books or videos they create. Creating additional monster info cards, and episode pages would be a good addition as well, if there were more time.</p>
+    </section>
+
+    <section class="prefooter">
+      <section class="prefootertext">
+        <h2>Thanks for stopping by!</h2>
+        <p>If you like what you see, shoot me an email.</p>
+      </section>
+    </section>
+
+    <footer id="contact_anchor">
+      <img src="graphics/bw_logo.png" alt="Personal Logo" class="BottomLogoImage">
+      <section class="ContactLinks">
+        <a href="https://www.linkedin.com/in/elrodmark/" target="_blank">
+          <img src="graphics/linkedin.png" alt="Linkedin link" class="BottomNavLink">
+        </a>
+        <a href="https://github.com/mmelrod" target="_blank">
+          <img src="graphics/github.png" alt="Github link" class="BottomNavLink">
+        </a>
+        <a href="mailto:melrod8@gmail.com" target="_blank">
+          <img src="graphics/email.png" alt="email link" class="BottomNavLink">
+        </a>
+      </section>
+    </footer>
+
+    <script src="JS/backtotop.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160167634-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-160167634-1');
+    </script>
+
+  </body>
+
+</html>

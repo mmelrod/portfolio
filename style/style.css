@@ -760,6 +760,270 @@ h2 {
   padding-left: 5px;
 }
 
+/*Iron Silver Salt general*/
+.IronSilverSaltCaseStudyBody {
+  background-color: #E1E8F0;
+  font-family: "Oxygen", sans-serif;
+  font-size: 21.33px;
+  line-height: 150%;
+  /*background-color: #E1E8F0;*/
+}
+
+.IronSilverSaltCaseStudyBody h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 29.33px;
+  line-height: 150%;
+  margin-bottom: 35px;
+  margin-top: 50px;
+}
+
+.IronSilverSaltCaseStudyBody h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 26.66px;
+  text-align: center;
+}
+
+/*Iron Silver Salt opening*/
+
+.ISSopening {
+  background-color: #DEF2FE;
+  padding-bottom: 50px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  padding-top: 25px;
+}
+
+.ISSopening p {
+  padding-bottom: 10px;
+}
+
+.ISSopening a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 320px;
+}
+
+.ISSopening h1 {
+  border-bottom: 2px solid #002938;
+  padding-bottom: 10px;
+  line-height: 1.3em;
+}
+
+.ISSOpener {
+  height: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.ISSopening2 {
+  background-color: #ffffff;
+  padding-bottom: 50px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  padding-top: 25px;
+}
+
+.ISSopening2 p {
+  padding-bottom: 10px;
+}
+
+.ISSmobilehome {
+  display: none;
+}
+
+.ISSopening h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 42.66px;
+  font-weight: 500;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.ISSopening span {
+  background-color: #18EBED;
+  border-top: 2px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/*Iron Silver Salt Discovery*/
+.ISSDiscoveryTop {
+  background-color: #D3ECFC;
+  background-image: url(../graphics/iss_header_bg.jpg);
+  background-position: center;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-bottom: 25px;
+  padding-left: 8.33%;
+  padding-top: 25px;
+  padding-right: 8.33%;
+}
+
+.ISSDiscoveryTop p {
+  padding-bottom: 10px;
+}
+
+.ISSDiscovery2 {
+  padding-top: 25px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  width: 83.33%;
+  background-color: #ffffff;
+}
+
+.ISSDiscovery2 a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 230px;
+}
+
+/*Iron Silver Salt IA*/
+.ISSIATop {
+  background-color: #D3ECFC;
+  background-image: url(../graphics/iss_header_bg.jpg);
+  background-position: center;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-bottom: 25px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  padding-top: 25px;
+}
+
+.ISSPersona {
+  background-color: #ffffff;
+}
+
+.PersonaPortrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 221px;
+}
+
+.HighlightWireframes {
+  background-color: #DEF2FE;
+  width: 83.33vw;
+  padding-left: 8.33vw;
+  padding-right: 8.33vw;
+  margin-left: -8.33vw;
+  margin-right: -8.33vw;
+  padding-bottom: 20px;
+}
+
+.WireframeSketches {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.ISSIASketch {
+  width: 100%;
+  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 7px 21px 0 rgba(0, 0, 0, 0.19);
+}
+
+.IAMain ul {
+  list-style-type: circle;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+  padding-left: 5px;
+}
+
+.ISSUserStories {
+  background-color: #E1E8F0;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-left: 8.33vw;
+  padding-right: 8.33vw;
+}
+
+/*Iron Silver Salt Visual Design*/
+.ISSVDTop {
+  background-color: #D3ECFC;
+  background-image: url(../graphics/iss_header_bg.jpg);
+  background-position: center;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-bottom: 25px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  padding-top: 25px;
+}
+
+.StyleGuideImage {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.VDMain a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 230px;
+  text-align: center;
+}
+
+.ISSVDLogo {
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 293px;
+}
+
+/*Iron Silver Salt Prototyping and Testing*/
+
+.ProtoTest .text {
+  font-size: 13.33px;
+  margin-bottom: 15px;
+  margin-top: -15px;
+}
+
+.ISSHiFiScreen {
+  width: 100%;
+}
+
+.ISSProtoTest {
+  background-color: #D3ECFC;
+  background-image: url(../graphics/iss_header_bg.jpg);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+}
+
+.ISSTestingChange p {
+  padding-bottom: 10px;
+}
+
+.ISSTestingChange b {
+  font-weight: bold;
+}
+
+/*Iron Silver Salt Conclusion*/
+.ISSConclusion {
+  background-color: #D3ECFC;
+  background-image: url(../graphics/iss_header_bg.jpg);
+  background-position: center;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-bottom: 25px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  padding-top: 50px;
+}
+
 /*Footer stuff*/
 
 .prefooter {
@@ -767,16 +1031,19 @@ h2 {
   font-family: "Oxygen", sans-serif;
   font-size: 21.33px;
   line-height: 1.5em;
-  width: 100%;
+  width: 100vw;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #ffffff;
   background-color: #002532;
+  align: center;
 }
 
 .prefootertext {
-  width: 300px;
-  margin: auto;
+  width: 83.34vw;
+  text-align: center;
+  padding-left: 8.33vw;
+  padding-right: 8.33vw;
 }
 
 footer {
@@ -990,7 +1257,9 @@ footer {
 
   .prefootertext {
     text-align: center;
-    width: 83.33%;
+    width: 49.34vw;
+    padding-left: 25.33vw;
+    padding-right: 25.33vw;
   }
 
   .BottomLogoImage {
@@ -1212,7 +1481,9 @@ footer {
 
   .prefootertext {
     text-align: center;
-    width: 83.33%;
+    width: 49.34vw;
+    padding-left: 25.33vw;
+    padding-right: 25.33vw;
   }
 
   .BottomLogoImage {
@@ -1673,6 +1944,255 @@ footer {
     padding-left: 5px;
   }
 
+  /*Iron Silver and Salt general*/
+  .IronSilverSaltCaseStudyBody {
+    background-color: #E1E8F0;
+    font-size: 24px;
+  }
+
+  .IronSilverSaltCaseStudyBody h3 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .IronSilverSaltCaseStudyBody h2 {
+    font-size: 37.33px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  /*Iron Silver and Salt opening*/
+  .ISSopening {
+    padding-top: 45px;
+    padding-left: 25.33%;
+    padding-right: 25.33%;
+    width: 49.3%;
+  }
+
+  .ISSopening h1 {
+    border-bottom: 2px solid #002938;
+    padding-bottom: 10px;
+    font-size: 48px;
+    font-weight: normal;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .ISSopening span {
+    background-color: #18EBED;
+    border-top: 2px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .ISSopening2Text {
+    display: flex;
+    background-color: #ffffff;
+    margin-bottom: 0px;
+    padding-left: 25.35%;
+    padding-right: 5%;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    width: 24.65%;
+    flex-direction: column;
+  }
+
+  .ISSopening2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ISSmobilehome {
+    display: block;
+  }
+
+  .ISSOpener {
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  /*Iron Silver Salt Discovery*/
+  .ISSDiscoveryTop {
+    background-color: #DEF2FE;
+    background-image: url(../graphics/iss_header_bg.jpg);
+    background-repeat: repeat;
+    padding-left: 25.35%;
+    padding-right: 25.35%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 49.3%;
+  }
+
+  .ISSDiscovery2 {
+    padding-top: 25px;
+    padding-left: 25.35%;
+    padding-right: 25.35%;
+    width: 49.3%;
+    background-color: #ffffff;
+  }
+
+  .ISSCompAnalysis {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-left: -25.33vw;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+  .DiscoveryImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  /*Iron Silver Salt IA*/
+  .ISSIATop {
+    background-color: #DEF2FD;
+    background-image: url(../graphics/iss_header_bg.jpg);
+    background-repeat: repeat;
+    padding-bottom: 50px;
+    padding-left: 25.35%;
+    padding-right: 25.35%;
+    padding-top: 50px;
+    width: 49.3%;
+  }
+
+  .ISSPersona {
+    padding-left: 2%;
+    margin-left:6.33%;
+    padding-right: 2%;
+    margin-right: 6.33%;
+    font-size: 18px;
+  }
+
+  .HighlightMotivations {
+    height: auto;
+  }
+
+  .HighlightGoals {
+    height: auto;
+  }
+
+  .HighlightWireframes {
+    background-color: #DEF2FE;
+    width: 48.7vw;
+    padding-left: 25.35vw;
+    padding-right: 25.35vw;
+    margin-left: -25.35vw;
+    margin-right: -25.35vw;
+    padding-bottom: 20px;
+  }
+
+  .IAMain ul {
+    list-style-type: circle;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-left: 5px;
+  }
+
+  .ISSUserStories {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 25.35vw;
+    padding-right: 25.35vw;
+    width:48.7vw;
+  }
+
+  /*Iron Silver Salt Visual Design*/
+  .ISSVDTop {
+    background-color: #DEF2FD;
+    background-image: url(../graphics/iss_header_bg.jpg);
+    background-repeat: repeat;
+    padding-bottom: 50px;
+    padding-left: 25.35%;
+    padding-right: 25.35%;
+    padding-top: 50px;
+    width: 49.3%;
+  }
+
+  .StyleGuide {
+    padding-left: 25.35%;
+    padding-right: 25.35%;
+    width: 49.3%;
+  }
+
+  .StyleGuideImage {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  /*Iron Silver Salt Prototyping and Testing*/
+  .ProtoTest {
+    padding-left: 25.35%;
+    padding-right: 25.35%;
+  }
+
+  .ProtoTestImage {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .ProtoTest .text {
+    font-size: 18.66px;
+  }
+
+  .ISSHiFiScreen {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .ISSHoverImage {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    width: 30vw;
+    transform: translate(0px,-100%);
+  }
+
+  .ISSProtoTest {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25.35%;
+    padding-right: 25.35%;
+  }
+
+  .ISSHoverImage:hover {
+    opacity: 1;
+  }
+
+  /*Iron Silver Salt Conclusion*/
+  .ISSConclusion {
+    background-color: #DEF2FD;
+    background-image: url(../graphics/iss_header_bg.jpg);
+    background-repeat: repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25.35%;
+    padding-right: 25.35%;
+    width: 49.3%;
+  }
+
+  .ISSConclusion b {
+    font-weight: bold;
+    line-height: 1.5em;
+  }
+
+  .ISSConclusion ul {
+    list-style-type: circle;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    margin-top: 5px;
+    padding-left: 5px;
+  }
+
 }
 
 @media only screen and (min-width: 1201px) {
@@ -1703,4 +2223,5 @@ footer {
   .HighlightGoals {
     height: 230px;
   }
+
 }
