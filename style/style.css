@@ -946,6 +946,14 @@ h2 {
   padding-right: 8.33vw;
 }
 
+.ISSUserStoryButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 320px;
+}
+
 /*Iron Silver Salt Visual Design*/
 .ISSVDTop {
   background-color: #D3ECFC;
