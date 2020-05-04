@@ -1039,7 +1039,7 @@ h2 {
   font-family: "Oxygen", sans-serif;
   font-size: 21.33px;
   line-height: 1.5em;
-  width: 100vw;
+  width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #ffffff;
@@ -1047,10 +1047,10 @@ h2 {
 }
 
 .prefootertext {
-  width: 83.34vw;
+  width: 83.34%;
   text-align: center;
-  padding-left: 8.33vw;
-  padding-right: 8.33vw;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
 }
 
 footer {
@@ -1264,9 +1264,9 @@ footer {
 
   .prefootertext {
     text-align: center;
-    width: 49.34vw;
-    padding-left: 25.33vw;
-    padding-right: 25.33vw;
+    width: 49.34%;
+    padding-left: 25.33%;
+    padding-right: 25.33%;
   }
 
   .BottomLogoImage {
@@ -1488,9 +1488,9 @@ footer {
 
   .prefootertext {
     text-align: center;
-    width: 49.34vw;
-    padding-left: 25.33vw;
-    padding-right: 25.33vw;
+    width: 49.34%;
+    padding-left: 25.33%;
+    padding-right: 25.33%;
   }
 
   .BottomLogoImage {
