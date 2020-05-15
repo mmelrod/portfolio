@@ -1321,15 +1321,15 @@ footer {
     background-image: url(../graphics/digitaltouch_bg.jpg);
     background-size: 100%;
     padding-right: 17%;
-    background-position: center;
+    background-position: top;
   }
 
   .banner {
-    left: 25%;
+    left: 28%;
     line-height: 1.25em;
     position: absolute;
-    top: 10%;
-    width: 50%;
+    top: -5vh;
+    width: 44%;
     padding-top: 20vh;
   }
 
