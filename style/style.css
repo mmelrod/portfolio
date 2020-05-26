@@ -128,16 +128,23 @@ h2 {
 /*Bio page*/
 
 .AboutBody2 {
-  background-color: #E1E8F0;
+  background-color: #E1EFF6;
+}
+
+.AboutBackground  {
+  background-image: url(../graphics/about_bg_color_fixed.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .AboutContent {
-  background-color: #E1E8F0;
+  background-color: rgba(225,239,246,.95);
   font-size: 24px;
   font-family: "Oxygen", sans-serif;
   line-height: 1.5em;
   padding-left: 8.33%;
-  margin-top: 80px;
+  padding-top: 80px;
   padding-bottom: 50px;
   padding-right: 8.33%;
   width: 83.33%;
@@ -150,6 +157,11 @@ h2 {
   font-weight: 500;
   margin-bottom: 30px;
   text-align: center;
+}
+
+.ResumeButton {
+  text-align: center;
+  background-color: rgba(225,239,246,.95);
 }
 
 /*About Body*/
@@ -1233,7 +1245,7 @@ footer {
 
 .DesktopTOC {
     align-items: center;
-    background-color: #A0BBD6;
+    background-image: linear-gradient(to right, #092B3D , #051C29);
     display: flex;
     height: 80px;
     justify-content: space-between;
@@ -1243,7 +1255,7 @@ footer {
   }
 
   .DesktopTOC a {
-    color: #000000;
+    color: #18EBED;
     font-family: "Rubik", sans-serif;
     font-size: 26.66px;
     font-weight: normal;
@@ -1261,6 +1273,10 @@ footer {
   }
 
   /*Footer stuff*/
+
+  footer {
+    padding-bottom: 0px;
+  }
 
   .prefootertext {
     text-align: center;
@@ -1486,6 +1502,10 @@ footer {
 
   /*Footer stuff*/
 
+  footer {
+    padding-bottom: 0px;
+  }
+
   .prefootertext {
     text-align: center;
     width: 49.34%;
@@ -1544,7 +1564,7 @@ footer {
 
   .DesktopTOC {
     align-items: center;
-    background-color: #A0BBD6;
+    background-image: linear-gradient(to right, #092B3D , #051C29);
     display: flex;
     height: 100px;
     justify-content: space-between;
@@ -1554,7 +1574,7 @@ footer {
   }
 
   .DesktopTOC a {
-    color: #000000;
+    color: #18EBED;
     font-family: "Rubik", sans-serif;
     font-size: 26.66px;
     font-weight: normal;
