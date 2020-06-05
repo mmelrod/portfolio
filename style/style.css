@@ -1243,7 +1243,7 @@ footer {
     display: none;
   }
 
-.DesktopTOC {
+  .DesktopTOC {
     align-items: center;
     background-image: linear-gradient(to right, #092B3D , #051C29);
     display: flex;
@@ -1350,10 +1350,37 @@ footer {
   }
 
   .FeaturedProject {
+    position: relative;
     display: inline-block;
-    margin-left: 75px;
-    margin-right: 75px;
     top: 0px;
+    width: 33vw;
+    margin: 0px;
+  }
+
+  .FeaturedScreenshot {
+    width: 32vw;
+  }
+
+  .FeaturedOverlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 30vw;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #002532;
+    padding-top: 10%;
+    text-align: left;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+
+  .FeaturedOverlay h3 {
+    text-align: center;
+  }
+
+  .FeaturedOverlay:hover {
+  opacity: .95;
   }
 
   .button {
@@ -1378,8 +1405,11 @@ footer {
     background-size: 100%;
     color: #ffffff;
     display: flex;
-    padding-bottom: 55px;
     justify-content: center;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-bottom: 55px;
+    width: 66%;
   }
 
   .MenuTop {
