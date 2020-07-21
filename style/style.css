@@ -819,6 +819,13 @@ h2 {
   max-width: 320px;
 }
 
+.ISSopening ol {
+  list-style-type: decimal;
+  padding-left: 30px;
+  line-height: 160%;
+  padding-bottom: 15px;
+}
+
 .ISSopening h1 {
   border-bottom: 2px solid #002938;
   padding-bottom: 10px;
@@ -1089,6 +1096,109 @@ footer {
   margin: 5px;
 }
 
+/*TRGF stuff*/
+.TRGFopening2 {
+  background-color: #ffffff;
+  padding-bottom: 50px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  padding-top: 25px;
+}
+
+.TRGFopening2 ul {
+  list-style-type: disc;
+  padding-left: 30px;
+  line-height: 160%;
+  padding-bottom: 20px;
+}
+
+.TRGFopening2 p {
+  padding-bottom: 20px;
+}
+
+.IntermissionImage {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.BrainBulb {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  max-width: 200px;
+}
+
+.trgf_ui {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 83.33%;
+  max-width: 400px;
+}
+
+.trgfLevelDesign {
+  padding-top: 25px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  width: 83.33%;
+  background-color: #ffffff;
+}
+
+.trgfDecisions {
+  padding-bottom: 25px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  padding-top: 25px;
+  width: 83.34vw;
+  background-color: #ffffff;
+}
+
+.trgfDecisions ul {
+  list-style-type: disc;
+  padding-left: 8.33%;
+  padding-top: 10px;
+  line-height: 160%;
+}
+
+.trgf_dev_screen {
+  width: 83.33vw;
+}
+
+.img-comp-container {
+  margin-top: 30px;
+}
+
+.TRGFSketchPNG {
+width: 100%;
+}
+
+.trgfFinalScreen {
+  width:100%;
+}
+
+.trgfUI {
+  background-color: #E1E8F0;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-left: 8.33vw;
+  padding-right: 8.33vw;
+}
+
+.trgfUI ul {
+  list-style-type: disc;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.trgfCloser {
+  width: 100%;
+  max-width: 650px;
+}
+
 /*Media Queries*/
 
 /*for tablets*/
@@ -1272,6 +1382,10 @@ footer {
     padding: 15px;
   }
 
+  .ISSopening ol {
+    padding-left: 60px;
+  }
+
   /*Footer stuff*/
 
   footer {
@@ -1309,6 +1423,22 @@ footer {
   .BottomNavLink {
     height: 40px;
     width: 40px;
+  }
+
+  .trgf_ui {
+    width: 400px;
+  }
+
+  .trgfUI ul {
+    padding-left: 25px;
+  }
+
+  .trgfLevelDesign {
+    padding-top: 25px;
+    padding-left: 8.33%;
+    padding-right: 8.33%;
+    width: 83.33%;
+    background-color: #ffffff;
   }
 
 }
@@ -1358,14 +1488,16 @@ footer {
   }
 
   .FeaturedScreenshot {
-    width: 32vw;
+    width: 20vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
   }
 
   .FeaturedOverlay {
     position: absolute;
     top: 0;
     height: 100%;
-    width: 30vw;
+    width: 20vw;
     opacity: 0;
     transition: .5s ease;
     background-color: #002532;
@@ -1393,8 +1525,14 @@ footer {
   }
 
   .Featuredbutton {
-    width: 300px;
+    width: 20vw;
+    max-width: 300px;
     padding: 10px 0px;
+  }
+
+  .FeaturedProject p {
+    font-size: 16px;
+    line-height: 150%;
   }
 
   .HomeBgTexture {
@@ -1408,7 +1546,7 @@ footer {
     justify-content: center;
     padding-left: 17%;
     padding-right: 17%;
-    padding-bottom: 55px;
+    padding-bottom: 80px;
     width: 66%;
   }
 
@@ -2036,6 +2174,10 @@ footer {
     text-align: center;
   }
 
+  .ISSopening ol {
+    padding-left: 60px;
+  }
+
   .ISSopening span {
     background-color: #18EBED;
     border-top: 2px;
@@ -2248,6 +2390,112 @@ footer {
     margin-left: 40px;
     margin-top: 5px;
     padding-left: 5px;
+  }
+
+  /*TRGF*/
+  .TRGFSketches {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+  }
+
+  .trgfLevelDesign1 {
+    width: 50%;
+  }
+
+  .trgfFlex {
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: -25.25%
+  }
+
+  .TRGFSketchPNG {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 25vw;
+  }
+
+  /*Screenshot comparison stuff*/
+  .trgf_dev_screen {
+    width: 49.5vw;
+    max-height: 500px;
+  }
+  .img-comp-container {
+    position: relative;
+    padding-bottom: 20px;
+    height: 500px; /*should be the same height as the images*/
+  }
+
+  .img-comp-img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .img-comp-img img {
+    display: block;
+    vertical-align: middle;
+  }
+
+  .img-comp-slider {
+    position: absolute;
+    z-index: 9;
+    cursor: ew-resize;
+    /*set the appearance of the slider:*/
+    width: 40px;
+    height: 40px;
+    background-image: url(../graphics/slidericon.png);
+    opacity: 0.8;
+    border-radius: 50%;
+  }
+
+  .TRGFopeningImage {
+    padding-left: .3vw;
+    width: 20vw;
+  }
+
+  .trgfDecisions {
+    padding-bottom: 50px;
+    padding-left: 25.35%;
+    padding-right: 25.35%;
+    padding-top: 50px;
+    width: 49.3%;
+  }
+
+  .trgfDecisions ul {
+    list-style-type: disc;
+    padding-left: 8.33%;
+    padding-top: 10px;
+    line-height: 160%;
+  }
+
+  .trgf_ui {
+    width: 400px;
+  }
+
+  .trgfUI {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 25.35vw;
+    padding-right: 25.35vw;
+    width:48.7vw;
+  }
+
+  .trgfUI ul {
+    padding-left: 30px;
+  }
+
+  .trgfLevelDesign {
+    padding-top: 25px;
+    padding-left: 25.35%;
+    padding-right: 25.35%;
+    width: 49.3%;
+    background-color: #ffffff;
   }
 
 }
