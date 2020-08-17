@@ -316,6 +316,30 @@ h2 {
   float: none;
 }
 
+.Content3d {
+  background-image: url(../graphics/about_bg_color_fixed.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.WalkthroughVid {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: none;
+  width: 70vw;
+  height: 70vh;
+  max-width: 1280px;
+  max-height: 720px;
+}
+
+.WalkthroughButton {
+  text-align: center;
+  background-color: rgba(225,239,246,.95);
+}
+
 /*case study TOC*/
 #menu span {
   background-color: #ffffff;
@@ -1282,6 +1306,14 @@ width: 100%;
 
   }
 
+.WalkthroughVid {
+  display: flex;
+}
+
+.MobileOnly {
+  display: none;
+}
+
   /*About Body*/
   .portrait {
     margin-bottom: 30px;
@@ -1617,6 +1649,14 @@ width: 100%;
   }
 
   .MenuLogoLink {
+    display: none;
+  }
+
+  .WalkthroughVid {
+    display: block;
+  }
+
+  .MobileOnly {
     display: none;
   }
 
