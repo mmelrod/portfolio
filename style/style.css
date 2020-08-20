@@ -379,6 +379,15 @@ h2 {
   background-size: 100%;
 }
 
+.ProjectListBackground h2 {
+  font-size: 40px;
+  font-family: "Oxygen", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .ProjectCards {
     color: #ffffff;
     padding-bottom: 55px;
