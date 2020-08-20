@@ -82,6 +82,11 @@ h2 {
   margin-top: 20px;
 }
 
+.ProjectScreenshot {
+  margin-top: 50px;
+  width: 300px;
+}
+
 .FeaturedScreenshot {
   margin-top: 50px;
   width: 300px;
@@ -316,11 +321,37 @@ h2 {
   float: none;
 }
 
-.Content3d {
-  background-image: url(../graphics/about_bg_color_fixed.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.Content3D h1 {
+  font-family: "Sans Serif", sans-serif;
+  font-size: 42.66px;
+  font-weight: 500;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.Content3D {
+  background-color: rgba(225,239,246,.95);
+  font-size: 24px;
+  font-family: "Oxygen", sans-serif;
+  line-height: 1.5em;
+  padding-left: 8.33%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-right: 8.33%;
+  width: 83.33%;
+}
+
+.Content3D h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 29.33px;
+  line-height: 150%;
+  margin-bottom: 35px;
+  margin-top: 50px;
+}
+
+.Text3D {
+  margin-left: 8.33%;
+  margin-right: 8.33%;
 }
 
 .WalkthroughVid {
@@ -338,6 +369,36 @@ h2 {
 .WalkthroughButton {
   text-align: center;
   background-color: rgba(225,239,246,.95);
+}
+
+.ProjectListBackground {
+  background-image: url(../graphics/background_pattern_mobile.png);
+  background-color: #002937;
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: 100%;
+}
+
+.ProjectCards {
+    color: #ffffff;
+    padding-bottom: 55px;
+}
+
+.ProjCard h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 26.66px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.ProjCard {
+  font-family: "Oxygen", sans-serif;
+  font-size: 21.33px;
+  line-height: 1.6em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
 }
 
 /*case study TOC*/
@@ -1284,6 +1345,19 @@ width: 100%;
     margin-top: 30px;
   }
 
+  .ProjCard h3 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  .ProjectScreenshot {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 413px;
+  }
+
   .FeaturedScreenshot {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -1312,6 +1386,11 @@ width: 100%;
 
 .MobileOnly {
   display: none;
+}
+
+.ProjCard {
+  width: 413px;
+  margin-bottom: 20px;
 }
 
   /*About Body*/
@@ -1522,10 +1601,31 @@ width: 100%;
     margin: 0px;
   }
 
+  .ProjectScreenshot {
+    width: 450px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
   .FeaturedScreenshot {
     width: 20vw;
     padding-left: 1vw;
     padding-right: 1vw;
+  }
+
+  .ProjectOverlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 350px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #002532;
+    padding-top: 10%;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50px;
   }
 
   .FeaturedOverlay {
@@ -1542,8 +1642,16 @@ width: 100%;
     padding-right: 1vw;
   }
 
+  .ProjectOverlay h3 {
+    text-align: center;
+  }
+
   .FeaturedOverlay h3 {
     text-align: center;
+  }
+
+  .ProjectOverlay:hover {
+  opacity: .95;
   }
 
   .FeaturedOverlay:hover {
@@ -1570,6 +1678,11 @@ width: 100%;
     line-height: 150%;
   }
 
+  .ProjCard p {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
   .HomeBgTexture {
     background-image: url(../graphics/background_pattern.png);
     background-color: #002937;
@@ -1592,6 +1705,35 @@ width: 100%;
   .TopLogo {
     margin-left: 8%;
   }
+
+.ProjectListBackground {
+  background-image: url(../graphics/background_pattern.png);
+  background-color: #002937;
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: 100%;
+}
+
+.ProjectCards {
+
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 80px;
+  width: 1000px;
+}
+
+.ProjCard {
+  position: relative;
+  display: inline-block;
+  top: 0px;
+  left: -50px;
+  width: 450px;
+  margin: 20px;
+}
 
   /*undoing burger menu*/
   .BurgerMenu {
@@ -1650,6 +1792,11 @@ width: 100%;
 
   .MenuLogoLink {
     display: none;
+  }
+
+  .Text3D {
+    margin-left: 17%;
+    margin-right: 17%;
   }
 
   .WalkthroughVid {

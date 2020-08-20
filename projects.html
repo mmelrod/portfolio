@@ -1,33 +1,136 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-  </head>
-  <header>
-    <a href="index.html">Mark Elrod</a>
-    <a href ="#" class="burger menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </a>
-    <nav>
-      <ul>
-        <li>
-          <a href="projects.html">Work</a>
-        </li>
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        <li>
-          <a href="#contact_anchor">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, width=device-width, viewport-fit=cover">
+  <link rel='icon' href='favicon.ico' type='image/x-icon'>
+  <title>My Projects</title>
+  <link rel="stylesheet" type="text/css" href="style/reset.css">
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+</head>
 
   <body>
+    <section class="AboutBody">
+
+      <header>
+        <nav class="nav_header">
+          <a href="index.html" class="LogoLink">
+            <img src="graphics/teal_logo.png" alt="Personal Logo" class="TopLogo"> <!-- width ="91.5" height = "31"-->
+          </a>
+              <div class="BurgerMenu" id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                  <li>
+                    <a href="index.html" class="LogoLink MenuLogoLink">
+                      <img src="graphics/teal_logo.png" alt="Personal Logo" class="MenuTop"> <!-- width ="91.5" height = "31"-->
+                    </a>
+                  </li>
+                  <li><span></span></li>
+                  <li><a href="projects.html" class="MenuLinks" class="DesktopOnly">Work</a></li>
+                  <li class="MenuLinks"><a href="about.html" >About</a></li>
+                  <li class="MenuLinks"><a href="mailto:melrod8@gmail.com" target="_blank" >Email</a></li>
+                </ul>
+              </div>
+        </nav>
+      </header>
+    </section>
+
+    <section class="ProjectListBackground">
+      <section class="ProjectCards">
+
+        <!-- 3D Portfolio-->
+        <section class="ProjCard">
+          <img src="graphics/cover_image.jpg" alt="Interactive Portfolio" class="ProjectScreenshot HighlightScreenshot"> <!-- width="413" height="293" -->
+          <section class="ProjectOverlay">
+            <h3 class="FeaturedTitle1">Interactive Portfolio</h3>
+            <p>An interactive take on my portfolio.</p>
+            <section class="CaseStudyButton">
+              <a href="3dport.html" class="Featuredbutton">View Project</a>
+            </section>
+          </section>
+        </section>
+
+        <!-- The Rejected Gun Factory-->
+        <section class="ProjCard">
+          <img src="graphics/trgf_splash.png" alt="The Rejected Gun Factory" class="ProjectScreenshot ISSScreenshot">
+          <section class="ProjectOverlay">
+            <h3 class="FeaturedTitle2">TRGF</h3>
+            <p class="card2text">The Rejected Gun Factory is a game developed in 48 hours for the GMTK Game Jam 2020.</p>
+            <section class="CaseStudyButton">
+              <a href="project_trgf.html" class="Featuredbutton">View Case Study</a>
+            </section>
+          </section>
+        </section>
+
+        <!-- Iron, Silver, and Salt-->
+        <section class="ProjCard">
+          <img src="graphics/iron_silver_salt_link.jpg" alt="Iron, Silver, and Salt screenshot" class="ProjectScreenshot ISSScreenshot">
+          <section class="ProjectOverlay">
+            <h3 class="FeaturedTitle2">Iron, Silver, and Salt</h3>
+            <p class="card2text">Iron, Silver, and Salt is a monster hunting podcast that needed a home.</p>
+            <section class="CaseStudyButton">
+              <a href="project_iron_silver_salt.html" class="Featuredbutton">View Case Study</a>
+            </section>
+          </section>
+        </section>
+
+        <!-- Highlight-->
+        <section class="ProjCard">
+          <img src="graphics/highlight_dash_main.png" alt="Highlight Screenshot" class="ProjectScreenshot HighlightScreenshot"> <!-- width="413" height="293" -->
+          <section class="ProjectOverlay">
+            <h3 class="FeaturedTitle1">Highlight</h3>
+            <p>Highlight is a cloud storage site for gamers to upload, create, and share their content with.</p>
+            <section class="CaseStudyButton">
+              <a href="3dport.html" class="Featuredbutton">View Case Study</a>
+            </section>
+          </section>
+        </section>
+
+      </section>
+    </section>
+
+    <section class="prefooter">
+      <section class="prefootertext">
+        <h2>Thanks for stopping by!</h2>
+        <p>If you like what you see, shoot me an email.</p>
+      </section>
+    </section>
+
+    <footer id="contact_anchor">
+      <img src="graphics/bw_logo.png" alt="Personal Logo" class="BottomLogoImage">
+      <section class="ContactLinks">
+        <a href="https://harbingersmark.itch.io" target="_blank">
+          <img src="graphics/itchio-textless-black.png" alt="Itch.IO link" class="BottomNavLink">
+        </a>
+        <a href="https://www.linkedin.com/in/elrodmark/" target="_blank">
+          <img src="graphics/linkedin.png" alt="Linkedin link" class="BottomNavLink">
+        </a>
+        <a href="https://github.com/mmelrod" target="_blank">
+          <img src="graphics/github.png" alt="Github link" class="BottomNavLink">
+        </a>
+        <a href="mailto:melrod8@gmail.com" target="_blank">
+          <img src="graphics/email.png" alt="email link" class="BottomNavLink">
+        </a>
+      </section>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160167634-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-160167634-1');
+    </script>
 
   </body>
 </html>
