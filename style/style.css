@@ -28,19 +28,53 @@ h2 {
   color: #ffffff;
   height: 95vh;
   position: relative;
+  display: block;
+}
+
+header {
+  display: block;
+  height: 100px;
 }
 
 .banner {
+  display: block;
+  position: relative;
   color: #ffffff;
   font-family: "Oxygen", sans-serif;
-  font-size: 26.66px;
-  font-weight: bold;
-  left: 8.33%;
+  font-size: 20px;
   line-height: 150%;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.cs-prev, .cs-next {
+  border-radius: 0 3px 3px 0;
+  color: #18EBED;
+  font-size: 3.6rem;
+  font-weight: bold;
+  margin: 0 4%;
+  padding: 5px 5px;
   position: absolute;
-  text-align: left;
-  top: 15.15%;
-  width: 83.33%;
+  top: 140px;
+  user-select: none;
+}
+
+.cs-next {
+  right: 0;
+}
+
+.cs-prev {
+  left: 0;
+}
+
+.cs-prev:hover, .cs-next:hover {
+  text-shadow: 0 0 15px #18EBED;
 }
 
 /* Portfolio banner properties*/
@@ -317,7 +351,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
-  height: 110px;
+  height: 95px;
   float: none;
 }
 
@@ -1307,7 +1341,7 @@ width: 100%;
   }
 
   h2 {
-    font-size: 53.33px;
+    font-size: 32px;
     padding-top: 20px;
     padding-bottom: 25px;
     line-height: 1.5em;
@@ -1326,14 +1360,14 @@ width: 100%;
   }
 
   .banner {
-    font-size: 26.66px;
-    font-weight: bold;
-    left: 8.33%;
     line-height: 150%;
-    position: absolute;
-    top: 15.15%;
-    width: 83.33%;
+    position: relative;
     padding-top: 10vh;
+    width: 450px;
+  }
+
+  .cs-prev, .cs-next {
+    top: 300px;
   }
 
   .button:hover {
@@ -1582,24 +1616,26 @@ width: 100%;
   }
 
   .banner h2 {
-    width: 500px;
+    width: 450px;
+    text-align: center;
   }
 
   /*Home Page*/
   .HomeBackground {
     background-image: url(../graphics/digitaltouch_bg.jpg);
     background-size: 100%;
-    padding-right: 17%;
     background-position: top;
   }
 
   .banner {
-    left: 28%;
     line-height: 1.25em;
-    position: absolute;
-    top: -5vh;
-    width: 44%;
-    padding-top: 20vh;
+    padding-top: 70px;
+    position: relative;
+    width: 450px;
+  }
+
+  .cs-prev, .cs-next {
+    top: 270px;
   }
 
   .FeaturedProject {
@@ -1768,8 +1804,8 @@ width: 100%;
   }
 
   .BurgerMenu a:hover {
-    background-color: #18EBED;
-    color: #000000;
+    text-shadow: 0 0 20px #18EBED;
+    text-decoration: underline;
   }
 
   #menuToggle input {
@@ -1863,7 +1899,7 @@ width: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
-    height: 110px;
+    height: 95px;
     float: none;
   }
 
