@@ -173,6 +173,6 @@ Module['FS_createPath']('/HTMLPortfolioUnbreak/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 113, "filename": "/UE4CommandLine.txt"}, {"start": 113, "audio": 0, "end": 313111364, "filename": "/HTMLPortfolioUnbreak/Content/Paks/HTMLPortfolioUnbreak-HTML5.pak"}], "remote_package_size": 313111364, "package_uuid": "24bfd4eb-5f6f-4429-b475-d82d51049ce1"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 113, "filename": "/UE4CommandLine.txt"}, {"start": 113, "audio": 0, "end": 313111511, "filename": "/HTMLPortfolioUnbreak/Content/Paks/HTMLPortfolioUnbreak-HTML5.pak"}], "remote_package_size": 313111511, "package_uuid": "57cfebec-a663-479f-afd0-b11d482e2793"});
 
 })();
