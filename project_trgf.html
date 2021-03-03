@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
   </head>
 
-  <body class="IronSilverSaltCaseStudyBody">
+  <body class="CaseStudyBody">
     <section class="AboutBody">
       <header>
         <nav class="nav_header">
@@ -40,175 +40,178 @@
       </header>
     </section>
 
-    <section class="ISSopening">
-      <h1>The Rejected Gun Factory</h1>
-      <h3>Summary</h3>
-      <p>The Rejected Gun Factory is a game born from 3 requests:</p>
-      <ol>
-        <li>Make a game from scratch, though you can use pre-existing sounds and art if you have to.</li>
-        <li>Make a game around the theme ‘Out of Control’.</li>
-        <li>Make everything in 48 hours or less.</li>
-      </ol>
-      <p>Game Maker’s Toolkit, a YouTube channel that dives into game design, level design, and game production, has hosted a game jam with these three rules annually since 2017 (with different themes each year). This year, my team and I banded together to create our wacky, wild take on the classic twin stick shooter.</p>
-      <a href="https://aviraldg.itch.io/the-gun-factory" class="button" target="_blank">Play the game</a>
-      <img src="graphics/trgf_splash.png" alt="Opening screen" class="ISSOpener">
-    </section>
+    <article class="CaseStudyContents">
+      <section class="CSopening">
+        <h1>The Rejected Gun Factory</h1>
+        <h3>Summary</h3>
+        <p>The Rejected Gun Factory is a game born from 3 requests:</p>
+        <ol>
+          <li>Make a game from scratch, though you can use pre-existing sounds and art if you have to.</li>
+          <li>Make a game around the theme ‘Out of Control’.</li>
+          <li>Make everything in 48 hours or less.</li>
+        </ol>
+        <p>Game Maker’s Toolkit, a YouTube channel that dives into game design, level design, and game production, has hosted a game jam with these three rules annually since 2017 (with different themes each year). This year, my team and I banded together to create our wacky, wild take on the classic twin stick shooter.</p>
+        <a href="https://aviraldg.itch.io/the-gun-factory" class="button" target="_blank">Play the game</a>
+        <img src="graphics/trgf_splash.png" alt="Opening screen" class="ISSOpener">
+      </section>
 
-    <section class="TRGFopening2">
-      <section class="TRGFopening2Text">
-        <h3>Brainstorming</h3>
-        <p>We started off by brainstorming all the different ways we could go about the theme.  Possibilities included a shooter, where your bullets actively avoided enemies, a game where you could only control the level, or one where the player's controls were randomized every time one was used. After plenty of discussion, we decided to explore the two ideas that had generated the most buzz:</p>
+      <section class="CSSectionHeader">
+          <h3>Brainstorming</h3>
+          <p>We started off by brainstorming all the different ways we could go about the theme.  Possibilities included a shooter, where your bullets actively avoided enemies, a game where you could only control the level, or one where the player's controls were randomized every time one was used. After plenty of discussion, we decided to explore the two ideas that had generated the most buzz:</p>
+          <ul>
+            <li>A game where the player had to map multiple actions to a few keys, so that when a given key was pressed, it wasn’t guaranteed which action would be performed.</li>
+            <li>A game where the player had to pick up random guns, not all of which would help the player on their mission.</li>
+          </ul>
+          <p>Taking some time to discuss what each of these games could look like, and the feasibility of completing them in time, ultimately led us to pick the option with the random guns. With the decision made on how we were to proceed, we began to create.</p>
+      </section>
+
+      <section class="IntermissionImage">
+        <img src="graphics/brainstorm.png" alt="Brainstorming image" class="BrainBulb">
+      </section>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="graphics/chevron-up.png" alt="Back to top button" class="HighlightBTTChevron"></button>
+
+      <section class="CSContent">
+        <h3>Designing the level</h3>
+        <p>I immediately began work on the level design. We decided to semi-randomly generate each level, to help keep the player on their toes, and to deny the player the feeling of mastering a pre-built level. To implement this, I designed several map “blocks” that would be randomly distributed throughout a larger grid. The blocks included elements such as enemy spawn points, various kinds of walls, and weapon pickup locations, taking care to make sure the player could access every important tile of every block, regardless of where the block was placed.</p>
+        <section class="CSCompAnalysis">
+          <section class="CSSWOT">
+            <img src="graphics/lv_sketch_3.png" alt="Third level sketch" class="SWOTImage">
+          </section>
+          <section class="CSSWOT">
+            <img src="graphics/lv_sketch_2.png" alt="Second level sketch" class="SWOTImage">
+          </section>
+          <section class="CSSWOT">
+            <img src="graphics/lv_sketch_1.png" alt="First level sketch" class="SWOTImage">
+          </section>
+        </section>
+
+        <h3>Polishing the experience</h3>
+        <p>Once we had a level, and some very rough assets put together, I started testing builds, looking for ways to improve the experience. One such improvement was to make the bottomless pits more forgiving, to make navigating the frequent chaotic situations a little easier. Another tweak was to widen the passageways that were only one tile wide, since our walls felt very ‘sticky’.</p>
+
+        <script>
+          function initComparisons() {
+            var x, i;
+            /*find all elements with an "overlay" class:*/
+            x = document.getElementsByClassName("img-comp-overlay");
+            for (i = 0; i < x.length; i++) {
+              /*once for each "overlay" element:
+              pass the "overlay" element as a parameter when executing the compareImages function:*/
+              compareImages(x[i]);
+            }
+            function compareImages(img) {
+              var slider, img, clicked = 0, w, h;
+              /*get the width and height of the img element*/
+              w = img.offsetWidth;
+              h = img.offsetHeight;
+              /*set the width of the img element to 50%:*/
+              img.style.width = (w / 2) + "px";
+              /*create slider:*/
+              slider = document.createElement("DIV");
+              slider.setAttribute("class", "img-comp-slider");
+              /*insert slider*/
+              img.parentElement.insertBefore(slider, img);
+              /*position the slider in the middle:*/
+              slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
+              slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
+              /*execute a function when the mouse button is pressed:*/
+              slider.addEventListener("mousedown", slideReady);
+              /*and another function when the mouse button is released:*/
+              window.addEventListener("mouseup", slideFinish);
+              /*or touched (for touch screens:*/
+              slider.addEventListener("touchstart", slideReady);
+              /*and released (for touch screens:*/
+              window.addEventListener("touchend", slideFinish);
+              function slideReady(e) {
+                /*prevent any other actions that may occur when moving over the image:*/
+                e.preventDefault();
+                /*the slider is now clicked and ready to move:*/
+                clicked = 1;
+                /*execute a function when the slider is moved:*/
+                window.addEventListener("mousemove", slideMove);
+                window.addEventListener("touchmove", slideMove);
+              }
+              function slideFinish() {
+                /*the slider is no longer clicked:*/
+                clicked = 0;
+              }
+              function slideMove(e) {
+                var pos;
+                /*if the slider is no longer clicked, exit this function:*/
+                if (clicked == 0) return false;
+                /*get the cursor's x position:*/
+                pos = getCursorPos(e)
+                /*prevent the slider from being positioned outside the image:*/
+                if (pos < 0) pos = 0;
+                if (pos > w) pos = w;
+                /*execute a function that will resize the overlay image according to the cursor:*/
+                slide(pos);
+              }
+              function getCursorPos(e) {
+                var a, x = 0;
+                e = e || window.event;
+                /*get the x positions of the image:*/
+                a = img.getBoundingClientRect();
+                /*calculate the cursor's x coordinate, relative to the image:*/
+                x = e.pageX - a.left;
+                /*consider any page scrolling:*/
+                x = x - window.pageXOffset;
+                return x;
+              }
+              function slide(x) {
+                /*resize the image:*/
+                img.style.width = x + "px";
+                /*position the slider:*/
+                slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
+              }
+            }
+          }
+          </script>
+
+        <div class="img-comp-container">
+          <div class="img-comp-img">
+            <img src="graphics/proto2.png" alt="An early prototype" class="trgf_dev_screen">
+          </div>
+          <div class="img-comp-img img-comp-overlay">
+            <img src="graphics/proto1.png" alt="An early prototype" class="trgf_dev_screen">
+          </div>
+        </div>
+      </section>
+
+      <section class="CSContent">
+        <p>Several key decisions were also made at this point in the design:</p>
         <ul>
-          <li>A game where the player had to map multiple actions to a few keys, so that when a given key was pressed, it wasn’t guaranteed which action would be performed.</li>
-          <li>A game where the player had to pick up random guns, not all of which would help the player on their mission.</li>
+          <li>Letting the player survive multiple hits.</li>
+          <li>Making the goal to clear as many floors as they can.</li>
+          <li>Adding a requirement that four buttons be pressed prior to exiting the floor.</li>
         </ul>
-        <p>Taking some time to discuss what each of these games could look like, and the feasibility of completing them in time, ultimately led us to pick the option with the random guns. With the decision made on how we were to proceed, we began to create.</p>
       </section>
-    </section>
 
-    <section class="IntermissionImage">
-      <img src="graphics/brainstorm.png" alt="Brainstorming image" class="BrainBulb">
-    </section>
+      <section class="CSContent">
+        <img src="graphics/trgf_screen1.png" alt="Screenshot of the final game" class="trgfFinalScreen"/>
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="graphics/chevron-up.png" alt="Back to top button" class="HighlightBTTChevron"></button>
-
-    <section class="trgfLevelDesign">
-      <section class="trgfFlex">
-        <section class="trgfLevelDesign1">
-          <h3>Designing the level</h3>
-          <p>I immediately began work on the level design. We decided to semi-randomly generate each level, to help keep the player on their toes, and to deny the player the feeling of mastering a pre-built level. To implement this, I designed several map “blocks” that would be randomly distributed throughout a larger grid. The blocks included elements such as enemy spawn points, various kinds of walls, and weapon pickup locations, taking care to make sure the player could access every important tile of every block, regardless of where the block was placed.</p>
-        </section>
-        <section class="TRGFSketches">
-          <img src="graphics/lv_sketch_1.png" alt="First level sketch" class="TRGFSketchPNG">
-          <img src="graphics/lv_sketch_2.png" alt="Second level sketch" class="TRGFSketchPNG">
-          <img src="graphics/lv_sketch_3.png" alt="Third level sketch" class="TRGFSketchPNG">
-        </section>
+        <h3>Adding the UI</h3>
+        <p>With most of the game made, I built a user interface to provide the player with the information they needed. During gameplay, there were five things the player needed to know at a glance:</p>
+        <ul>
+          <li>Their current health.</li>
+          <li>The number of buttons they have remaining on their current floor.</li>
+          <li>Their current floor.</li>
+          <li>What gun they currently have/ information about what it does.</li>
+          <li>Their current ammunition level.</li>
+        </ul>
+        <img src="graphics/ui_with_crate.png" alt="User Interface" class="trgf_ui">
       </section>
-      <h3>Polishing the experience</h3>
-      <p>Once we had a level, and some very rough assets put together, I started testing builds, looking for ways to improve the experience. One such improvement was to make the bottomless pits more forgiving, to make navigating the frequent chaotic situations a little easier. Another tweak was to widen the passageways that were only one tile wide, since our walls felt very ‘sticky’.</p>
 
-      <script>
-        function initComparisons() {
-          var x, i;
-          /*find all elements with an "overlay" class:*/
-          x = document.getElementsByClassName("img-comp-overlay");
-          for (i = 0; i < x.length; i++) {
-            /*once for each "overlay" element:
-            pass the "overlay" element as a parameter when executing the compareImages function:*/
-            compareImages(x[i]);
-          }
-          function compareImages(img) {
-            var slider, img, clicked = 0, w, h;
-            /*get the width and height of the img element*/
-            w = img.offsetWidth;
-            h = img.offsetHeight;
-            /*set the width of the img element to 50%:*/
-            img.style.width = (w / 2) + "px";
-            /*create slider:*/
-            slider = document.createElement("DIV");
-            slider.setAttribute("class", "img-comp-slider");
-            /*insert slider*/
-            img.parentElement.insertBefore(slider, img);
-            /*position the slider in the middle:*/
-            slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
-            slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
-            /*execute a function when the mouse button is pressed:*/
-            slider.addEventListener("mousedown", slideReady);
-            /*and another function when the mouse button is released:*/
-            window.addEventListener("mouseup", slideFinish);
-            /*or touched (for touch screens:*/
-            slider.addEventListener("touchstart", slideReady);
-            /*and released (for touch screens:*/
-            window.addEventListener("touchend", slideFinish);
-            function slideReady(e) {
-              /*prevent any other actions that may occur when moving over the image:*/
-              e.preventDefault();
-              /*the slider is now clicked and ready to move:*/
-              clicked = 1;
-              /*execute a function when the slider is moved:*/
-              window.addEventListener("mousemove", slideMove);
-              window.addEventListener("touchmove", slideMove);
-            }
-            function slideFinish() {
-              /*the slider is no longer clicked:*/
-              clicked = 0;
-            }
-            function slideMove(e) {
-              var pos;
-              /*if the slider is no longer clicked, exit this function:*/
-              if (clicked == 0) return false;
-              /*get the cursor's x position:*/
-              pos = getCursorPos(e)
-              /*prevent the slider from being positioned outside the image:*/
-              if (pos < 0) pos = 0;
-              if (pos > w) pos = w;
-              /*execute a function that will resize the overlay image according to the cursor:*/
-              slide(pos);
-            }
-            function getCursorPos(e) {
-              var a, x = 0;
-              e = e || window.event;
-              /*get the x positions of the image:*/
-              a = img.getBoundingClientRect();
-              /*calculate the cursor's x coordinate, relative to the image:*/
-              x = e.pageX - a.left;
-              /*consider any page scrolling:*/
-              x = x - window.pageXOffset;
-              return x;
-            }
-            function slide(x) {
-              /*resize the image:*/
-              img.style.width = x + "px";
-              /*position the slider:*/
-              slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
-            }
-          }
-        }
-        </script>
+      <section class="CSContent">
+          <h3>Completing the game</h3>
+          <p>Ultimately, we were able to submit The Rejected Gun Factory to the jam with a comfortable amount of spare time in case something went wrong during the upload.</p>
+          <p>There are, of course, several areas our title could be improved. For instance, I would have liked to make finding the buttons a little easier, as just completing the first floor can be quite difficult. However, given the extreme time constraints we faced, we were all very pleased with the end result, and even picked up a few ideas to carry forward into our next titles. If you enjoyed the game, or have thoughts you would like to share about it, feel free to reach out!</p>
+          <a href="https://aviraldg.itch.io/the-gun-factory" target="_blank" class="button">Play the game</a>
+          <a href="mailto:melrod8@gmail.com" target="_blank" class="button">Share your thoughts</a>
 
-      <div class="img-comp-container">
-        <div class="img-comp-img">
-          <img src="graphics/proto2.png" alt="An early prototype" class="trgf_dev_screen">
-        </div>
-        <div class="img-comp-img img-comp-overlay">
-          <img src="graphics/proto1.png" alt="An early prototype" class="trgf_dev_screen">
-        </div>
-      </div>
-    </section>
-
-    <section class="trgfDecisions">
-      <p>Several key decisions were also made at this point in the design:</p>
-      <ul>
-        <li>Letting the player survive multiple hits.</li>
-        <li>Making the goal to clear as many floors as they can.</li>
-        <li>Adding a requirement that four buttons be pressed prior to exiting the floor.</li>
-      </ul>
-    </section>
-
-    <section class="trgfUI">
-      <img src="graphics/trgf_screen1.png" alt="Screenshot of the final game" class="trgfFinalScreen"/>
-
-      <h3>Adding the UI</h3>
-      <p>With most of the game made, I built a user interface to provide the player with the information they needed. During gameplay, there were five things the player needed to know at a glance:</p>
-      <ul>
-        <li>Their current health.</li>
-        <li>The number of buttons they have remaining on their current floor.</li>
-        <li>Their current floor.</li>
-        <li>What gun they currently have/ information about what it does.</li>
-        <li>Their current ammunition level.</li>
-      </ul>
-      <img src="graphics/ui_with_crate.png" alt="User Interface" class="trgf_ui">
-    </section>
-
-    <section class="IAMain">
-        <h3>Completing the game</h3>
-        <p>Ultimately, we were able to submit The Rejected Gun Factory to the jam with a comfortable amount of spare time in case something went wrong during the upload.</p>
-        <p>There are, of course, several areas our title could be improved. For instance, I would have liked to make finding the buttons a little easier, as just completing the first floor can be quite difficult. However, given the extreme time constraints we faced, we were all very pleased with the end result, and even picked up a few ideas to carry forward into our next titles. If you enjoyed the game, or have thoughts you would like to share about it, feel free to reach out!</p>
-        <a href="https://aviraldg.itch.io/the-gun-factory" target="_blank" class="button">Play the game</a>
-        <a href="mailto:melrod8@gmail.com" target="_blank" class="button">Share your thoughts</a>
-
-        <img src="graphics/trgf_credits.png" alt="Game Over screen" class ="trgfCloser" />
-    </section>
+          <img src="graphics/trgf_credits.png" alt="Game Over screen" class ="trgfCloser" />
+      </section>
+    </article>
 
     <section class="prefooter">
       <section class="prefootertext">

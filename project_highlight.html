@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
   </head>
 
-  <body class="HighlightCaseStudyBody">
+  <body class="CaseStudyBody">
     <section class="AboutBody">
       <header>
         <nav class="nav_header">
@@ -52,336 +52,265 @@
       <a href="#PT_anchor" >Prototyping</a>
     </section>
 
-    <section class="opening">
-      <h1>Highlight</h1>
-      <h3>Summary</h3>
-      <p>This project was created from a simple initial goal: design a cloud storage system from the ground up. Through research, revision, and refinement, Highlight, a cloud storage site built by and for gamers, was created.</p>
-      <p>I researched, designed, and built Highlight from the ground up. The wireframing, mockups, and branding, were all created using Figma, while the final clickable prototype was created using InVision. Additionally, Usability Hub was used for preference testing, WebAim for accessibility testing, and Google Drive for documenting each step in the process. The InVision prototype was the final deliverable for the project- a clickable MVP of a fully branded cloud storage site.</p>
-      <a href="https://invis.io/6EUH9N99D5Q" class="button" target="_blank">Check out the final prototype</a>
-      <img src="graphics/highlight.png" alt="Highlight screenshot" class="HighlightOpener">
-    </section>
-
-    <section class="opening2">
-      <h3>The Problem</h3>
-      <p>While analyzing the current cloud storage ecosystem, one thing became abundantly clear; the cloud storage space is currently dominated by a few major players, but these companies are either unable or unwilling to focus on the unique needs of more niche audiences. Diving further into this research, it came to light that gamers needed a space to upload and share a variety of files with their friends.</p>
-      <h3 class="HighlightProblemHeader">The Solution</h3>
-      <p class="HighlightProblemText">Highlight is a cloud storage app built by a gamer, for gamers. Files can be created, uploaded, and shared quickly, all aspects shown by user research to be very important. As additional features become needed due to a rapidly changing market, the design allows for additional features to be added, to compliment everything that has come before. Furthermore, the design was refined through usability testing, preference testing, and invaluable input from senior designers. </p>
-    </section>
-
-    <section id="Discovery_anchor" class="DiscoveryTop">
-      <h2>Discovery</h2>
-      <h3>The client’s idea</h3>
-      <p>Everything started with a client approaching me, website idea in hand. The client wanted to make a cloud storage service, but didn’t have a firm idea of what they wanted it to look like, who they wanted to target, or even what platform to launch on. They had several ideas for what they wanted to include, but weren’t sure which features users would actually respond well to. All this was given to me, to take, research, and ultimately craft their cloud storage service from.</p>
-      <h3>The tools</h3>
-      <section class=ToolLinks>
-        <a href="drive.google.com" target="_blank"><img src="graphics/google_drive_logo.png" alt="Google Drive logo" class="HighlightToolLogo"></a>
-        <a href="www.dropbox.com" target="_blank"><img src="graphics/dropbox_logo.png" alt="Dropbox logo" class="HighlightToolLogo"></a>
-        <a href="www.figma.com" target="_blank"><img src="graphics/figma_logo.png" alt="Figma logo" class="HighlightToolLogo"></a>
-        <a href="usabilityhub.com" target="_blank"><img src="graphics/usabilityhub_logo.png" alt="Usabilityhub logo" class="HighlightToolLogo"></a>
-        <a href="webaim.org" target="_blank"><img src="graphics/webaim_logo.png" alt="WebAIM logo" class="HighlightToolLogo"></a>
-        <a href="www.invisionapp.com" target="_blank"><img src="graphics/invision_logo.png" alt="InVision logo" class="HighlightToolLogo"></a>
-      </section>
-      <h3>My role</h3>
-      <p>For this project, it fell to me to do the user research, brainstorming, prototyping, branding, refinement, user testing, and final touches. Each stage of this process also included seeking, receiving, and incorporating feedback from potential users, peers, and/or more experienced designers. Without their invaluable feedback, Highlight would have looked very different, and was greatly improved thanks to all those who offered their feedback.</p>
-    </section>
-
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="graphics/chevron-up.png" alt="Back to top button" class="HighlightBTTChevron"></button>
-
-    <section class="Discovery2">
-      <h3>Competitive analysis</h3>
-      <p>My first task was to analyze the competition. In the cloud storage space, Google Drive and Dropbox are the two biggest players, so I performed a SWOT analysis on these two. As the number one video hosting service, I also checked out YouTube. Each of these three had issues with their platform hower, that could allow for a site like Highlight to break into the market.</p>
-      <section class="HighlightCompAnalysis">
-        <section class="HighlightSWOT">
-          <img src="graphics/competition1.png" alt="Google drive dashboard" class="SWOTImage">
-          <ul>
-            <li>Google has every incentive to sell data about your content to advertisers.</li>
-            <li>To create non-supported file types, users must install third-party extensions.</li>
-            <li>Mobile app does not natively allow file editing.</li>
-          </ul>
-        </section>
-        <section class="HighlightSWOT">
-          <img src="graphics/competition2.png" alt="Dropbox dashboard" class="SWOTImage">
-          <ul>
-            <li>Dropbox does not make on-site file creation easy to find, or easy to use.</li>
-            <li>Very limited space (3.75GB) is initially offered to store files.</li>
-            <li>File security has been a major issue for quite some time.</li>
-          </ul>
-        </section>
-        <section class="HighlightSWOT">
-          <img src="graphics/competition3.png" alt="Youtube homepage" class="SWOTImage">
-          <ul>
-            <li>Youtube only supports video files.</li>
-            <li>There is no official way to download videos posted by others.</li>
-            <li>There is an overwhelming amount of content uploaded every single day, making finding content difficult.</li>
-          </ul>
-        </section>
-      </section>
-      <a href="https://docs.google.com/document/d/1tPuZeFazdubcizEGgBPfELwi3_ZMie9fUbJ-1oy1ryk/edit?usp=sharing" class="button">View full SWOT</a>
-      <p>I also analyzed the user flows for these three companies, documenting their onboarding process, content organization methods, and file saving methods. These processes all proved to be reasonably similar to one another, and provided inspiration for Highlight’s onboarding process.</p>
-      <h3>User Survey</h3>
-      <p>The next step was to survey users about a potential gaming-focused cloud storage service. The goals of the survey were to learn what features users thought were important for a cloud storage service, and how they would primarily use such a service. For instance, users were asked which features they wanted to be included:</p>
-      <img src="graphics/survey_graph.png" alt="Survey results" class="DiscoveryImage">
-      <p>Furthermore, respondents were mostly interested in uploading their content to privately share with friends.</p>
-      <img src="graphics/survey_graph2.png" alt="More survey results" class="DiscoveryImage">
-    </section>
-
-    <section id="IA_anchor" class="IATop">
-      <h2>Information Architecture</h2>
-      <p>After the survey results, and a few followup interviews with respondents, It was time to create user personas. Both needed to be interested in games to fit into our target audience, so we created Josh a competitive gamer, interested in his stats and improving, and Allie, a community leader looking for a new home for her content. Both were used as reference points throughout the development of Highlight, to help keep the users the focus of the product.</p>
-    </section>
-
-    <section class="Personas">
-
-      <!-- Persona Josh M-->
-      <section class="HighlightPersona1 HighlightPersona">
-        <img src="graphics/josh_m.png" alt="Josh's portrait" class="PersonaPortrait">
-        <p><b>Josh M., 25</b></p>
-        <section class="HighlightMotivations">
-          <p><b>Motivations:</b></p>
-          <p>Josh has been asking his friends for tips on how to improve his skills for years, but hasn’t been able to easily share the raw data with them. He is wary about making the data public however, and wants to control who can access his files. He wants to be able to easily share the data with multiple friends, and for them to be able to leave comments for him to read.</p>
-        </section>
-        <section class="HighlightGoals">
-          <p><b>Goals:</b></p>
-          <ol>
-            <li>Upload competitive data to share with friends.</li>
-            <li>Easily share data with multiple friends.</li>
-            <li>Discuss content with friends.</li>
-          </ol>
-        </section>
-        <section class="HighlightFrustrations">
-          <p><b>Frustrations:</b></p>
-          <ol>
-            <li>Has to send friends links individually to share content.</li>
-            <li>Has to manually notify friends every time he uploads content.</li>
-            <li>Can’t find any of his friend’s content until they send him a link.</li>
-          </ol>
-        </section>
+    <article class="CaseStudyContents">
+      <section class="CSopening">
+        <h1>Highlight</h1>
+        <h3>Summary</h3>
+        <p>This project was created from a simple initial goal: design a cloud storage system from the ground up. Through research, revision, and refinement, Highlight, a cloud storage site built by and for gamers, was created.</p>
+        <p>I researched, designed, and built Highlight from the ground up. The wireframing, mockups, and branding, were all created using Figma, while the final clickable prototype was created using InVision. Additionally, Usability Hub was used for preference testing, WebAim for accessibility testing, and Google Drive for documenting each step in the process. The InVision prototype was the final deliverable for the project- a clickable MVP of a fully branded cloud storage site.</p>
+        <a href="https://invis.io/6EUH9N99D5Q" class="button" target="_blank">Check out the final prototype</a>
+        <img src="graphics/highlight.png" alt="Highlight screenshot" class="HighlightOpener">
       </section>
 
-      <!-- Persona Allie R-->
-      <section class="HighlightPersona2 HighlightPersona">
-        <img src="graphics/allie_r.png" alt="Allie's portrait" class="PersonaPortrait">
-        <p><b>Allie R., 33</b></p>
-        <section class="HighlightMotivations">
-          <p><b>Motivations:</b></p>
-          <p>Allie is a writer, who steams gameplay to make some extra money between books. She has been trying to grow her audience, and is looking for a central location to point her fans to. To keep her fans entertained, she frequently modifies her games, and wants to share her favorite mods with her community.</p>
-        </section>
-        <section class="HighlightGoals">
-          <p><b>Goals:</b></p>
-          <ol>
-            <li>Use gaming based-content to promote her brand.</li>
-            <li>Share ‘mods’ with fans so they can experience the same gameplay.</li>
-            <li>Centralize her content to point fans to a singular location.</li>
-          </ol>
-        </section>
-        <section class="HighlightFrustrations">
-          <p><b>Frustrations:</b></p>
-          <ol>
-            <li>Her content is spread across multiple platforms.content.</li>
-            <li>She wants better tools to moderate her community.</li>
-            <li>No good way to share her writing on the platforms her audience knows her through.</li>
-          </ol>
-        </section>
+      <section class="CSopening">
+        <h3>The Problem</h3>
+        <p>While analyzing the current cloud storage ecosystem, one thing became abundantly clear; the cloud storage space is currently dominated by a few major players, but these companies are either unable or unwilling to focus on the unique needs of more niche audiences. Diving further into this research, it came to light that gamers needed a space to upload and share a variety of files with their friends.</p>
+        <h3>The Solution</h3>
+        <p>Highlight is a cloud storage app built by a gamer, for gamers. Files can be created, uploaded, and shared quickly, all aspects shown by user research to be very important. As additional features become needed due to a rapidly changing market, the design allows for additional features to be added, to compliment everything that has come before. Furthermore, the design was refined through usability testing, preference testing, and invaluable input from senior designers. </p>
       </section>
-    </section>
 
-    <section class="IAMain">
-        <h3>User stories</h3>
-        <img src="graphics/user_stories.png" alt="User stories" class="IAImage">
-        <p>With the user survey and user personas complete, I moved on to create user stories. Drawing potential tasks from existing competitors, user research, and the user interviews, I used the same information to help rank the user stories. With the stories ranked, I could choose the high priority tasks to focus on for the initial MVP. </p>
-        <h3>User flows</h3>
-        <p>Once the highest-priority user stories were defined, I had to transform each into a user flow. Every flow had multiple hand-drawn iterations, drawing inspiration from the user flows analyzed in the competitive analysis. From these drawings, the final flows were chosen by weighing their complexity against the options they provided users, and digitized to maximize their readability. </p>
-        <img src="graphics/user_flow1.png" alt="User flows" class="IAImage">
-        <a href="https://drive.google.com/file/d/1Sc5cfwHx-VLcNmbN6LShS-mhQytn7it7/view?usp=sharing" class="button">Check out User Flows</a>
-        <section class="HighlightWireframes">
-          <h3>Wireframes</h3>
-          <p>After outlining the user flows that needed to be incorporated into the MVP, I began sketching wireframes to experiment with potential layouts. During the initial sketching, I needed to outline multiple layouts, to be able to more easily visually analyze them. The wireframes needed to support each task outlined in the user flows, but also needed to mirror the ‘hub’ commonly found in games. Just like they would in a game, these ‘hub’ pages would serve as the centerpieces from which   most activities could be accessed.</p>
-          <section class="WireframeSketches">
-            <img src="graphics/Dashboard1.jpg" alt="Dashboard sketch" class="IASketch">
-          </section>
-          <p>Once I had a wireframe I was happy with for each necessary screen, I digitized them using Figma.</p>
-          <img src="graphics/digital_wireframe.png" alt="Digitized wireframe" class="IAImage">
-          <a href="https://www.figma.com/file/rmWhQEb7KlJ2LjehOcFuof/Cloud-storage-wireframe" class="button">Digital Wireframes</a>
+      <section id="Discovery_anchor" class="CSSectionHeader">
+        <h2>Discovery</h2>
+        <h3>The client’s idea</h3>
+        <p>Everything started with a client approaching me, website idea in hand. The client wanted to make a cloud storage service, but didn’t have a firm idea of what they wanted it to look like, who they wanted to target, or even what platform to launch on. They had several ideas for what they wanted to include, but weren’t sure which features users would actually respond well to. All this was given to me, to take, research, and ultimately craft their cloud storage service from.</p>
+        <h3>The tools</h3>
+        <section class=ToolLinks>
+          <a href="drive.google.com" target="_blank"><img src="graphics/google_drive_logo.png" alt="Google Drive logo" class="HighlightToolLogo"></a>
+          <a href="www.dropbox.com" target="_blank"><img src="graphics/dropbox_logo.png" alt="Dropbox logo" class="HighlightToolLogo"></a>
+          <a href="www.figma.com" target="_blank"><img src="graphics/figma_logo.png" alt="Figma logo" class="HighlightToolLogo"></a>
+          <a href="usabilityhub.com" target="_blank"><img src="graphics/usabilityhub_logo.png" alt="Usabilityhub logo" class="HighlightToolLogo"></a>
+          <a href="webaim.org" target="_blank"><img src="graphics/webaim_logo.png" alt="WebAIM logo" class="HighlightToolLogo"></a>
+          <a href="www.invisionapp.com" target="_blank"><img src="graphics/invision_logo.png" alt="InVision logo" class="HighlightToolLogo"></a>
         </section>
-
-          <h3>User testing 1</h3>
-          <p>After completing the digital wireframes, I used InVision to compile them into a clickable prototype. With this prototype, I asked a few users to create an account, create a new file, and move a file into a folder. Each tester was able to complete every task successfully, providing invaluable feedback as they did so. Some modifications that came from the testing included:</p>
-        <section class="HighlightCompAnalysis">
-          <section class="HighlightSWOT">
-            <img src="graphics/highlight_user_test_1.png" alt="Highlight landing page screenshot" class="SWOTImage">
-            <p>Reduce the text length on the landing page</p>
-          </section>
-          <section class="HighlightSWOT">
-            <img src="graphics/highlight_user_test_2.png" alt="Highlight new account screenshot" class="SWOTImage">
-            <p>Add screens where the fields have text, as though the user had filled out the fields.</p>
-          </section>
-          <section class="HighlightSWOT">
-            <img src="graphics/highlight_user_test_3.png" alt="Highlight new account screenshot" class="SWOTImage">
-            <p>Make the information appear when the field is selected, not just when the (i) button is selected.</p>
-          </section>
-        </section>
-        <a href="https://invis.io/FZU1O3J26EH#/385224154_Landing_Page" class="button">Wireframe Prototype</a>
-    </section>
-
-    <section ID="VD_anchor" class="VDTop">
-      <h2>Visual Design</h2>
-      <p>With the wireframing done and tested, it was time to focus on Highlight’s brand. Highlight needed a brand that conveyed:</p>
-      <ul>
-        <li>Excitement</li>
-        <li>Victory</li>
-        <li>Energy</li>
-        <li>Pride</li>
-        <li>Gaming</li>
-      </ul>
-    </section>
-
-    <section class="VDMain">
-
-      <h3>Mindmap</h3>
-      <p>To help generate ideas for potential logos, I began with a mind map focused on different types of games.</p>
-      <img src="graphics/Mindmap.jpg" alt="Mindmap photo" class="VDImage">
-
-      <h3>Sketches</h3>
-      <img src="graphics/logo_sketches.png" alt="Logo sketches" class="VDImage">
-      <p>From this mindmap, I began sketching potential logos, exploring the different directions I could take.</p>
-      <section class="HighlightLRFandB">
-        <h3>Logo refinement, fonts, and brandname</h3>
-        <p>From the sketched concepts, I chose both the trophy and the brandname “Highlight”. Both help emphasize the celebration of skillful moments, and encourage users to take pride in their content. To compliment these, I selected two fonts- Orbitron and Gulim. Orbitron helped convey the technical/modern feeling that this gaming-focused brand needed, and helps distinguish the trophy logo from a trophy used for traditional sports. Gulim is a font that is much less tiring to read in large quantities, and as a sans-serif font is easier to read on screens.</p>
-        <p></p>
-        <p>I then used Figma to digitize the logo, trying a variation with each selected font.</p>
-        <img src="graphics/highlight_logos.png" alt="Digitized logos" class="VDImage HighlightLogos">
+        <h3>My role</h3>
+        <p>For this project, it fell to me to do the user research, brainstorming, prototyping, branding, refinement, user testing, and final touches. Each stage of this process also included seeking, receiving, and incorporating feedback from potential users, peers, and/or more experienced designers. Without their invaluable feedback, Highlight would have looked very different, and was greatly improved thanks to all those who offered their feedback.</p>
       </section>
-      <h3>Moodboard</h3>
-      <p>To help convey the theme of the brand, I created a moodboard. I pulled images and colors together to form a collage that would serve to keep me focused on a consistent look and feel throughout the rest of the design. Neon blues and purples were used to help really drive home the gaming theme, and to give the brand the cyber feel that so many games have paid homage to.</p>
-      <img src="graphics/Moodboard.png" alt="Moodboard" class="VDImage">
-    </section>
 
-    <section class="StyleGuide">
-      <h3>Style guide</h3>
-      <p>Finally with all of the branding largely constructed, I put everything into a style guie. This was a guide that dictated logo usage, brandname usage, scaling, brand colors, typography, headings, and buttons.</p>
-      <a href="https://www.figma.com/file/BX4E3PTkbk89FIxJAFBtt2/Cloud-Storage-Style-Guide?node-id=0%3A1" class="button">Full style guide</a>
-      <img src="graphics/style_guide.png" alt="Style guide" class="StyleGuideImage">
-    </section>
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="graphics/chevron-up.png" alt="Back to top button" class="HighlightBTTChevron"></button>
 
-    <img src="graphics/controller.jpg" alt="Xbox controller" class="ControllerImage">
-
-    <section id="PT_anchor" class="ProtoTest">
-      <h2>Protyping and Testing</h2>
-
-        <!-- Slideshow container -->
-        <div class="slideshow-container">
-
-          <!-- Full-width images with number and caption text -->
-          <div class="mySlides fade">
-            <p>The next step was to finally combine the branding with the wireframes, choosing colors and images to fill in previously designated locations. My first draft was very dark, to help the neon lettering and imagery stand out, and to evoke the night mode favored by many who play games late into the night. With this draft, I looked to senior designers for feedback before extrapolating the designs out to similar screens.</p>
-            <img src="graphics/hi_fi1.png" style="width:100%" alt="Initial mockup screenshot" class="ProtoTestImage">
-            <div class="text">The first drafts of the landing page and dashboard</div>
-          </div>
-
-          <div class="mySlides fade">
-            <p>The second draft incorporated a whole swath of changes recommended by senior designers and preference tested users including:.</p>
+      <section class="CSContent">
+        <h3>Competitive analysis</h3>
+        <p>My first task was to analyze the competition. In the cloud storage space, Google Drive and Dropbox are the two biggest players, so I performed a SWOT analysis on these two. As the number one video hosting service, I also checked out YouTube. Each of these three had issues with their platform hower, that could allow for a site like Highlight to break into the market.</p>
+        <section class="CSCompAnalysis">
+          <section class="CSSWOT">
+            <img src="graphics/competition1.png" alt="Google drive dashboard" class="SWOTImage">
             <ul>
-              <li>Shrinking down the logo to better align with modern logo usage.</li>
-              <li>Changing the color of the brandname in the opening line to help emphasize the brandname, in accordance with the results of one of my preference tests (more on this later).</li>
-              <li>Separating hero navigation links with space instead of lines, and changing what links were present.</li>
-              <li>Adding empty space along the sides of the page to more easily scale to different browser widths.</li>
-              <li>Separating each section with additional space to help the page feel less cramped.</li>
-              <li>Adding a neon pink gradient to the middle of the page to make the page less overwhelmingly dark.</li>
-              <li>Adding additional navigation links at the bottom of the page.</li>
-              <li>Shrinking down all the text to better match font sizes used across the web.</li>
+              <li>Google has every incentive to sell data about your content to advertisers.</li>
+              <li>To create non-supported file types, users must install third-party extensions.</li>
+              <li>Mobile app does not natively allow file editing.</li>
             </ul>
-            <img src="graphics/landing_page_2.png" style="width:100%" alt="Second draft screenshot" class="ProtoTestImage">
-            <div class="text">The second draft of the landing page.</div>
-          </div>
-
-          <div class="mySlides fade">
-            <p>The third draft incorporated even more changes as recommended by senior designers.</p>
+          </section>
+          <section class="CSSWOT">
+            <img src="graphics/competition2.png" alt="Dropbox dashboard" class="SWOTImage">
             <ul>
-              <li>Added a call to action button immediately below the first heading.</li>
-              <li>Added additional space between the hero navigation buttons.</li>
-              <li>Removed the teal background behind the login link to make it consistent with the other links.</li>
-              <li>Changed the wording of the opening header to make a clearer call to action.</li>
-              <li>Narrowed the text further down the page to help it feel more in line with the surrounding images.</li>
-              <li>Moved new/upload buttons into sidebar on dashboard</li>
-              <li>Made dashboard sidebar collapsible.</li>
-              <li>Replaced generic text with specific examples (username -> Matka, File 1 -> CotN Review).</li>
+              <li>Dropbox does not make on-site file creation easy to find, or easy to use.</li>
+              <li>Very limited space (3.75GB) is initially offered to store files.</li>
+              <li>File security has been a major issue for quite some time.</li>
             </ul>
-            <img src="graphics/landing_page_3.png" style="width:100%" alt="Third draft screenshot" class="ProtoTestImage">
-            <div class="text">The third draft of the landing page.</div>
-          </div>
-
-          <div class="mySlides fade">
-            <p>The fourth and final draft (viewable in its entirety here) once again incorporated feedback from senior designers and users testing the site (and again, more on the testing in the next section).</p>
+          </section>
+          <section class="CSSWOT">
+            <img src="graphics/competition3.png" alt="Youtube homepage" class="SWOTImage">
             <ul>
-              <li>Added additional call to action buttons below each heading.</li>
-              <li>Changed the wording of the initial heading on the landing page to make it clearer that the site was a cloud storage site due to user testing revealing some confusion as to the purpose of the site upon initial viewing.</li>
-              <li>Modified popup windows:
-                <ul>
-                  <li>Lightened the shading used behind the windows.</li>
-                  <li>Moved text field labels outside the fields to aid accessibility tools.</li>
-                  <li>Removed information buttons.</li>
-                  <li>Summarized information previously hidden behind buttons and added it to the popup.</li>
-                  <li>Added cancel buttons.</li>
-                </ul>
-              </li>
-              <li>Modified text in the sharing options popup to clarify the difference between the submit and done buttons. Also added a line to visually separate the submit and done buttons.</li>
+              <li>Youtube only supports video files.</li>
+              <li>There is no official way to download videos posted by others.</li>
+              <li>There is an overwhelming amount of content uploaded every single day, making finding content difficult.</li>
             </ul>
-            <img src="graphics/highlight_landing.png" style="width:100%" alt="Final draft screenshot" class="ProtoTestImage">
-            <div class="text">The fourth draft of the landing page.</div>
+          </section>
+        </section>
+        <a href="https://docs.google.com/document/d/1tPuZeFazdubcizEGgBPfELwi3_ZMie9fUbJ-1oy1ryk/edit?usp=sharing" class="button">View full SWOT</a>
+        <p>I also analyzed the user flows for these three companies, documenting their onboarding process, content organization methods, and file saving methods. These processes all proved to be reasonably similar to one another, and provided inspiration for Highlight’s onboarding process.</p>
+        <h3>User Survey</h3>
+        <p>The next step was to survey users about a potential gaming-focused cloud storage service. The goals of the survey were to learn what features users thought were important for a cloud storage service, and how they would primarily use such a service. For instance, users were asked which features they wanted to be included:</p>
+        <img src="graphics/survey_graph.png" alt="Survey results" class="DiscoveryImage">
+        <p>Furthermore, respondents were mostly interested in uploading their content to privately share with friends.</p>
+        <img src="graphics/survey_graph2.png" alt="More survey results" class="DiscoveryImage">
+      </section>
+
+      <section id="IA_anchor" class="CSSectionHeader">
+        <h2>Information Architecture</h2>
+        <p>After the survey results, and a few followup interviews with respondents, It was time to create user personas. Both needed to be interested in games to fit into our target audience, so we created Josh a competitive gamer, interested in his stats and improving, and Allie, a community leader looking for a new home for her content. Both were used as reference points throughout the development of Highlight, to help keep the users the focus of the product.</p>
+        <section class="WireframeSketches">
+          <img src="graphics/high_ia_gif.gif" alt="Dashboard sketch" class="ISSIASketch">
+        </section>
+      </section>
+
+      <section class="CSContent">
+            <h3>User testing 1</h3>
+            <p>After completing the digital wireframes, I used InVision to compile them into a clickable prototype. With this prototype, I asked a few users to create an account, create a new file, and move a file into a folder. Each tester was able to complete every task successfully, providing invaluable feedback as they did so. Some modifications that came from the testing included:</p>
+          <section class="CSCompAnalysis">
+            <section class="CSSWOT">
+              <img src="graphics/highlight_user_test_1.png" alt="Highlight landing page screenshot" class="SWOTImage">
+              <p>Reduce the text length on the landing page</p>
+            </section>
+            <section class="CSSWOT">
+              <img src="graphics/highlight_user_test_2.png" alt="Highlight new account screenshot" class="SWOTImage">
+              <p>Add screens where the fields have text, as though the user had filled out the fields.</p>
+            </section>
+            <section class="CSSWOT">
+              <img src="graphics/highlight_user_test_3.png" alt="Highlight new account screenshot" class="SWOTImage">
+              <p>Make the information appear when the field is selected, not just when the (i) button is selected.</p>
+            </section>
+          </section>
+      </section>
+
+      <section ID="VD_anchor" class="CSSectionHeader">
+        <h2>Visual Design</h2>
+        <p>With the wireframing done and tested, it was time to focus on Highlight’s brand. Highlight needed a brand that conveyed:</p>
+        <ul>
+          <li>Excitement</li>
+          <li>Victory</li>
+          <li>Energy</li>
+          <li>Pride</li>
+          <li>Gaming</li>
+        </ul>
+      </section>
+
+      <section class="CSContent">
+
+        <h3>Mindmap</h3>
+        <p>To help generate ideas for potential logos, I began with a mind map focused on different types of games.</p>
+        <img src="graphics/Mindmap.jpg" alt="Mindmap photo" class="VDImage">
+
+        <h3>Sketches</h3>
+        <img src="graphics/logo_sketches.png" alt="Logo sketches" class="VDImage">
+        <p>From this mindmap, I began sketching potential logos, exploring the different directions I could take.</p>
+        <section class="HighlightLRFandB">
+          <h3>Logo refinement, fonts, and brandname</h3>
+          <p>From the sketched concepts, I chose both the trophy and the brandname “Highlight”. Both help emphasize the celebration of skillful moments, and encourage users to take pride in their content. To compliment these, I selected two fonts- Orbitron and Gulim. Orbitron helped convey the technical/modern feeling that this gaming-focused brand needed, and helps distinguish the trophy logo from a trophy used for traditional sports. Gulim is a font that is much less tiring to read in large quantities, and as a sans-serif font is easier to read on screens.</p>
+          <p></p>
+          <p>I then used Figma to digitize the logo, trying a variation with each selected font.</p>
+          <img src="graphics/highlight_logos.png" alt="Digitized logos" class="VDImage HighlightLogos">
+        </section>
+        <h3>Moodboard</h3>
+        <p>To help convey the theme of the brand, I created a moodboard. I pulled images and colors together to form a collage that would serve to keep me focused on a consistent look and feel throughout the rest of the design. Neon blues and purples were used to help really drive home the gaming theme, and to give the brand the cyber feel that so many games have paid homage to.</p>
+        <img src="graphics/Moodboard.png" alt="Moodboard" class="VDImage">
+      </section>
+
+      <section class="CSContent">
+        <h3>Style guide</h3>
+        <p>Finally with all of the branding largely constructed, I put everything into a style guie. This was a guide that dictated logo usage, brandname usage, scaling, brand colors, typography, headings, and buttons.</p>
+        <a href="https://www.figma.com/file/BX4E3PTkbk89FIxJAFBtt2/Cloud-Storage-Style-Guide?node-id=0%3A1" class="button">View full style guide</a>
+        <img src="graphics/style_guide.png" alt="Style guide" class="StyleGuideImage">
+      </section>
+
+      <section id="PT_anchor" class="CSSectionHeader">
+        <h2>Protyping and Testing</h2>
+      </section>
+
+      <section class="CSContent">
+          <!-- Slideshow container -->
+          <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <p>The next step was to finally combine the branding with the wireframes, choosing colors and images to fill in previously designated locations. My first draft was very dark, to help the neon lettering and imagery stand out, and to evoke the night mode favored by many who play games late into the night. With this draft, I looked to senior designers for feedback before extrapolating the designs out to similar screens.</p>
+              <img src="graphics/hi_fi1.png" style="width:100%" alt="Initial mockup screenshot" class="ProtoTestImage">
+              <div class="text">The first drafts of the landing page and dashboard</div>
+            </div>
+
+            <div class="mySlides fade">
+              <p>The second draft incorporated a whole swath of changes recommended by senior designers and preference tested users including:.</p>
+              <ul>
+                <li>Shrinking down the logo to better align with modern logo usage.</li>
+                <li>Changing the color of the brandname in the opening line to help emphasize the brandname, in accordance with the results of one of my preference tests (more on this later).</li>
+                <li>Separating hero navigation links with space instead of lines, and changing what links were present.</li>
+                <li>Adding empty space along the sides of the page to more easily scale to different browser widths.</li>
+                <li>Separating each section with additional space to help the page feel less cramped.</li>
+                <li>Adding a neon pink gradient to the middle of the page to make the page less overwhelmingly dark.</li>
+                <li>Adding additional navigation links at the bottom of the page.</li>
+                <li>Shrinking down all the text to better match font sizes used across the web.</li>
+              </ul>
+              <img src="graphics/landing_page_2.png" style="width:100%" alt="Second draft screenshot" class="ProtoTestImage">
+              <div class="text">The second draft of the landing page.</div>
+            </div>
+
+            <div class="mySlides fade">
+              <p>The third draft incorporated even more changes as recommended by senior designers.</p>
+              <ul>
+                <li>Added a call to action button immediately below the first heading.</li>
+                <li>Added additional space between the hero navigation buttons.</li>
+                <li>Removed the teal background behind the login link to make it consistent with the other links.</li>
+                <li>Changed the wording of the opening header to make a clearer call to action.</li>
+                <li>Narrowed the text further down the page to help it feel more in line with the surrounding images.</li>
+                <li>Moved new/upload buttons into sidebar on dashboard</li>
+                <li>Made dashboard sidebar collapsible.</li>
+                <li>Replaced generic text with specific examples (username -> Matka, File 1 -> CotN Review).</li>
+              </ul>
+              <img src="graphics/landing_page_3.png" style="width:100%" alt="Third draft screenshot" class="ProtoTestImage">
+              <div class="text">The third draft of the landing page.</div>
+            </div>
+
+            <div class="mySlides fade">
+              <p>The fourth and final draft (viewable in its entirety here) once again incorporated feedback from senior designers and users testing the site (and again, more on the testing in the next section).</p>
+              <ul>
+                <li>Added additional call to action buttons below each heading.</li>
+                <li>Changed the wording of the initial heading on the landing page to make it clearer that the site was a cloud storage site due to user testing revealing some confusion as to the purpose of the site upon initial viewing.</li>
+                <li>Modified popup windows:
+                  <ul>
+                    <li>Lightened the shading used behind the windows.</li>
+                    <li>Moved text field labels outside the fields to aid accessibility tools.</li>
+                    <li>Removed information buttons.</li>
+                    <li>Summarized information previously hidden behind buttons and added it to the popup.</li>
+                    <li>Added cancel buttons.</li>
+                  </ul>
+                </li>
+                <li>Modified text in the sharing options popup to clarify the difference between the submit and done buttons. Also added a line to visually separate the submit and done buttons.</li>
+              </ul>
+              <img src="graphics/highlight_landing.png" style="width:100%" alt="Final draft screenshot" class="ProtoTestImage">
+              <div class="text">The fourth draft of the landing page.</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)"><img src="graphics/chevron_right.png" alt="Scroll carousel button"></a>
+            <a class="next" onclick="plusSlides(1)"><img src="graphics/chevron_left.png" alt="Scroll carousel button"></a>
+
           </div>
 
-          <a class="prev" onclick="plusSlides(-1)"><img src="graphics/chevron_right.png" alt="Scroll carousel button"></a>
-          <a class="next" onclick="plusSlides(1)"><img src="graphics/chevron_left.png" alt="Scroll carousel button"></a>
-
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
         </div>
-
-      <!-- The dots/circles -->
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-      </div>
-      <section class="HighlightUserTesting2">
-        <h3>User testing 2</h3>
-        <p>While working on the high fidelity mockups, it was necessary to conduct several preference tests. I asked users their preferences on button placement, icon colors, headings, and brandname placement. These tests were performed to determine which variants of elements users favored.</p>
-        <p>Additionally, these screens were compiled into a clickable prototype (viewable here), to test users’ comfort when performing common tasks. Testers were asked to create an account, add a new file, and give a friend editing permissions for a file. The changes implemented from this testing included:</p>
-        <section class="HighlightCompAnalysis">
-          <section class="HighlightSWOT">
-            <a href="graphics/highlight_user_testing_2_1.png" target="_blank"><img src="graphics/highlight_user_testing_2_1.png" alt="Highlight share file screenshot" class="SWOTImage"></a>
-            <p>Clarified the difference between the "Add editors" and "Additional editors" actions.</p>
+          <h3>User testing 2</h3>
+          <p>While working on the high fidelity mockups, it was necessary to conduct several preference tests. I asked users their preferences on button placement, icon colors, headings, and brandname placement. These tests were performed to determine which variants of elements users favored.</p>
+          <p>Additionally, these screens were compiled into a clickable prototype (viewable here), to test users’ comfort when performing common tasks. Testers were asked to create an account, add a new file, and give a friend editing permissions for a file. The changes implemented from this testing included:</p>
+          <section class="CSCompAnalysis">
+            <section class="CSSWOT">
+            <img src="graphics/highlight_user_testing_2_1.png" alt="Highlight share file screenshot" class="SWOTImage">
+              <p>Clarified the difference between the "Add editors" and "Additional editors" actions.</p>
+            </section>
+            <section class="CSSWOT">
+              <img src="graphics/highlight_user_testing_2_2.png" alt="Highlight landing page screenshot" class="SWOTImage">
+              <p>Made clearer that the site was a cloud storage site.</p>
+            </section>
+            <section class="CSSWOT">
+            <img src="graphics/highlight_user_testing_2_3.png" alt="Highlight dashboard screenshot" class="SWOTImage">
+              <p>Renamed "Reset password" button to "Change password" button</p>
+            </section>
           </section>
-          <section class="HighlightSWOT">
-            <a href="graphics/highlight_user_testing_2_2.png" target="_blank"><img src="graphics/highlight_user_testing_2_2.png" alt="Highlight landing page screenshot" class="SWOTImage"></a>
-            <p>Made clearer that the site was a cloud storage site.</p>
-          </section>
-          <section class="HighlightSWOT">
-            <a href="graphics/highlight_user_testing_2_3.png" target="_blank"><img src="graphics/highlight_user_testing_2_3.png" alt="Highlight dashboard screenshot" class="SWOTImage"></a>
-            <p>Renamed "Reset password" button to "Change password" button</p>
-          </section>
-        </section>
       </section>
-    </section>
 
-    <section class="Conclusion">
-      <h2>Conclusion</h2>
-      <p>After many weeks of researching, testing, designing, and modifying, Highlight has gone from an idea to the cloud storage site it is now.</p>
-      <h3>What did and did not work?</h3>
-      <p>Initially, everything was oversized- the text, images, and content was taking up too much of the screen. Scaling everything down, and pulling it more towards the center of the screen helped make everything much more usable.</p>
-      <p>Leaving space at the sides accommodates a wider variety of browser widths, making frontend’s job much easier.</p>
-      <p>The dark backgrounds definitely help the vibrant colors have the impact they are meant to. However, overusing them, as I initially did, can make the pages feel overwhelming, and drown out the bright elements that are meant to shine.</p>
-      <h3>Moving forward</h3>
-      <p>Should I have more time to work on this project, I would add additional features.</p>
-      <ul>
-        <li>A home page to browse popular public posts.</li>
-        <li>A way to connect to other users to prioritize select users’ content.</li>
-        <li>A search function to quickly find not only their own content, but content that their connections had made public.</li>
-        <li>A fleshed-out mobile version of this app could help expand the userbase into the console gaming space.</li>
-        <li>Additional content visibility controls, so that only users you had connected with could view a particular piece of content.</li>
-      </ul>
-      <h3>Final Thoughts</h3>
-      <p>At the end of the day, I enjoyed growing Highlight from a few paper sketches into something that could be made into a real, usable site. Having come from an engineering background, the best part of any project is seeing the final product, and knowing that you had a part in building what used to only exist inside your head into reality. I’m glad I had the opportunity to create this, and look forward to the next idea I can mold into something real.</p>
-    </section>
+      <section class="CSSectionHeader">
+        <h2>Conclusion</h2>
+        <p>After many weeks of researching, testing, designing, and modifying, Highlight has gone from an idea to the cloud storage site it is now.</p>
+        <h3>What did and did not work?</h3>
+        <p>Initially, everything was oversized- the text, images, and content was taking up too much of the screen. Scaling everything down, and pulling it more towards the center of the screen helped make everything much more usable.</p>
+        <p>Leaving space at the sides accommodates a wider variety of browser widths, making frontend’s job much easier.</p>
+        <p>The dark backgrounds definitely help the vibrant colors have the impact they are meant to. However, overusing them, as I initially did, can make the pages feel overwhelming, and drown out the bright elements that are meant to shine.</p>
+        <h3>Moving forward</h3>
+        <p>Should I have more time to work on this project, I would add additional features.</p>
+        <ul>
+          <li>A home page to browse popular public posts.</li>
+          <li>A way to connect to other users to prioritize select users’ content.</li>
+          <li>A search function to quickly find not only their own content, but content that their connections had made public.</li>
+          <li>A fleshed-out mobile version of this app could help expand the userbase into the console gaming space.</li>
+          <li>Additional content visibility controls, so that only users you had connected with could view a particular piece of content.</li>
+        </ul>
+        <h3>Final Thoughts</h3>
+        <p>At the end of the day, I enjoyed growing Highlight from a few paper sketches into something that could be made into a real, usable site. Having come from an engineering background, the best part of any project is seeing the final product, and knowing that you had a part in building what used to only exist inside your head into reality. I’m glad I had the opportunity to create this, and look forward to the next idea I can mold into something real.</p>
+      </section>
+    </article>
 
     <section class="prefooter">
       <section class="prefootertext">

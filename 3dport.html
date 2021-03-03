@@ -12,8 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
   </head>
 
-  <body class="AboutBody2">
-
+  <body class="CaseStudyBody">
     <section class="AboutBody">
 
       <header>
@@ -42,51 +41,55 @@
       </header>
     </section>
 
-    <section class="Content3D">
+    <article class="CaseStudyContents">
+      <section class="Content3D">
 
-      <h1>An Interactive Portfolio</h1>
+        <h1>An Interactive Portfolio</h1>
 
-      <iframe class="WalkthroughVid" src="https://www.youtube.com/embed/UUfkQ0CdQWY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="WalkthroughVid DesktopOnly" src="https://www.youtube.com/embed/UUfkQ0CdQWY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-      <section class="WalkthroughButton MobileOnly">
-        <a href=https://youtu.be/UUfkQ0CdQWY target="_blank" class="button">Watch a walkthrough</a>
-      </section>
+        <section class="WalkthroughButton MobileOnly">
+          <a href=https://youtu.be/UUfkQ0CdQWY target="_blank" class="button">Watch a walkthrough</a>
+        </section>
 
-      <section class="WalkthroughButton">
-        <a href=https://harbingersmark.itch.io/3d-portfolio target="_blank" class="button">Download the full portfolio</a>
-      </section>
-
-      <section class="Text3D">
-        <h3>Overview</h3>
-        <p>Shown in the video, and downloadable through the link above, I created an interactive alternative to the more standard html-based portfolio (like the one you are currently perusing). Select a case study to watch, view examples of my works in progress, and learn a bit about my backstory at your pace, as you walk through a virtual apartment of my own construction.</p>
-        <h3>Tools</h3>
-        <a href="https://www.unrealengine.com/en-US/blog/unreal-engine-4-25-released" target="_blank">
-          <img src="graphics/unreal_engine_4_logo.png" alt="Unreal Engine link" class="HighlightToolLogo">
-        </a>
-        <a href="https://www.blender.org/" target="_blank">
-          <img src="graphics/blender_logo.png" alt="Blender link" class="HighlightToolLogo">
-        </a>
-        <h3>V1.0</h3>
-        <p>Initially when I had the idea to create an interactive portfolio, I had no idea how to create my own models. This limitation brought about a fairly standard-looking apartment, filled with objects I could find for free. While this did work, I felt that the apartment didn't fit the asthetic I would have liked.</p>
-        <img src="graphics/3dpv1.jpg" alt="3d portfolio iteration 1" class="ISSOpener">
-        <p>Additionally, the interactive elements all depended on being hit by the invisible balls sent out by the player. While this did work, there was a small delay between pressing the key and the object responding. It was also possible to walk into an object's hitbox, and accidentally trigger its associated event. For version 2.0, I decided to change this.</p>
-        <br></br>
-        <p>The final hurdle that pushed me to rebuild the whole experiance was the discovery that UE 4.25 could not output content for HTML without some extremely dedicated modifications to the engine. After several weeks of trying to work around this limitation, I decided it would be easier to start over in an older version of Unreal- one that did natively support HTML output.</p>
-        <h3>V2.0</h3>
-        <img src="graphics/3dpv2arcade.jpg" alt="Building in Blender" class="ISSOpener">
-        <p>After watching and reading too many tutorials for Blender and Unreal, it was time to start building the new apartment. I chose a cyberpunk theme since I felt it matched the look and feel of my html portfolio (what you're reading right now- for which I thank you). </p>
-        <img src="graphics/line_trace.png" alt="line tracing" class="ISSOpener">
-        <p>I also overhauled how the player would interact with the various elements in the game. Running a line trace whenever the player pressed the corresponding key removed the accidental interactions of the previous version. Additionally, I made interactable objects glow whenever the player looked at them, helping improve the user experiance.</p>
-        <h3>So what now?</h3>
-        <p>The next big goal is to get this experiance working in-browser; as that was the entire reason to downgrade UE4. Naturally, accomplishing that is coming with its own set of challenges (UE 4.23 packing 200 MB of extra data into your output to name one), but I'm currently exploring a few solutions to that problem.</p>
-        <img src="graphics/git_file_size.png" alt="line tracing" class="DiscoveryImage">
-        <p>After that, I plan to add more ways to interact with this digital apartment. It's been really fun coming up with different ways to present my various efforts, and I am by no means done updating this. If you have a cool idea, or just want to share your thoughts, please reach out using the buttons below! I'd love to hear your feedback.</p>
         <section class="WalkthroughButton">
-          <a href="mailto:melrod8@gmail.com" target="_blank" class="button">This is so cool!</a>
-          <a href="mailto:melrod8@gmail.com" target="_blank" class="button">Needs a centaur.</a>
+          <a href=https://harbingersmark.itch.io/3d-portfolio target="_blank" class="button">Download the full portfolio</a>
+        </section>
+
+        <section class="CSContent">
+          <h3>Overview</h3>
+          <p>Shown in the video, and downloadable through the link above, I created an interactive alternative to the more standard html-based portfolio (like the one you are currently perusing). Select a case study to watch, view examples of my works in progress, and learn a bit about my backstory at your pace, as you walk through a virtual apartment of my own construction.</p>
+          <h3>Tools</h3>
+          <section class=ToolLinks>
+            <a href="https://www.unrealengine.com/en-US/blog/unreal-engine-4-25-released" target="_blank">
+              <img src="graphics/unreal_engine_4_logo.png" alt="Unreal Engine link" class="HighlightToolLogo">
+            </a>
+            <a href="https://www.blender.org/" target="_blank">
+              <img src="graphics/blender_logo.png" alt="Blender link" class="HighlightToolLogo">
+            </a>
+          </section>
+          <h3>V1.0</h3>
+          <p>Initially when I had the idea to create an interactive portfolio, I had no idea how to create my own models. This limitation brought about a fairly standard-looking apartment, filled with objects I could find for free. While this did work, I felt that the apartment didn't fit the asthetic I would have liked.</p>
+          <img src="graphics/3dpv1.jpg" alt="3d portfolio iteration 1" class="ISSOpener">
+          <p>Additionally, the interactive elements all depended on being hit by the invisible balls sent out by the player. While this did work, there was a small delay between pressing the key and the object responding. It was also possible to walk into an object's hitbox, and accidentally trigger its associated event. For version 2.0, I decided to change this.</p>
+          <br></br>
+          <p>The final hurdle that pushed me to rebuild the whole experiance was the discovery that UE 4.25 could not output content for HTML without some extremely dedicated modifications to the engine. After several weeks of trying to work around this limitation, I decided it would be easier to start over in an older version of Unreal- one that did natively support HTML output.</p>
+          <h3>V2.0</h3>
+          <img src="graphics/3dpv2arcade.jpg" alt="Building in Blender" class="ISSOpener">
+          <p>After watching and reading too many tutorials for Blender and Unreal, it was time to start building the new apartment. I chose a cyberpunk theme since I felt it matched the look and feel of my html portfolio (what you're reading right now- for which I thank you). </p>
+          <img src="graphics/line_trace.png" alt="line tracing" class="ISSOpener">
+          <p>I also overhauled how the player would interact with the various elements in the game. Running a line trace whenever the player pressed the corresponding key removed the accidental interactions of the previous version. Additionally, I made interactable objects glow whenever the player looked at them, helping improve the user experiance.</p>
+          <h3>So what now?</h3>
+          <p>The next big goal is to get this experiance working in-browser; as that was the entire reason to downgrade UE4. Naturally, accomplishing that is coming with its own set of challenges (UE 4.23 packing 200 MB of extra data into your output to name one), but I'm currently exploring a few solutions to that problem.</p>
+          <img src="graphics/git_file_size.png" alt="line tracing" class="DiscoveryImage">
+          <p>After that, I plan to add more ways to interact with this digital apartment. It's been really fun coming up with different ways to present my various efforts, and I am by no means done updating this. If you have a cool idea, or just want to share your thoughts, please reach out using the buttons below! I'd love to hear your feedback.</p>
+          <section class="WalkthroughButton">
+            <a href="mailto:melrod8@gmail.com" target="_blank" class="button">This is so cool!</a>
+            <a href="mailto:melrod8@gmail.com" target="_blank" class="button">Needs a centaur.</a>
+          </section>
         </section>
       </section>
-    </section>
+    </article>
 
     <section class="prefooter">
       <section class="prefootertext">

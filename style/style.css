@@ -345,6 +345,26 @@ header {
   transform: none;
 }
 
+.DesktopOnly {
+  display: none;
+}
+
+.CaseStudyContents {
+  background-color: #ffffff;
+}
+
+.CaseStudyContents b {
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.CaseStudyContents ul {
+  list-style-type: disc;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  line-height: 1.5em;
+}
+
 .AboutBody {
   background-color: #E1E8F0;
   background-image: url(../graphics/mobile_top_graphic.png);
@@ -355,32 +375,12 @@ header {
   float: none;
 }
 
-.Content3D h1 {
-  font-family: "Sans Serif", sans-serif;
-  font-size: 42.66px;
-  font-weight: 500;
-  margin-top: 30px;
-  text-align: center;
-}
-
 .Content3D {
-  background-color: rgba(225,239,246,.95);
-  font-size: 24px;
-  font-family: "Oxygen", sans-serif;
-  line-height: 1.5em;
   padding-left: 8.33%;
   padding-top: 80px;
   padding-bottom: 50px;
   padding-right: 8.33%;
   width: 83.33%;
-}
-
-.Content3D h3 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 29.33px;
-  line-height: 150%;
-  margin-bottom: 35px;
-  margin-top: 50px;
 }
 
 .Text3D {
@@ -402,7 +402,6 @@ header {
 
 .WalkthroughButton {
   text-align: center;
-  background-color: rgba(225,239,246,.95);
 }
 
 .ProjectListBackground {
@@ -455,29 +454,6 @@ header {
 }
 
 /*highlight general*/
-.HighlightCaseStudyBody {
-  background-color: #E1E8F0;
-  font-family: "Oxygen", sans-serif;
-  font-size: 21.33px;
-  line-height: 150%;
-  /*background-color: #E1E8F0;*/
-}
-
-.HighlightCaseStudyBody h3 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 29.33px;
-  line-height: 150%;
-  margin-bottom: 35px;
-  margin-top: 50px;
-}
-
-.HighlightCaseStudyBody h2 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 26.66px;
-  text-align: center;
-}
 
 .DesktopTOC {
   display: none;
@@ -493,57 +469,9 @@ header {
   display: block;
 }
 
-.opening {
-  background-color: #DEF2FE;
-  padding-bottom: 50px;
-  padding-left: 8.33%;
-  padding-right: 8.33%;
-  padding-top: 25px;
-}
-
-.opening p {
-  padding-bottom: 10px;
-}
-
-.opening a {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  max-width: 320px;
-}
-
 .opening h1 {
   border-bottom: 2px solid #002938;
   padding-bottom: 10px;
-}
-
-.opening2 {
-  background-color: #ffffff;
-  padding-bottom: 50px;
-  padding-left: 8.33%;
-  padding-right: 8.33%;
-  padding-top: 25px;
-}
-
-.opening2 p {
-  padding-bottom: 10px;
-}
-
-.opening h1 {
-  font-family: "Orbitron", sans-serif;
-  font-size: 42.66px;
-  font-weight: 500;
-  margin-top: 30px;
-  text-align: center;
-}
-
-.opening span {
-  background-color: #18EBED;
-  border-top: 2px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  width: 100%;
 }
 
 .ToolLinks {
@@ -556,12 +484,6 @@ header {
 .HighlightToolLogo {
   width: 40px;
   padding: 15px;
-}
-
-.HighlightOpener {
-  margin-bottom: 50px;
-  margin-top: 50px;
-  width: 100%;
 }
 
 /*Back to Top button*/
@@ -587,40 +509,7 @@ header {
   background-color: #0B8889; /* Add a dark-grey background on hover */
 }
 
-/*Highlight Discovery*/
-.DiscoveryTop {
-  background-color: #D3ECFC;
-  background-image: url(../graphics/Discovery_BG.png);
-  background-position: center;
-  background-position: top;
-  background-repeat: no-repeat;
-  padding-bottom: 25px;
-  padding-left: 8.33%;
-  padding-top: 25px;
-  padding-right: 8.33%;
-}
-
-.DiscoveryTop p {
-  padding-bottom: 10px;
-}
-
-.Discovery2 {
-  padding-top: 25px;
-  padding-left: 8.33%;
-  padding-right: 8.33%;
-  width: 83.33%;
-  background-color: #ffffff;
-}
-
-.Discovery2 a {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  max-width: 230px;
-}
-
-.HighlightSWOT {
+.CSSWOT {
   border-width: 2px;
   border-style: solid;
   border-color: #E1E8F0;
@@ -629,12 +518,12 @@ header {
   padding-bottom: 10px;
 }
 
-.HighlightSWOT p {
+.CSSWOT p {
   padding-left: 8.33%;
   padding-right: 8.33%;
 }
 
-.HighlightSWOT ul{
+.CSSWOT ul{
   list-style-type: square;
   padding-left: 8.33%;
   padding-right: 8.33%;
@@ -654,131 +543,7 @@ header {
   width: 100%;
 }
 
-/*Highlight IA*/
-.IATop {
-  background-color: #D3ECFC;
-  background-image: url(../graphics/IA_BG.png);
-  background-position: center;
-  background-position: top;
-  background-repeat: no-repeat;
-  padding-bottom: 25px;
-  padding-left: 8.33%;
-  padding-right: 8.33%;
-  padding-top: 25px;
-}
-
-.HighlightPersona {
-  line-height: 150%;
-  padding-bottom: 25px;
-  padding-left: 8.33%;
-  padding-right: 8.33%;
-  padding-top: 25px;
-  width: 83.33%;
-}
-
-.HighlightPersona b {
-  font-weight: bold;
-  line-height: 2em;
-}
-
-.HighlightPersona li {
-  list-style-type: decimal;
-  margin-left: 40px;
-  margin-top: 5px;
-  padding-left: 5px;
-}
-
-.HighlightPersona1 {
-  background-color: #DEF2FE;
-  border-bottom-color: #002532;
-  border-bottom-width: 5px;
-  border-bottom-style: solid;
-}
-
-.HighlightPersona2 {
-  background-color: #DEF2FE;
-  border-top-color: #002532;
-  border-top-width: 5px;
-  border-top-style: solid;
-}
-
-.PersonaPortrait {
-  width: 221px;
-}
-
-.IAMain {
-  background-color: #ffffff;
-  line-height: 150%;
-  padding-bottom: 25px;
-  padding-left: 8.33%;
-  padding-right: 8.33%;
-  padding-top: 25px;
-}
-
-.IAMain a {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  max-width: 230px;
-}
-
-.IAImage {
-  margin-bottom: 20px;
-  margin-top: 20px;
-  width: 100%;
-  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 7px 21px 0 rgba(0, 0, 0, 0.19);
-}
-
-.HighlightWireframes {
-  background-color: #DEF2FE;
-  width: 83.33vw;
-  padding-left: 8.33vw;
-  padding-right: 8.33vw;
-  margin-left: -8.33vw;
-  margin-right: -8.33vw;
-  padding-bottom: 20px;
-}
-
-.WireframeSketches {
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-.IASketch {
-  width: 100%;
-}
-
-.IAMain ul {
-  list-style-type: circle;
-  margin-bottom: 20px;
-  margin-left: 40px;
-  margin-top: 20px;
-  padding-left: 5px;
-}
-
-/*Highlight Visual Design*/
-.VDTop {
-  background-color: #D3ECFC;
-  background-image: url(../graphics/branding_bg.png);
-  background-position: center;
-  background-position: top;
-  background-repeat: no-repeat;
-  padding-bottom: 25px;
-  padding-left: 8.33%;
-  padding-right: 8.33%;
-  padding-top: 25px;
-}
-
-.VDTop ul {
-  list-style-type: circle;
-  margin-bottom: 20px;
-  margin-left: 40px;
-  margin-top: 20px;
-  padding-left: 5px;
-}
-
-.VDMain {
+.CSContent {
   background-color: #ffffff;
   line-height: 1.5em;
   padding-bottom: 25px;
@@ -797,18 +562,6 @@ header {
   border-style: solid;
   border-width: 3px;
   border-color: #E5E5E5;
-}
-
-.HighlightLRFandB {
-  background-color: #DEF2FE;
-  margin-left: -8.33vw;
-  padding-left: 8.33%;
-  margin-right: -8.33vw;
-  padding-right: 8.33%;
-}
-
-.HighlightLRFandB p{
-  padding-bottom: 10px;
 }
 
 .StyleGuide {
@@ -901,7 +654,7 @@ header {
 }
 
 /*Iron Silver Salt general*/
-.IronSilverSaltCaseStudyBody {
+.CaseStudyBody {
   background-color: #E1E8F0;
   font-family: "Oxygen", sans-serif;
   font-size: 21.33px;
@@ -909,7 +662,7 @@ header {
   /*background-color: #E1E8F0;*/
 }
 
-.IronSilverSaltCaseStudyBody h3 {
+.CaseStudyBody h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 29.33px;
   line-height: 150%;
@@ -917,7 +670,7 @@ header {
   margin-top: 50px;
 }
 
-.IronSilverSaltCaseStudyBody h2 {
+.CaseStudyBody h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -927,19 +680,19 @@ header {
 
 /*Iron Silver Salt opening*/
 
-.ISSopening {
-  background-color: #DEF2FE;
+.CSopening {
+  background-color: #ffffff;
   padding-bottom: 50px;
   padding-left: 8.33%;
   padding-right: 8.33%;
   padding-top: 25px;
 }
 
-.ISSopening p {
+.CSopening p {
   padding-bottom: 10px;
 }
 
-.ISSopening a {
+.CSopening a {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -947,14 +700,14 @@ header {
   max-width: 320px;
 }
 
-.ISSopening ol {
+.CSopening ol {
   list-style-type: decimal;
   padding-left: 30px;
   line-height: 160%;
   padding-bottom: 15px;
 }
 
-.ISSopening h1 {
+.CaseStudyContents h1 {
   border-bottom: 2px solid #002938;
   padding-bottom: 10px;
   line-height: 1.3em;
@@ -967,7 +720,7 @@ header {
   width: 100%;
 }
 
-.ISSopening2 {
+.CSopening2 {
   background-color: #ffffff;
   padding-bottom: 50px;
   padding-left: 8.33%;
@@ -975,7 +728,7 @@ header {
   padding-top: 25px;
 }
 
-.ISSopening2 p {
+.CSopening2 p {
   padding-bottom: 10px;
 }
 
@@ -983,7 +736,7 @@ header {
   display: none;
 }
 
-.ISSopening h1 {
+.CaseStudyContents h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 42.66px;
   font-weight: 500;
@@ -991,8 +744,8 @@ header {
   text-align: center;
 }
 
-.ISSopening span {
-  background-color: #18EBED;
+.CSopening span {
+  background-color: #ffffff;
   border-top: 2px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -1000,49 +753,15 @@ header {
 }
 
 /*Iron Silver Salt Discovery*/
-.ISSDiscoveryTop {
-  background-color: #D3ECFC;
-  background-image: url(../graphics/iss_header_bg.jpg);
-  background-position: center;
-  background-position: top;
-  background-repeat: no-repeat;
-  padding-bottom: 25px;
+.CSSectionHeader {
+  padding-bottom: 20px;
   padding-left: 8.33%;
   padding-top: 25px;
   padding-right: 8.33%;
 }
 
-.ISSDiscoveryTop p {
+.CSSectionHeader p {
   padding-bottom: 10px;
-}
-
-.ISSDiscovery2 {
-  padding-top: 25px;
-  padding-left: 8.33%;
-  padding-right: 8.33%;
-  width: 83.33%;
-  background-color: #ffffff;
-}
-
-.ISSDiscovery2 a {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  max-width: 230px;
-}
-
-/*Iron Silver Salt IA*/
-.ISSIATop {
-  background-color: #D3ECFC;
-  background-image: url(../graphics/iss_header_bg.jpg);
-  background-position: center;
-  background-position: top;
-  background-repeat: no-repeat;
-  padding-bottom: 25px;
-  padding-left: 8.33%;
-  padding-right: 8.33%;
-  padding-top: 25px;
 }
 
 .ISSPersona {
@@ -1057,16 +776,6 @@ header {
   width: 221px;
 }
 
-.HighlightWireframes {
-  background-color: #DEF2FE;
-  width: 83.33vw;
-  padding-left: 8.33vw;
-  padding-right: 8.33vw;
-  margin-left: -8.33vw;
-  margin-right: -8.33vw;
-  padding-bottom: 20px;
-}
-
 .WireframeSketches {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -1075,14 +784,6 @@ header {
 .ISSIASketch {
   width: 100%;
   box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 7px 21px 0 rgba(0, 0, 0, 0.19);
-}
-
-.IAMain ul {
-  list-style-type: circle;
-  margin-bottom: 20px;
-  margin-left: 40px;
-  margin-top: 20px;
-  padding-left: 5px;
 }
 
 .ISSUserStories {
@@ -1101,25 +802,12 @@ header {
   max-width: 320px;
 }
 
-/*Iron Silver Salt Visual Design*/
-.ISSVDTop {
-  background-color: #D3ECFC;
-  background-image: url(../graphics/iss_header_bg.jpg);
-  background-position: center;
-  background-position: top;
-  background-repeat: no-repeat;
-  padding-bottom: 25px;
-  padding-left: 8.33%;
-  padding-right: 8.33%;
-  padding-top: 25px;
-}
-
 .StyleGuideImage {
   margin-top: 20px;
   width: 100%;
 }
 
-.VDMain a {
+.CSContent a {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1164,19 +852,6 @@ header {
 
 .ISSTestingChange b {
   font-weight: bold;
-}
-
-/*Iron Silver Salt Conclusion*/
-.ISSConclusion {
-  background-color: #D3ECFC;
-  background-image: url(../graphics/iss_header_bg.jpg);
-  background-position: center;
-  background-position: top;
-  background-repeat: no-repeat;
-  padding-bottom: 25px;
-  padding-left: 8.33%;
-  padding-right: 8.33%;
-  padding-top: 50px;
 }
 
 /*Footer stuff*/
@@ -1267,30 +942,6 @@ footer {
   max-width: 400px;
 }
 
-.trgfLevelDesign {
-  padding-top: 25px;
-  padding-left: 8.33%;
-  padding-right: 8.33%;
-  width: 83.33%;
-  background-color: #ffffff;
-}
-
-.trgfDecisions {
-  padding-bottom: 25px;
-  padding-left: 8.33%;
-  padding-right: 8.33%;
-  padding-top: 25px;
-  width: 83.34vw;
-  background-color: #ffffff;
-}
-
-.trgfDecisions ul {
-  list-style-type: disc;
-  padding-left: 8.33%;
-  padding-top: 10px;
-  line-height: 160%;
-}
-
 .trgf_dev_screen {
   width: 83.33vw;
 }
@@ -1373,6 +1024,10 @@ width: 100%;
   .button:hover {
     background-color: #0B8889;
     color: #ffffff;
+  }
+
+  .DesktopOnly {
+    .display: flex;
   }
 
   /* Featured Project Cards*/
@@ -1539,7 +1194,7 @@ width: 100%;
     padding: 15px;
   }
 
-  .ISSopening ol {
+  .CSopening ol {
     padding-left: 60px;
   }
 
@@ -1590,14 +1245,6 @@ width: 100%;
     padding-left: 25px;
   }
 
-  .trgfLevelDesign {
-    padding-top: 25px;
-    padding-left: 8.33%;
-    padding-right: 8.33%;
-    width: 83.33%;
-    background-color: #ffffff;
-  }
-
 }
 
 /*for computers*/
@@ -1618,6 +1265,10 @@ width: 100%;
   .banner h2 {
     width: 450px;
     text-align: center;
+  }
+
+  .DesktopOnly {
+    .display: flex;
   }
 
   /*Home Page*/
@@ -1947,24 +1598,6 @@ width: 100%;
     display: none;
   }
 
-  /*highlight general*/
-  .HighlightCaseStudyBody {
-    background-color: #E1E8F0;
-    font-size: 24px;
-  }
-
-  .HighlightCaseStudyBody h3 {
-    font-size: 32px;
-    font-weight: 500;
-  }
-
-  .HighlightCaseStudyBody h2 {
-    font-size: 37.33px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
   .DesktopTOC {
     align-items: center;
     background-image: linear-gradient(to right, #092B3D , #051C29);
@@ -1994,42 +1627,6 @@ width: 100%;
     text-decoration: underline;
   }
 
-  /*highlight opening*/
-  .opening {
-    padding-top: 45px;
-    padding-left: 25.33%;
-    padding-right: 25.33%;
-    width: 49.3%;
-  }
-
-  .opening h1 {
-    border-bottom: 2px solid #002938;
-    padding-bottom: 10px;
-  }
-
-  .opening2 {
-    background-color: #ffffff;
-    margin-bottom: 0px;
-    padding-left: 25.35%;
-    padding-right: 25.35%;
-    padding-bottom: 50px;
-    padding-top: 25px;
-    width: 49.3%;
-  }
-
-  .HighlightProblemHeader {
-    margin-left: -30%;
-    font-size: 50px !important;
-    font-weight: 600 !important;
-  }
-
-  .HighlightProblemText {
-    font-size: 40px;
-    line-height: 1.5em;
-    margin-left: -30%;
-    margin-right: -30%;
-  }
-
   .opening h1 {
     font-size: 48px;
     font-weight: normal;
@@ -2045,13 +1642,6 @@ width: 100%;
     width: 100%;
   }
 
-  .HighlightOpener {
-    height: auto;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    width: 100%;
-  }
-
   .ToolLinks {
     justify-content: flex-start;
   }
@@ -2061,40 +1651,13 @@ width: 100%;
     padding: 10px;
   }
 
-  /*Highlight Discovery*/
-  .DiscoveryTop {
-    background-color: #DEF2FE;
-    background-image: url(../graphics/Discovery_background_desktop.png);
-    background-repeat: repeat;
-    padding-left: 25.35%;
-    padding-right: 25.35%;
-    width: 49.3%;
-  }
-
-  .Discovery2 {
-    padding-top: 25px;
-    padding-left: 25.35%;
-    padding-right: 25.35%;
-    width: 49.3%;
-    background-color: #ffffff;
-  }
-
-  .HighlightCompAnalysis {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    margin-left: -25.33vw;
-    margin-bottom: 30px;
-    justify-content: center;
-  }
-
-  .HighlightSWOT {
+  .CSSWOT {
     width: 30%;
     margin-left: 1%;
     margin-right: 1%;
   }
 
-  .HighlightSWOT ul{
+  .CSSWOT ul{
     list-style-type: square;
     padding-left: 8.33%;
     padding-right: 8.33%;
@@ -2127,52 +1690,6 @@ width: 100%;
     width: 49.3%;
   }
 
-  .Personas {
-    display: flex;
-    background-color: #ffffff;
-  }
-
-
-  .HighlightPersona {
-    padding-left: 2%;
-    margin-left:6.33%;
-    padding-right: 2%;
-    margin-right: 6.33%;
-  }
-
-  .HighlightPersona1 {
-    border-bottom-style: none;
-  }
-
-  .HighlightPersona2 {
-    border-top-style: none;
-  }
-
-  .HighlightMotivations {
-    height: 570px;
-  }
-
-  .HighlightGoals {
-    height: 400px;
-  }
-
-  .IAMain {
-    padding-left: 25.35%;
-    padding-right: 25.35%;
-    padding-top: 25px;
-    width: 49.3%
-  }
-
-  .HighlightWireframes {
-    background-color: #DEF2FE;
-    width: 48.7vw;
-    padding-left: 25.35vw;
-    padding-right: 25.35vw;
-    margin-left: -25.35vw;
-    margin-right: -25.35vw;
-    padding-bottom: 20px;
-  }
-
   .WireframeSketches {
     display: flex;
     flex-direction: row;
@@ -2190,27 +1707,7 @@ width: 100%;
     padding-left: 5px;
   }
 
-  /*Highlight Visual Design*/
-  .VDTop {
-    background-color: #DEF2FD;
-    background-image: url(../graphics/Branding_BG_desktop.png);
-    background-repeat: repeat;
-    padding-bottom: 25px;
-    padding-left: 25.35%;
-    padding-right: 25.35%;
-    padding-top: 25px;
-    width: 49.3%;
-  }
-
-  .VDTop ul {
-    list-style-type: circle;
-    margin-bottom: 20px;
-    margin-left: 40px;
-    margin-top: 20px;
-    padding-left: 5px;
-  }
-
-  .VDMain {
+  .CSContent {
     padding-left: 25.35%;
     padding-right: 25.35%;
     width: 49.3%;
@@ -2222,13 +1719,6 @@ width: 100%;
     width: 100%;
   }
 
-  .HighlightLRFandB {
-    background-color: #DEF2FE;
-    margin-left: -25.35vw;
-    padding-left: 25vw;
-    margin-right: -25.35vw;
-    padding-right: 25vw;
-  }
 
   .StyleGuide {
     padding-left: 25.35%;
@@ -2375,17 +1865,17 @@ width: 100%;
   }
 
   /*Iron Silver and Salt general*/
-  .IronSilverSaltCaseStudyBody {
+  .CaseStudyBody {
     background-color: #E1E8F0;
-    font-size: 24px;
+    font-size: 18px;
   }
 
-  .IronSilverSaltCaseStudyBody h3 {
-    font-size: 32px;
+  .CaseStudyBody h3 {
+    font-size: 26px;
     font-weight: 500;
   }
 
-  .IronSilverSaltCaseStudyBody h2 {
+  .CaseStudyBody h2 {
     font-size: 37.33px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -2393,14 +1883,14 @@ width: 100%;
   }
 
   /*Iron Silver and Salt opening*/
-  .ISSopening {
+  .CSopening {
     padding-top: 45px;
     padding-left: 25.33%;
     padding-right: 25.33%;
     width: 49.3%;
   }
 
-  .ISSopening h1 {
+  .CaseStudyContents h1 {
     border-bottom: 2px solid #002938;
     padding-bottom: 10px;
     font-size: 48px;
@@ -2409,31 +1899,19 @@ width: 100%;
     text-align: center;
   }
 
-  .ISSopening ol {
+  .CSopening ol {
     padding-left: 60px;
   }
 
-  .ISSopening span {
-    background-color: #18EBED;
+  .CSopening span {
+    background-color: #ffffff;
     border-top: 2px;
     padding-bottom: 20px;
     margin-top: 20px;
     width: 100%;
   }
 
-  .ISSopening2Text {
-    display: flex;
-    background-color: #ffffff;
-    margin-bottom: 0px;
-    padding-left: 25.35%;
-    padding-right: 5%;
-    padding-bottom: 50px;
-    padding-top: 25px;
-    width: 24.65%;
-    flex-direction: column;
-  }
-
-  .ISSopening2 {
+  .CSopening2 {
     display: flex;
     flex-direction: row;
   }
@@ -2450,26 +1928,15 @@ width: 100%;
   }
 
   /*Iron Silver Salt Discovery*/
-  .ISSDiscoveryTop {
-    background-color: #DEF2FE;
-    background-image: url(../graphics/iss_header_bg.jpg);
-    background-repeat: repeat;
+  .CSSectionHeader {
     padding-left: 25.35%;
     padding-right: 25.35%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 49.3%;
   }
 
-  .ISSDiscovery2 {
-    padding-top: 25px;
-    padding-left: 25.35%;
-    padding-right: 25.35%;
-    width: 49.3%;
-    background-color: #ffffff;
-  }
-
-  .ISSCompAnalysis {
+  .CSCompAnalysis {
     display: flex;
     flex-direction: row;
     width: 100vw;
@@ -2485,42 +1952,12 @@ width: 100%;
     width: 70%;
   }
 
-  /*Iron Silver Salt IA*/
-  .ISSIATop {
-    background-color: #DEF2FD;
-    background-image: url(../graphics/iss_header_bg.jpg);
-    background-repeat: repeat;
-    padding-bottom: 50px;
-    padding-left: 25.35%;
-    padding-right: 25.35%;
-    padding-top: 50px;
-    width: 49.3%;
-  }
-
   .ISSPersona {
     padding-left: 2%;
     margin-left:6.33%;
     padding-right: 2%;
     margin-right: 6.33%;
     font-size: 18px;
-  }
-
-  .HighlightMotivations {
-    height: auto;
-  }
-
-  .HighlightGoals {
-    height: auto;
-  }
-
-  .HighlightWireframes {
-    background-color: #DEF2FE;
-    width: 48.7vw;
-    padding-left: 25.35vw;
-    padding-right: 25.35vw;
-    margin-left: -25.35vw;
-    margin-right: -25.35vw;
-    padding-bottom: 20px;
   }
 
   .IAMain ul {
@@ -2537,18 +1974,6 @@ width: 100%;
     padding-left: 25.35vw;
     padding-right: 25.35vw;
     width:48.7vw;
-  }
-
-  /*Iron Silver Salt Visual Design*/
-  .ISSVDTop {
-    background-color: #DEF2FD;
-    background-image: url(../graphics/iss_header_bg.jpg);
-    background-repeat: repeat;
-    padding-bottom: 50px;
-    padding-left: 25.35%;
-    padding-right: 25.35%;
-    padding-top: 50px;
-    width: 49.3%;
   }
 
   .StyleGuide {
@@ -2583,7 +2008,7 @@ width: 100%;
     padding-top: 40px;
   }
 
-  .ISSHoverImage {
+  .CSHoverImage {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -2598,33 +2023,8 @@ width: 100%;
     padding-right: 25.35%;
   }
 
-  .ISSHoverImage:hover {
+  .CSHoverImage:hover {
     opacity: 1;
-  }
-
-  /*Iron Silver Salt Conclusion*/
-  .ISSConclusion {
-    background-color: #DEF2FD;
-    background-image: url(../graphics/iss_header_bg.jpg);
-    background-repeat: repeat;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 25.35%;
-    padding-right: 25.35%;
-    width: 49.3%;
-  }
-
-  .ISSConclusion b {
-    font-weight: bold;
-    line-height: 1.5em;
-  }
-
-  .ISSConclusion ul {
-    list-style-type: circle;
-    margin-bottom: 5px;
-    margin-left: 40px;
-    margin-top: 5px;
-    padding-left: 5px;
   }
 
   /*TRGF*/
@@ -2633,10 +2033,6 @@ width: 100%;
     flex-direction: column;
     width: 50%;
     justify-content: center;
-  }
-
-  .trgfLevelDesign1 {
-    width: 50%;
   }
 
   .trgfFlex {
@@ -2694,21 +2090,6 @@ width: 100%;
     width: 20vw;
   }
 
-  .trgfDecisions {
-    padding-bottom: 50px;
-    padding-left: 25.35%;
-    padding-right: 25.35%;
-    padding-top: 50px;
-    width: 49.3%;
-  }
-
-  .trgfDecisions ul {
-    list-style-type: disc;
-    padding-left: 8.33%;
-    padding-top: 10px;
-    line-height: 160%;
-  }
-
   .trgf_ui {
     width: 400px;
   }
@@ -2723,45 +2104,6 @@ width: 100%;
 
   .trgfUI ul {
     padding-left: 30px;
-  }
-
-  .trgfLevelDesign {
-    padding-top: 25px;
-    padding-left: 25.35%;
-    padding-right: 25.35%;
-    width: 49.3%;
-    background-color: #ffffff;
-  }
-
-}
-
-@media only screen and (min-width: 1201px) {
-  .HighlightMotivations {
-    height: 500px;
-  }
-
-  .HighlightGoals {
-    height: 350px;
-  }
-}
-
-@media only screen and (min-width: 1401px) {
-  .HighlightMotivations {
-    height: 420px;
-  }
-
-  .HighlightGoals {
-    height: 300px;
-  }
-}
-
-@media only screen and (min-width: 2000px) {
-  .HighlightMotivations {
-    height: 320px;
-  }
-
-  .HighlightGoals {
-    height: 230px;
   }
 
 }

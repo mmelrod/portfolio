@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
   </head>
 
-  <body class="IronSilverSaltCaseStudyBody">
+  <body class="CaseStudyBody">
     <section class="AboutBody">
       <header>
         <nav class="nav_header">
@@ -40,78 +40,64 @@
       </header>
     </section>
 
-    <section class="ISSopening">
-      <h1>Knights of the Cupboard</h1>
-      <h3>Summary</h3>
-      <p>Knights of the Cupboard is a 1v1 card game, designed to be accessible to players of a wide variety of skill levels. I brainstormed, prototyped, playtested and refined the game throughout its development, cumulating in its release on the game crafters' storefront.</p>
-      <a href="https://www.thegamecrafter.com/games/knights-of-the-cupboard" class="button" target="_blank">See the game</a>
-      <img src="graphics/action_shot2.png" alt="Knights of the Cupboard" class="ISSOpener">
-    </section>
-
-    <section class="TRGFopening2">
-      <section class="TRGFopening2Text">
-        <h3>Brainstorming</h3>
-        <p>The main idea of the game was to create a game where all players had to use the same deck. This constraint pushed the design towards the game revolving around one particular card in the deck; a card which would decide the game when played. This meant that each of the other cards in the deck had to support this plan, including cards that:</p>
-        <ul>
-          <li>Replaced itself with a card from the deck.</li>
-          <li>Allowed the player to look at some of their opponent's cards.</li>
-          <li>"Borrow" a card from their opponent's hand.</li>
-          <li>Play some number of cards directly from the deck.</li>
-        </ul>
-      </section>
-    </section>
-
-    <section class="IntermissionImage">
-      <img src="graphics/brainstorm.png" alt="Brainstorming image" class="BrainBulb">
-    </section>
-
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="graphics/chevron-up.png" alt="Back to top button" class="HighlightBTTChevron"></button>
-
-    <section class="trgfLevelDesign">
-      <section class="trgfFlex">
-        <section class="trgfLevelDesign1">
-          <h3>Prototyping</h3>
-          <p>The first step to improving the game was to create a prototype. For this game, that involved writing out card effects on paper, and taping them to a spare deck of cards I had. These paper prototypes would be used to playtest and refine the game.</p>
-        </section>
-        <section class="TRGFSketches">
-          <img src="graphics/kotc_proto1.jpg" alt="The first prototype" class="TRGFSketchPNG">
-        </section>
-      </section>
-      <h3>Playtesting</h3>
-      <p>Playtesting the game allowed me to gather player feedback and discover some areas that needed refinement.</p><br>
-      <ul>
-          <li>Problem: "Shuffle this card into the deck and draw a card" created scenarios where the game could not end.</li>
-          <li>Solution: Replace the card with a different effect.</li>
-          <br>
-          <li>Problem: In many endgame scenarios, players had perfect knowledge of where the winning card was.</li>
-          <li>Solution: Make the deck size 2n+1+(card draw effects), where n was each players' hand size. This means that there will be at least one card left to create uncertainty.</li>
-          <br>
-          <li>Feedback: "The game feels too quick"</li>
-          <li>Solution: Expand the deck from 19 to 27 cards to allow for an additional round of play before the deck runs out.</li>
-          <br>
-          <li>Feedback: "Every game feels too similar"</li>
-          <li>Solution: Decrease the number of copies of each card, and increase the number of different card effects.</li>
-          <br>
-          <li>Feedback: "It feels frustrating when my opponent wins out of nowhere"</li>
-          <li>Solution: Change "You may immediately play another card" to "On your next turn, you may play an additional card".</li>
-      </ul>
-
-      <img src="graphics/kotc_proto2.jpg" alt="The prototype's evolution" class="trgf_dev_screen">
-
-    </section>
-
-    <section class="trgfUI">
-      <h3>Card design</h3>
-      <p>To design the layout of the cards, I exmained several other card games including Magic the Gathering, Yu Gi Oh, and Love Letter. I used Figma to break these cards down into their fundamental components, and examine the strengths and weaknesses of each. </p>
-      <img src="graphics/card_layouts.JPG" alt="Card game wireframes" class="trgf_dev_screen">
-    </section>
-
-    <section class="IAMain">
-        <h3>Launch</h3>
-        <p>Once the art was complete, the playtests were returning a lot of positive feedback, and I had found a manufacturer and distributor that I liked, I created a store page and launched Knights of the Cupboard into the world. This whole process was extremely rewarding to have progressed through, and I am looking forward to launching my next project in a similar fashion. Thank you for taking the time to have a peek at my thought process, and please do have a look at the final product at the link below.</p>
+    <article class="CaseStudyContents">
+      <section class="CSopening">
+        <h1>Knights of the Cupboard</h1>
+        <h3>Summary</h3>
+        <p>Knights of the Cupboard is a 1v1 card game, designed to be accessible to players of a wide variety of skill levels. I brainstormed, prototyped, playtested and refined the game throughout its development, cumulating in its release on the game crafters' storefront.</p>
         <a href="https://www.thegamecrafter.com/games/knights-of-the-cupboard" class="button" target="_blank">See the game</a>
-        <a href="mailto:melrod8@gmail.com" target="_blank" class="button">Share your thoughts</a>
-    </section>
+        <img src="graphics/action_shot2.png" alt="Knights of the Cupboard" class="ISSOpener">
+      </section>
+
+      <section class="CSSectionHeader">
+          <h3>Brainstorming</h3>
+          <p>The main idea of the game was to create a game where all players had to use the same deck. This constraint pushed the design towards the game revolving around one particular card in the deck; a card which would decide the game when played. This meant that each of the other cards in the deck had to support this plan, including cards that:</p>
+          <ul>
+            <li>Replaced itself with a card from the deck.</li>
+            <li>Allowed the player to look at some of their opponent's cards.</li>
+            <li>"Borrow" a card from their opponent's hand.</li>
+            <li>Play some number of cards directly from the deck.</li>
+          </ul>
+      </section>
+
+      <section class="IntermissionImage">
+        <img src="graphics/brainstorm.png" alt="Brainstorming image" class="BrainBulb">
+      </section>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="graphics/chevron-up.png" alt="Back to top button" class="HighlightBTTChevron"></button>
+
+      <section class="CSSectionHeader">
+            <h3>Prototyping</h3>
+            <p>The first step to improving the game was to create a prototype. For this game, that involved writing out card effects on paper, and taping them to a spare deck of cards I had. These paper prototypes would be used to playtest and refine the game.</p>
+          <section class="TRGFSketches">
+            <img src="graphics/kotc_proto1.jpg" alt="The first prototype" class="ISSOpener">
+          </section>
+        <h3>Playtesting</h3>
+        <p>Playtesting the game allowed me to gather player feedback and discover some areas that needed refinement.</p><br>
+        <ul>
+            <li>Replace the card with a different effect to prevent scenarios where the game could not end..</li>
+            <li>Make the deck size 2n+1+(card draw effects), where n was each players' hand size, to create uncertainty in endgame scenarios.</li>
+            <li>Expand the deck from 19 to 27 cards to allow for an additional round of play before the deck runs out.</li>
+            <li>Decrease the number of copies of each card, and increase the number of different card effects to increase the variability of games.</li>
+            <li>Change "You may immediately play another card" to "On your next turn, you may play an additional card" to reduce player frustration in unexpected losses.</li>
+        </ul>
+        <img src="graphics/kotc_proto2.jpg" alt="The prototype's evolution" class="trgf_dev_screen">
+
+      </section>
+
+      <section class="CSSectionHeader">
+        <h3>Card design</h3>
+        <p>To design the layout of the cards, I exmained several other card games including Magic the Gathering, Yu Gi Oh, and Love Letter. I used Figma to break these cards down into their fundamental components, and examine the strengths and weaknesses of each. </p>
+        <img src="graphics/card_layouts.JPG" alt="Card game wireframes" class="trgf_dev_screen">
+      </section>
+
+      <section class="CSContent">
+          <h3>Launch</h3>
+          <p>Once the art was complete, the playtests were returning a lot of positive feedback, and I had found a manufacturer and distributor that I liked, I created a store page and launched Knights of the Cupboard into the world. This whole process was extremely rewarding to have progressed through, and I am looking forward to launching my next project in a similar fashion. Thank you for taking the time to have a peek at my thought process, and please do have a look at the final product at the link below.</p>
+          <a href="https://www.thegamecrafter.com/games/knights-of-the-cupboard" class="button" target="_blank">See the game</a>
+          <a href="mailto:melrod8@gmail.com" target="_blank" class="button">Share your thoughts</a>
+      </section>
+    </article>
 
     <section class="prefooter">
       <section class="prefootertext">
