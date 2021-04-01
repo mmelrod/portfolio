@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, width=device-width, viewport-fit=cover">
+    <link rel='icon' href='favicon.ico' type='image/x-icon'>
+    <title>UI vs Notifications</title>
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="AboutBody2">
+
+    <section class="AboutBody">
+      <header class="BurgerMenu" id="myTopNav">
+        <img src="graphics/teal_logo.png" alt="Personal Logo" class="MenuTop NavLogoFloat" id="NavLogo">
+        <a href="index.html">Home</a>
+        <!--<a href="musings.html">Musings</a>-->
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="mailto:melrod8@gmail.com" target="_blank" class="MenuLinks">Email</a>
+        <a href="javascript:void(0);" class="icon" onclick="UseBurger()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </header>
+    </section>
+
+    <section class="AboutBackground">
+      <section class="AboutContent">
+        <h2>Game UI vs Notification Systems</h2>
+        <p>As of February 2021, a staggering 92% of Steam users are running the service on Windows 10. This has a number of implications, but there is one issue that I share with ~92% of my fellow Steam users that has bothered me to no end. That is when Steam or Windows notifies you about anything, it gives you a very familiar little pop-up in the bottom right corner of your screen. This becomes an issue when the game you are playing is also using that space to provide important information about the game you are currently playing.</p>
+        <img src="graphics/steam_notification.png" alt="" class="BrainBulb">
+
+        <img src="graphics/steam_operating_systems.JPG" alt="Steam operating system demographics" class="portrait">
+      </section>
+
+      <article class="ArticleContent">
+        <h2>So what exactly is happening?</h2>
+        <p>In countless modern games, we designers love to stick important information in the corners of the screen, and with good reason!</p>
+        <ul>
+          <li>Consistancy across titles minimizes how much time players spend searching for UI elements.</li>
+          <li>The biggest, most front-and-center element of almost any game should be the gameplay.</li>
+          <li>Players need to know the information presented in these UI elements.</li>
+        </ul>
+        <br>
+        <img src="graphics/game_ui_examples.gif" class="trgf_dev_screen">
+        <br>
+        <br>
+        <p>The problem arises when Steam wants to tell players that an event has occured, such as a friend logging on, starting a game, or sending a message. Suddenly, information is obscured and buttons can not be pressed. If the gameplay demands that information or that input, players then have to wait for the notification to disappear before they can resume their game.</p>
+        <br>
+        <h2>But is it just Steam?</h2>
+        <p>Of course not! Windows used to frequently notify me about a variety of things until I painstakingly trawled through its settings and disabled the majority of its notifications. A handful of games are also guilty of obstructing their own UI: Pokémon Go's notifications cover a good portion of the top of the screen and can get in the way of playing the game. I just wanted to know how many items I have!</p>
+        <br>
+        <img src="graphics/pokemon_go_notification.jpg" class="DiscoveryImage">
+        <br>
+        <h2>So what can we do about it?</h2>
+        <p>Fortunately, there are a handful of solutions to this problem.</p>
+        <ul>
+          <li>Steam and Windows can delay these notifications until certain criteria are met (until the game is closed for instance). The main problems with this solution are that some of the notifications generated are time-sensitive. Delaying these notifications for 15 minutes, or a few hours makes the notification of your laptop's critically low battery useless.</li>
+          <li>Game UI teams can keep information out of the most commonly used notification areas. In the gif above, Valheim keeps its various UI elements away from the bottom right corner, so that when Steam, windows, or something else makes a notification appear there, the gameplay isn't overly hindered.</li>
+          <li>For notifications that games create of their own accord, time-insensitive information could be delayed until the player reaches a screen where information will not be obscured.</li>
+          <li>Alternatively, each screen could be constructed in a way so that there is always an appropriate area for notifications to appear without hiding critical elements. For example, Pokémon Go's menus could be pushed away from the top of the screen enough to allow notifications the space they require.</li>
+          <li>Give players more control over what notifications they recieve. Windows, for the many other thoughts I have about the OS, did eventually allow me to decide how important each category of notification was. Giving players the power to decide what is allowed to interrupt their gameplay can reduce the amount of frustration these notifications can generate.</li>
+        </ul>
+        <br>
+        <h2>In Conclusion</h2>
+        <p>This seems like a very solvable issue that affects a wide array of games. Naturally, there are going to be cases where that energy meter simply has to end up somewhere it may be covered. If your game is available on PC and consoles, then there are even more areas of the to potentially keep in mind. If you have any additional thoughts on this topic, feel free to reach out!</p>
+      </article>
+    </section>
+
+
+
+    <section class="prefooter">
+      <section class="prefootertext">
+        <h2>Thanks for stopping by!</h2>
+        <p>If you like what you see, shoot me an email.</p>
+      </section>
+    </section>
+
+    <footer id="contact_anchor">
+      <img src="graphics/bw_logo.png" alt="Personal Logo" class="BottomLogoImage">
+      <section class="ContactLinks">
+        <a href="https://harbingersmark.itch.io" target="_blank">
+          <img src="graphics/itchio-textless-black.png" alt="Itch.IO link" class="BottomNavLink">
+        </a>
+        <a href="https://www.linkedin.com/in/elrodmark/" target="_blank">
+          <img src="graphics/linkedin.png" alt="Linkedin link" class="BottomNavLink">
+        </a>
+        <a href="https://github.com/mmelrod" target="_blank">
+          <img src="graphics/github.png" alt="Github link" class="BottomNavLink">
+        </a>
+        <a href="mailto:melrod8@gmail.com" target="_blank">
+          <img src="graphics/email.png" alt="email link" class="BottomNavLink">
+        </a>
+      </section>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160167634-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-160167634-1');
+    </script>
+    <script src="JS/burgermenu.js"></script>
+
+  </body>
+
+</html>

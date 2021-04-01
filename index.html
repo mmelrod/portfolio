@@ -6,6 +6,7 @@
     <link rel='icon' href='favicon.ico' type='image/x-icon'>
     <title>Mark Elrod</title>
     <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
@@ -14,29 +15,16 @@
 
   <body>
     <section class="HomeBackground">
-      <header>
-        <nav class="nav_header">
-          <a href="index.html" class="LogoLink">
-            <img src="graphics/teal_logo.png" alt="Personal Logo" class="TopLogo">
-          </a>
-              <div class="BurgerMenu" id="menuToggle">
-                <input type="checkbox" />
-                <span></span>
-                <span></span>
-                <span></span>
-                <ul id="menu">
-                  <li>
-                    <a href="index.html" class="LogoLink MenuLogoLink">
-                      <img src="graphics/teal_logo.png" alt="Personal Logo" class="MenuTop"> <!-- width ="91.5" height = "31"-->
-                    </a>
-                  </li>
-                  <li><span></span></li>
-                  <li><a href="projects.html" class="MenuLinks" class="DesktopOnly">Work</a></li>
-                  <li><a href="about.html" class="MenuLinks">About</a></li>
-                  <li><a href="mailto:melrod8@gmail.com" target="_blank" class="MenuLinks">Email</a></li>
-                </ul>
-              </div>
-        </nav>
+      <header class="BurgerMenu" id="myTopNav">
+        <img src="graphics/teal_logo.png" alt="Personal Logo" class="MenuTop NavLogoFloat" id="NavLogo">
+        <a href="index.html" class="Active">Home</a>
+        <!--<a href="musings.html">Musings</a>-->
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="mailto:melrod8@gmail.com" target="_blank" class="MenuLinks">Email</a>
+        <a href="javascript:void(0);" class="icon" onclick="UseBurger()">
+          <i class="fa fa-bars"></i>
+        </a>
       </header>
 
       <section class="banner">
@@ -50,15 +38,21 @@
               <p>Strengths: Functional design, User testing</p>
               <p>Weakness: Power outages</p>
             </div>
+            <section class="CaseStudyButton">
+              <a href="project_iron_silver_salt.html" class="Featuredbutton">Check out an example</a>
+            </section>
            </div>
           <div class="mySlides">
             <img src="graphics/cym_game_edit.png" alt="Mark the game designer" style="width:60%">
             <div class="about-slide-text">
               <h3>The game designer</h3>
               <br>
-              <p>Strengths: Teamwork, Storytelling</p>
+              <p>Strengths: Teamwork, Player behavior</p>
               <p>Weakness: The sun</p>
             </div>
+            <section class="CaseStudyButton">
+              <a href="project_kotc.html" class="Featuredbutton">Check out an example</a>
+            </section>
           </div>
           <div class="mySlides">
             <img src="graphics/cym_qa_edit.png" alt="Mark the QA tester" style="width:60%">
@@ -68,6 +62,9 @@
               <p>Strengths: Critical thinking, Rapid learning</p>
               <p>Weakness: Fire</p>
             </div>
+            <section class="CaseStudyButton">
+              <a href="3dport.html" class="Featuredbutton">Check out an example</a>
+            </section>
           </div>
           <!--<div class="mySlides">
             <img src="graphics/cym_employee.png" alt="Mark the employee" style="width:60%">
@@ -98,7 +95,7 @@
           <img src="graphics/kotc_home.png" alt="Knights of the Cupboard" class="FeaturedScreenshot ISSScreenshot">
           <section class="FeaturedOverlay">
             <h3 class="FeaturedTitle2">Knights of the Cupboard</h3>
-            <p class="card2text">A 1v1 card game designed for gamers of all skill levels.</p>
+            <p>A 1v1 card game designed for gamers of all skill levels.</p>
             <section class="CaseStudyButton">
               <a href="project_kotc.html" class="Featuredbutton">View Case Study</a>
             </section>
@@ -110,7 +107,7 @@
           <img src="graphics/iron_silver_salt_link.jpg" alt="Iron, Silver, and Salt screenshot" class="FeaturedScreenshot ISSScreenshot">
           <section class="FeaturedOverlay">
             <h3 class="FeaturedTitle2">Iron, Silver, and Salt</h3>
-            <p class="card2text">Iron, Silver, and Salt is a monster hunting podcast that needed a home.</p>
+            <p>A monster hunting podcast that needed a home.</p>
             <section class="CaseStudyButton">
               <a href="project_iron_silver_salt.html" class="Featuredbutton">View Case Study</a>
             </section>
@@ -124,14 +121,17 @@
             <h3 class="FeaturedTitle1">Interactive Portfolio</h3>
             <p>An interactive take on my portfolio.</p>
             <section class="CaseStudyButton">
-              <a href="3dport.html" class="Featuredbutton">View Project</a>
+              <a href="3dport.html" class="Featuredbutton">View Case Study</a>
             </section>
           </section>
         </section>
 
-    </section>
-      <!-- more projects button-->
-      <!--<a href="projects.html" class="button">Additional Projects</a>-->
+      </section>
+
+      <section class="CaseStudyButton" style="background-color: #002937">
+        <a href="projects.html" class="button">See more of my work</a>
+      </section>
+
     </main>
 
     <section class="prefooter">
@@ -164,6 +164,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160167634-1"></script>
     <script src="JS/characterselect.js"></script>
+    <script src="JS/burgermenu.js"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}

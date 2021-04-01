@@ -7,6 +7,7 @@
     <title>About Mark</title>
     <link rel="stylesheet" type="text/css" href="style/reset.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
@@ -15,30 +16,16 @@
   <body class="AboutBody2">
 
     <section class="AboutBody">
-
-      <header>
-        <nav class="nav_header">
-          <a href="index.html" class="LogoLink">
-            <img src="graphics/teal_logo.png" alt="Personal Logo" class="TopLogo"> <!-- width ="91.5" height = "31"-->
-          </a>
-              <div class="BurgerMenu" id="menuToggle">
-                <input type="checkbox" />
-                <span></span>
-                <span></span>
-                <span></span>
-                <ul id="menu">
-                  <li>
-                    <a href="index.html" class="LogoLink MenuLogoLink">
-                      <img src="graphics/teal_logo.png" alt="Personal Logo" class="MenuTop"> <!-- width ="91.5" height = "31"-->
-                    </a>
-                  </li>
-                  <li><span></span></li>
-                  <li><a href="projects.html" class="MenuLinks" class="DesktopOnly">Work</a></li>
-                  <li class="MenuLinks"><a href="about.html" >About</a></li>
-                  <li class="MenuLinks"><a href="mailto:melrod8@gmail.com" target="_blank" >Email</a></li>
-                </ul>
-              </div>
-        </nav>
+      <header class="BurgerMenu" id="myTopNav">
+        <img src="graphics/teal_logo.png" alt="Personal Logo" class="MenuTop NavLogoFloat" id="NavLogo">
+        <a href="index.html">Home</a>
+        <!--<a href="musings.html">Musings</a>-->
+        <a href="projects.html">Projects</a>
+        <a href="about.html" class="Active">About</a>
+        <a href="mailto:melrod8@gmail.com" target="_blank" class="MenuLinks">Email</a>
+        <a href="javascript:void(0);" class="icon" onclick="UseBurger()">
+          <i class="fa fa-bars"></i>
+        </a>
       </header>
     </section>
 
@@ -52,9 +39,9 @@
         <br>
         <p class="AboutGridText">This drive to take ideas, both my own and others’, and help shape them into something people get to use and enjoy, has kept me on a path destined for design. For me, there is no greater satisfaction than watching something you helped create be used and enjoyed by the people around you. If at the end of our next project, you also look forward to thinking, “We made that. We molded that idea into reality.”, please feel free to contact me. I would love to help.</p>
       </section>
-      <section class="ResumeButton">
+      <!--<section class="ResumeButton">
         <a href="webresume.pdf" target="_blank" class="button">View Resume</a>
-      </section>
+      </section>-->
     </section>
 
 
@@ -95,6 +82,7 @@
 
       gtag('config', 'UA-160167634-1');
     </script>
+    <script src="JS/burgermenu.js"></script>
 
   </body>
 

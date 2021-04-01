@@ -7,6 +7,7 @@
     <title>Iron Silver and Salt</title>
     <link rel="stylesheet" type="text/css" href="style/reset.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
@@ -14,34 +15,16 @@
 
   <body class="CaseStudyBody">
     <section class="AboutBody">
-      <header>
-        <nav class="nav_header">
-          <a href="index.html" class="LogoLink">
-            <img src="graphics/teal_logo.png" alt="Personal Logo" class="TopLogo"> <!-- width ="91.5" height = "31"-->
-          </a>
-              <div class="BurgerMenu" id="menuToggle">
-                <input type="checkbox" />
-                <span></span>
-                <span></span>
-                <span></span>
-                <ul id="menu">
-                  <li>
-                    <a href="index.html" class="MenuLogoLink LogoLink">
-                      <img src="graphics/teal_logo.png" alt="Personal Logo" class="MenuTop"> <!-- width ="91.5" height = "31"-->
-                    </a>
-                  </li>
-                  <li><span></span></li>
-                  <li><a href="projects.html" class="MenuLinks" class="DesktopOnly">Work</a></li>
-                  <li class="MenuLinks"><a href="about.html" class="MenuLinks">About</a></li>
-                  <li class="MenuLinks"><a href="mailto:melrod8@gmail.com" target="_blank" class="MenuLinks">Email</a></li>
-                  <li><span></span></li>
-                  <li class="MenuLinks HighlightNav"><a href="#Discovery_anchor" >Discovery</a></li>
-                  <li class="MenuLinks HighlightNav"><a href="#IA_anchor" >Information Architecture</a></li>
-                  <li class="MenuLinks HighlightNav"><a href="#VD_anchor" >Visual Design</a></li>
-                  <li class="MenuLinks HighlightNav"><a href="#PT_anchor" >Prototyping and Testing</a></li>
-                </ul>
-              </div>
-        </nav>
+      <header class="BurgerMenu" id="myTopNav">
+        <img src="graphics/teal_logo.png" alt="Personal Logo" class="MenuTop NavLogoFloat" id="NavLogo">
+        <a href="index.html">Home</a>
+        <!--<a href="musings.html">Musings</a>-->
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="mailto:melrod8@gmail.com" target="_blank" class="MenuLinks">Email</a>
+        <a href="javascript:void(0);" class="icon" onclick="UseBurger()">
+          <i class="fa fa-bars"></i>
+        </a>
       </header>
     </section>
 
@@ -214,6 +197,7 @@
 
       gtag('config', 'UA-160167634-1');
     </script>
+    <script src="JS/burgermenu.js"></script>
 
   </body>
 

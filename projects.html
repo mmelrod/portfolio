@@ -7,6 +7,7 @@
   <title>My Projects</title>
   <link rel="stylesheet" type="text/css" href="style/reset.css">
   <link rel="stylesheet" type="text/css" href="style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
@@ -14,35 +15,20 @@
 
   <body>
     <section class="AboutBody">
-
-      <header>
-        <nav class="nav_header">
-          <a href="index.html" class="LogoLink">
-            <img src="graphics/teal_logo.png" alt="Personal Logo" class="TopLogo"> <!-- width ="91.5" height = "31"-->
-          </a>
-              <div class="BurgerMenu" id="menuToggle">
-                <input type="checkbox" />
-                <span></span>
-                <span></span>
-                <span></span>
-                <ul id="menu">
-                  <li>
-                    <a href="index.html" class="LogoLink MenuLogoLink">
-                      <img src="graphics/teal_logo.png" alt="Personal Logo" class="MenuTop"> <!-- width ="91.5" height = "31"-->
-                    </a>
-                  </li>
-                  <li><span></span></li>
-                  <li><a href="projects.html" class="MenuLinks" class="DesktopOnly">Work</a></li>
-                  <li class="MenuLinks"><a href="about.html" >About</a></li>
-                  <li class="MenuLinks"><a href="mailto:melrod8@gmail.com" target="_blank" >Email</a></li>
-                </ul>
-              </div>
-        </nav>
+      <header class="BurgerMenu" id="myTopNav">
+        <img src="graphics/teal_logo.png" alt="Personal Logo" class="MenuTop NavLogoFloat" id="NavLogo">
+        <a href="index.html">Home</a>
+        <!--<a href="musings.html">Musings</a>-->
+        <a href="projects.html" class="Active">Projects</a>
+        <a href="about.html">About</a>
+        <a href="mailto:melrod8@gmail.com" target="_blank" class="MenuLinks">Email</a>
+        <a href="javascript:void(0);" class="icon" onclick="UseBurger()">
+          <i class="fa fa-bars"></i>
+        </a>
       </header>
     </section>
 
     <section class="ProjectListBackground">
-      <h2></h1>
 
       <section class="ProjectCards">
 
@@ -77,7 +63,7 @@
             <h3 class="FeaturedTitle1">Interactive Portfolio</h3>
             <p>An interactive take on my portfolio.</p>
             <section class="CaseStudyButton">
-              <a href="3dport.html" class="Featuredbutton">View Project</a>
+              <a href="3dport.html" class="Featuredbutton">View Case Study</a>
             </section>
           </section>
         </section>
@@ -157,6 +143,7 @@
 
       gtag('config', 'UA-160167634-1');
     </script>
+    <script src="JS/burgermenu.js"></script>
 
   </body>
 </html>
