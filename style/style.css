@@ -45,7 +45,7 @@ h2 {
   background-position: top;
   background-size: 100%;
   color: #ffffff;
-  height: 640px;
+  height: 580px;
   position: relative;
   display: block;
 }
@@ -70,6 +70,10 @@ header {
 .banner h3 {
   font-size: 22px;
   font-weight: bold;
+}
+
+.about-slide-text p {
+  text-align: left;
 }
 
 .cs-prev, .cs-next {
@@ -992,7 +996,7 @@ width: 100%;
   .HomeBackground {
     background-image: url(../graphics/digitaltouch_bg_tablet.png);
     background-position: center;
-    height: 780px;
+    height: 680px;
   }
 
   .banner {
@@ -1190,7 +1194,7 @@ width: 100%;
     background-image: url(../graphics/digitaltouch_bg.jpg);
     background-size: 100%;
     background-position: top;
-    height: 680px;
+    height: 650px;
   }
 
   .BurgerMenu {
