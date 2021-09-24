@@ -17,10 +17,11 @@
     <section class="AboutBody">
       <header class="BurgerMenu" id="myTopNav">
         <img src="graphics/teal_logo.png" alt="Personal Logo" class="MenuTop NavLogoFloat" id="NavLogo">
-        <a href="index.html">Home</a>
+        <a href="gdh.html">Home</a>
         <!--<a href="musings.html">Musings</a>-->
-        <a href="projects.html">Projects</a>
-        <a href="about.html">About</a>
+        <a href="gprojects.html">Projects</a>
+        <a href="gabout.html">About</a>
+        <a href="https://melrod8.wixsite.com/twocansgaming" target="_blank">Blog</a>
         <a href="mailto:melrod8@gmail.com" target="_blank" class="MenuLinks">Email</a>
         <a href="javascript:void(0);" class="icon" onclick="UseBurger()">
           <i class="fa fa-bars"></i>
@@ -29,72 +30,78 @@
     </section>
 
     <article class="CaseStudyContents">
-      <section class="CSopening">
-        <h1>Warna</h1>
-        <sub>A puzzle/platformer, built for Design Buddies game jam 2020</sub>
-        <h3>Summary</h3>
-        <p>Warna is a short puzzle/platformer, made for the Design Buddies' first game jam. Each submission had to:</p>
-        <ol>
-          <li>Be made within 7 days.</li>
-          <li>Be made around the theme ‘Community’.</li>
-        </ol>
-        <p>Additionally, I wanted to see what I would be able to accomplish on my own and practice the skills I had been teaching myself.</p>
-        <a href="https://harbingersmark.itch.io/warna" class="button" target="_blank">Play the game</a>
-        <img src="graphics/warna_main.jpg" alt="Opening screen" class="ISSOpener">
-      </section>
-
       <section class="CSSectionHeader">
-          <h3>Brainstorming</h3>
-          <p>I started by brainstorming several different directions I could take the 'community' theme:</p>
-          <ul>
-            <li>A game where the player has to rescue people and reunite them.</li>
-            <li>A game where you have to settle arguments to repair a community.</li>
-            <li>A game where you have to place as many people into a room as possible, while managing opposing traits.</li>
-          </ul>
-          <p>I ultimately chose the first option, as I felt confident in my ability to create all the necessary assets and code within the timeframe.</p>
-      </section>
-
-      <section class="IntermissionImage">
-        <img src="graphics/brainstorm.png" alt="Brainstorming image" class="BrainBulb">
-      </section>
-
-      <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="graphics/chevron-up.png" alt="Back to top button" class="HighlightBTTChevron"></button>
-
-      <section class="CSContent">
-        <h3>The experiance</h3>
-        <p>I wanted to provide an experiance similar to that provided by The Witness, using simple puzzles to teach the player the skills they needed instead of a traditional tutorial. The starting room, and each of the three initial puzzles, requires players to learn one of the skills necessary for the finale, while still providing players a sense of accomplishment and progression.</p>
-        <section class="CSCompAnalysis">
-          <section class="CSSWOT">
-            <img src="graphics/warna_puzzle_1.jpg" alt="First puzzle" class="SWOTImage">
+        <h1>Warna</h1>
+        <sub>A puzzle platformer for Design Buddies' 2020 Game Jam.</sub>
+        <!--<iframe class="WalkthroughVid DesktopOnly" style="width:100%;" src="https://www.youtube.com/embed/XXqegb6hpp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <section class="WalkthroughButton MobileOnly">
+          <a href=https://youtu.be/XXqegb6hpp4 target="_blank" class="button">Watch a short explanation</a>
+        </section>-->
+        <section class="WalkthroughButton">
+          <a href=https://harbingersmark.itch.io/tug target="_blank" class="button">Play the game</a>
+        </section>
+        <section class="GDCaseStudy">
+          <section class="two-col-grid-item">
+            <h3>About</h3>
+            <ul>
+              <li><em>Role:</em> Sole Dev</li>
+              <li><em>Team Size:</em> 1</li>
+              <li><em>Development Time:</em> 7 days</li>
+              <li><em>Platform:</em> PC (Itch.io)</li>
+              <li><em>Engine:</em> Unreal Engine 4.10</li>
+            </ul>
           </section>
-          <section class="CSSWOT">
-            <img src="graphics/warna_puzzle_2.jpg" alt="Second puzzle" class="SWOTImage">
+          <section class="two-col-grid-item">
+            <img src="graphics/warna_puzzle_1.jpg" alt="Warna first puzzle" class="ISSOpener">
           </section>
-          <section class="CSSWOT">
-            <img src="graphics/warna_puzzle_3.jpg" alt="Third puzzle" class="SWOTImage">
+          <section class="two-col-grid-item DesktopOnly">
+            <img src="graphics/warna_puzzle_2.jpg" alt="Warna second puzzle" class="ISSOpener">
+          </section>
+          <section class="two-col-grid-item">
+            <p>Warna is a short puzzle/platformer, made for the Design Buddies' first game jam. Players must manipulate their character's color to bypass obstacles, solve puzzles, and ultimately reunite the three lost buddies.</p>
+          </section>
+
+          <section class="two-col-grid-item">
+            <h3>Game Designer</h3>
+            <p>As the solo dev for Warna, I was responsible for, well, everything. I wanted to use the opportunity to gain some first hand experience with the many facets of game development, while working towards the tangible goal of releasing a playable game within 7 days.</p>
+          </section>
+
+          <section class="two-col-grid-item">
+            <img src="graphics/warna_main.jpg" alt="Warna Background" class="ISSOpener">
+          </section>
+
+          <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="graphics/chevron-up.png" alt="Back to top button" class="HighlightBTTChevron"></button>
+
+          <section class="all-col-grid-item">
+            <h3>Retrospective</h3>
+          </section>
+          <section class="three-col-grid-item">
+            <p><em>What Went Well</em></p>
+            <ul>
+              <li><em>Player progression:</em> Each puzzle introduced a new way to use the color changing mechanic, leading up to the finale which required usage of all three skills gained earlier.</li>
+              <li><em>Iteration:</em> I was able to allocate enough time for testing and refinement to ensure puzzles provided the intended experience.</li>
+              <li><em>Puzzle Design</em> Each of the puzzles successfully taught players a different way to use the color-shifting power necessary to complete the final challenge.</li>
+            </ul>
+          </section>
+          <section class="three-col-grid-item">
+            <p><em>What Went Wrong</em></p>
+            <ul>
+              <li><em>Task allocation:</em> The major downside to attempting this as a one-man project was that I had to do everything. I certainly gained a large amount of respect for 3D artists, and the time it takes to create game-ready assets as a result of my efforts.</li>
+              <li><em>Echo Chamber:</em> Not having additional team members to provide their insights or a new direction of thinking ultimately hurt the end quality.</li>
+            </ul>
+          </section>
+          <section class="three-col-grid-item">
+            <p><em>What to Improve</em></p>
+            <ul>
+              <li><em>Blueprints:</em> Player interaction with moving platforms could cause some unusual behaviors. Given additional time, I would like to revisit the code behind the moving platforms to make a smoother player experience.</li>
+              <li><em>Documentation:</em> Documenting decisions can decidedly help inform choices down the road. Even there were no teammates to inform, the documents would have helped keep myself focused on a single thematic.</li>
+            </ul>
           </section>
         </section>
+
       </section>
-
       <section class="CSContent">
-        <h3>The UI</h3>
-        <p>Creating the menus, I wanted to stay consistant with the strong red/green/blue themes central to the gameplay, while still providing menus that matched player usability expectations such as using the red button to exit, and the green button to start.</p>
-        <img src="graphics/warna_main_menu.JPG" alt="Warna main menu" class="trgf_dev_screen">
-      </section>
-
-      <section class="CSContent">
-        <h3>Asset Creation</h3>
-        <p>I used Blender to create the Buddies in need of rescue, wanting to create something simple, soft, and friendly. Most of the shapes and materials were created using Unreal's in-engine shapes and material editing, to help me save some time to work on other aspects of the game. Everything that reacted to the player changing color needed to do so clearly, making it obvious to the player what effect their color change had on the affected object.</p>
-        <img src="graphics/blender_buddy.JPG" alt="Buddy WIP" class="trgf_ui">
-      </section>
-
-      <section class="CSContent">
-          <h3>Looking ahead</h3>
-          <p>I'm happy with what I was able to produce, given the constraints placed on me by both the jam organizers and myself. Given more time, I would love to revisit the 'hallway' puzzle to increase its complexity and make the moving walls' collision feel cleaner, and to expand the game to incorporate more than one single 'finale' puzzle. I would also tweak the jumping mechanics, as currently jumping feels too 'floaty' when trying to accurately land on a moving platform.</p>
-          <a href="https://harbingersmark.itch.io/warna" class="button" target="_blank">Play the game</a>
-          <a href="mailto:melrod8@gmail.com" target="_blank" class="button">Share your thoughts</a>
-
-          <img src="graphics/warna_end_screen.JPG" alt="Warna end screen" class ="trgfCloser" />
+        <a href="mailto:melrod8@gmail.com" target="_blank" class="button">Share your thoughts</a>
       </section>
     </article>
 

@@ -4,29 +4,45 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, width=device-width, viewport-fit=cover">
     <link rel='icon' href='favicon.ico' type='image/x-icon'>
-    <title>Mark Elrod</title>
+    <title>About Mark</title>
     <link rel="stylesheet" type="text/css" href="style/reset.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
   </head>
 
-  <body>
-    <section class="HomeBackground">
+  <body class="AboutBody2">
+
+    <section class="AboutBody">
       <header class="BurgerMenu" id="myTopNav">
         <img src="graphics/teal_logo.png" alt="Personal Logo" class="MenuTop NavLogoFloat" id="NavLogo">
+        <a href="gdh.html">Home</a>
+        <!--<a href="musings.html">Musings</a>-->
+        <a href="gprojects.html">Projects</a>
+        <a href="gabout.html" class="Active">About</a>
+        <a href="https://melrod8.wixsite.com/twocansgaming" target="_blank">Blog</a>
+        <a href="mailto:melrod8@gmail.com" target="_blank" class="MenuLinks">Email</a>
+        <a href="javascript:void(0);" class="icon" onclick="UseBurger()">
+          <i class="fa fa-bars"></i>
+        </a>
       </header>
-
-      <section class="banner">
-          <!--<p>I am Mark Elrod, and I wear many hats.</p>-->
-          <h2>Uh Oh!</h2>
-          <p>If you've landed here, you probably took an old link to Mark's portfolio. Please reach out and let me know how you got here so that I can give you the updated link, and update the one you found.</p>
-          <a href="mailto:melrod8@gmail.com" target="_blank" class="button">Get the new link</a>
-        <br></br>
     </section>
-  </section>
+
+    <section class="AboutBackground">
+      <section class="AboutContent">
+        <h2>About Me</h2>
+        <p>I am Mark Elrod, but you probably already figured that out. I was born at a very young age, grew until I was however old I am now, and have filled the time in between with as many experiences as I can find. I have had the pleasure of meeting a wide variety of people, and look forward to meeting you as well.</p>
+        <img src="graphics/mark_about.jpg" alt="Picture of Mark" class="portrait">
+        <p>I am a creator at heart. I love the process of taking ideas and molding them into something real, until they are shipped out into the world for people to experience. Creating positive experiences for people, through more than just my designs, has always been a real pleasure for me. So with that in mind, let me leave you with what the internet is known best for: my favorite cat picture. If you want to see more of Minerva, or if you want to talk design, please do reach out. Either way, I am more than happy to hear from you.</p>
+        <p></p>
+        <img src="graphics/minerva.jpg" alt="minerva" class="ISSOpener">
+      </section>
+      <!--<section class="ResumeButton">
+        <a href="webresume.pdf" target="_blank" class="button">View Resume</a>
+      </section>-->
+    </section>
 
 
 
@@ -59,8 +75,6 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160167634-1"></script>
-    <script src="JS/characterselect.js"></script>
-    <script src="JS/burgermenu.js"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -68,6 +82,7 @@
 
       gtag('config', 'UA-160167634-1');
     </script>
+    <script src="JS/burgermenu.js"></script>
 
   </body>
 

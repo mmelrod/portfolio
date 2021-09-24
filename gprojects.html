@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, width=device-width, viewport-fit=cover">
+  <link rel='icon' href='favicon.ico' type='image/x-icon'>
+  <title>My Projects</title>
+  <link rel="stylesheet" type="text/css" href="style/reset.css">
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+</head>
+
+  <body>
+    <section class="AboutBody">
+      <header class="BurgerMenu" id="myTopNav">
+        <img src="graphics/teal_logo.png" alt="Personal Logo" class="MenuTop NavLogoFloat" id="NavLogo">
+        <a href="gdh.html">Home</a>
+        <!--<a href="musings.html">Musings</a>-->
+        <a href="gprojects.html" class="Active">Projects</a>
+        <a href="gabout.html">About</a>
+        <a href="https://melrod8.wixsite.com/twocansgaming" target="_blank">Blog</a>
+        <a href="mailto:melrod8@gmail.com" target="_blank" class="MenuLinks">Email</a>
+        <a href="javascript:void(0);" class="icon" onclick="UseBurger()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </header>
+    </section>
+
+    <section class="ProjectListBackground">
+
+      <section class="ProjectCards">
+
+        <!--Knights of the Cupboard-->
+        <section class="ProjCard">
+          <img src="graphics/kotc_home.png" alt="Knights of the Cupboard" class="ProjectScreenshot ISSScreenshot">
+          <section class="ProjectOverlay">
+            <h3 class="FeaturedTitle1">Knights of the Cupboard</h3>
+            <p>A 1v1 card game designed for gamers of all skill levels.</p>
+            <section class="CaseStudyButton">
+              <a href="project_kotc.html" class="Featuredbutton">View Case Study</a>
+            </section>
+          </section>
+        </section>
+
+        <!--Tug-->
+        <section class="ProjCard">
+          <img src="graphics/tug_main.png" alt="Tug" class="ProjectScreenshot ISSScreenshot">
+          <section class="ProjectOverlay">
+            <h3 class="FeaturedTitle1">Tug</h3>
+            <p>A strategy game for GMTK Game Jam 2021.</p>
+            <section class="CaseStudyButton">
+              <a href="project_tug.html" class="Featuredbutton">View Case Study</a>
+            </section>
+          </section>
+        </section>
+
+        <!--Warna-->
+        <section class="ProjCard">
+          <img src="graphics/warna_main.jpg" alt="Warna" class="ProjectScreenshot HighlightScreenshot"> <!-- width="413" height="293" -->
+          <section class="ProjectOverlay">
+            <h3 class="FeaturedTitle1">Warna</h3>
+            <p>A short puzzle/platformer developed for Design Buddies game jam.</p>
+            <section class="CaseStudyButton">
+              <a href="project_warna.html" class="Featuredbutton">View Project</a>
+            </section>
+          </section>
+        </section>
+
+        <!-- The Rejected Gun Factory-->
+        <section class="ProjCard">
+          <img src="graphics/trgf_splash.png" alt="The Rejected Gun Factory" class="ProjectScreenshot ISSScreenshot">
+          <section class="ProjectOverlay">
+            <h3 class="FeaturedTitle2">TRGF</h3>
+            <p class="card2text">A twin stick shooter for GMTK Game Jam 2020.</p>
+            <section class="CaseStudyButton">
+              <a href="project_trgf.html" class="Featuredbutton">View Case Study</a>
+            </section>
+          </section>
+        </section>
+
+      </section>
+    </section>
+
+    <section class="prefooter">
+      <section class="prefootertext">
+        <h2>Thanks for stopping by!</h2>
+        <p>If you like what you see, shoot me an email.</p>
+      </section>
+    </section>
+
+    <footer id="contact_anchor">
+      <img src="graphics/bw_logo.png" alt="Personal Logo" class="BottomLogoImage">
+      <section class="ContactLinks">
+        <a href="https://harbingersmark.itch.io" target="_blank">
+          <img src="graphics/itchio-textless-black.png" alt="Itch.IO link" class="BottomNavLink">
+        </a>
+        <a href="https://www.linkedin.com/in/elrodmark/" target="_blank">
+          <img src="graphics/linkedin.png" alt="Linkedin link" class="BottomNavLink">
+        </a>
+        <a href="https://github.com/mmelrod" target="_blank">
+          <img src="graphics/github.png" alt="Github link" class="BottomNavLink">
+        </a>
+        <a href="mailto:melrod8@gmail.com" target="_blank">
+          <img src="graphics/email.png" alt="email link" class="BottomNavLink">
+        </a>
+      </section>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160167634-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-160167634-1');
+    </script>
+    <script src="JS/burgermenu.js"></script>
+
+  </body>
+</html>

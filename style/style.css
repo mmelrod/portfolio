@@ -1,4 +1,5 @@
 @media screen and (max-width: 768px) {
+
   .BurgerMenu a:not(:first-child) {
     display: none;
   }
@@ -44,7 +45,7 @@ h2 {
   background-position: center;
   background-position: top;
   background-size: 100%;
-  color: #ffffff;
+  color: #f7f7f7;
   height: 580px;
   position: relative;
   display: block;
@@ -58,7 +59,7 @@ header {
 .banner {
   display: block;
   position: relative;
-  color: #ffffff;
+  color: #f7f7f7;
   font-family: "Oxygen", sans-serif;
   font-size: 20px;
   line-height: 150%;
@@ -102,10 +103,12 @@ header {
 
 /* Portfolio banner properties*/
 .PortfolioBanner {
-  background-color: #208a52;
+  background-color: #002937;
+  color: #ffffff;
   font-family: "Open Sans", sans-serif;
   font-size: 32px;
-  font-weight: 900;
+  font-weight: 700;
+  letter-spacing: 1.5px;
   height: 45px;
   line-height: 45px;
   text-align: center;
@@ -117,7 +120,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  color: #ffffff;
+  color: #f7f7f7;
   padding-bottom: 20px;
 }
 
@@ -153,7 +156,8 @@ header {
 }
 
 .Featuredbutton {
-  background-color: #18EBED;
+  background: rgb(13,115,116);
+  background: linear-gradient(0deg, rgba(13,115,116,1) 0%, rgba(24,235,237,1) 50%, rgba(210,255,255,1) 100%);
   border-radius: 10px;
   border-style: solid;
   border-width: 2px;
@@ -170,7 +174,8 @@ header {
 }
 
 .button {
-  background-color: #18EBED;
+  background: rgb(13,115,116);
+  background: linear-gradient(0deg, rgba(13,115,116,1) 0%, rgba(24,235,237,1) 50%, rgba(210,255,255,1) 100%);
   border-radius: 10px;
   border-style: solid;
   border-width: 2px;
@@ -212,7 +217,7 @@ header {
 }
 
 .ArticleContent {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   font-size: 24px;
   font-family: "Oxygen", sans-serif;
   line-height: 1.5em;
@@ -313,7 +318,7 @@ header {
 }
 
 .CaseStudyContents {
-  background-color: #ffffff;
+  background-color: #002937;
 }
 
 .CaseStudyContents b {
@@ -344,6 +349,7 @@ header {
   padding-bottom: 50px;
   padding-right: 8.33%;
   width: 83.33%;
+  background-color: #002937;
 }
 
 .Text3D {
@@ -378,14 +384,14 @@ header {
 .ProjectListBackground h2 {
   font-size: 40px;
   font-family: "Oxygen", sans-serif;
-  color: #ffffff;
+  color: #f7f7f7;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .ProjectCards {
-    color: #ffffff;
+    color: #f7f7f7;
     padding-bottom: 55px;
 }
 
@@ -413,14 +419,14 @@ header {
 }
 
 .MusingContainer h3 {
-  color: #ffffff;
+  color: #f7f7f7;
   font-size: 24px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .MusingContainer p {
-  color: #ffffff;
+  color: #f7f7f7;
   font-size: 18px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -432,7 +438,7 @@ header {
 
 /*case study TOC*/
 #menu span {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   border-top: 50px;
   margin-top: 20px;
   margin-left: 0px;
@@ -499,7 +505,7 @@ header {
 .CSSWOT {
   border-width: 2px;
   border-style: solid;
-  border-color: #E1E8F0;
+  border-color: rgb(0, 37, 50);
   margin-top: 20px;
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -531,7 +537,7 @@ header {
 }
 
 .CSContent {
-  background-color: #ffffff;
+  background-color: #002937;
   line-height: 1.5em;
   padding-bottom: 25px;
   padding-left: 8.33%;
@@ -572,14 +578,14 @@ header {
 }
 
 .ControllerImage {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   margin-top: -10px;
   width: 100%;
 }
 
 /*Highlight Prototyping and Testing*/
 .ProtoTest {
-  background-color: #ffffff;
+  background-color: #002937;
   padding-bottom: 25px;
   padding-left: 8.33%;
   padding-right: 8.33%;
@@ -642,10 +648,11 @@ header {
 
 /*Iron Silver Salt general*/
 .CaseStudyBody {
-  background-color: #E1E8F0;
+  background-color: #002937;
   font-family: "Oxygen", sans-serif;
   font-size: 21.33px;
   line-height: 150%;
+  color: #f7f7f7;
   /*background-color: #E1E8F0;*/
 }
 
@@ -668,7 +675,7 @@ header {
 /*Iron Silver Salt opening*/
 
 .CSopening {
-  background-color: #ffffff;
+  background-color: #002937;
   padding-bottom: 50px;
   padding-left: 8.33%;
   padding-right: 8.33%;
@@ -702,7 +709,7 @@ header {
 }
 
 .CSopening2 {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   padding-bottom: 50px;
   padding-left: 8.33%;
   padding-right: 8.33%;
@@ -723,9 +730,10 @@ header {
   font-weight: 500;
   margin-top: 30px;
   text-align: center;
-  border-bottom: 2px solid #002938;
+  border-bottom: 2px solid #18EBED;
   padding-bottom: 10px;
   line-height: 1.3em;
+  color: #f7f7f7;
 }
 
 .CaseStudyContents sub {
@@ -737,10 +745,11 @@ header {
   padding-top: 20px;
   line-height: 1.3em;
   align-content: center;
+  color: #f7f7f7;
 }
 
 .CSopening span {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   border-top: 2px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -753,6 +762,7 @@ header {
   padding-left: 8.33%;
   padding-top: 25px;
   padding-right: 8.33%;
+  background-color: #002937;
 }
 
 .CSSectionHeader p {
@@ -760,7 +770,7 @@ header {
 }
 
 .ISSPersona {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
 }
 
 .PersonaPortrait {
@@ -833,7 +843,7 @@ header {
 }
 
 .ISSProtoTest {
-  background-color: #D3ECFC;
+  background-color: #002937;
   background-image: url(../graphics/iss_header_bg.jpg);
   padding-top: 20px;
   padding-bottom: 20px;
@@ -859,7 +869,7 @@ header {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #ffffff;
+  color: #f7f7f7;
   background-color: #002532;
 }
 
@@ -896,7 +906,7 @@ footer {
 
 /*TRGF stuff*/
 .TRGFopening2 {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   padding-bottom: 50px;
   padding-left: 8.33%;
   padding-right: 8.33%;
@@ -916,7 +926,7 @@ footer {
 
 .IntermissionImage {
   width: 100%;
-  background-color: #ffffff;
+  background-color: #002937;
 }
 
 .BrainBulb {
@@ -976,8 +986,6 @@ width: 100%;
   margin-right: auto;
 }
 
-/*Media Queries*/
-
 /*for tablets*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* text */
@@ -1012,8 +1020,9 @@ width: 100%;
   }
 
   .button:hover {
-    background-color: #0B8889;
-    color: #ffffff;
+    background: rgb(210,255,255);
+    background: linear-gradient(0deg, rgba(210,255,255,1) 0%, rgba(24,235,237,1) 50%, rgba(13,115,116,1) 100%);
+    color: #000000;
   }
 
   .DesktopOnly {
@@ -1052,18 +1061,18 @@ width: 100%;
     width: 413px;
   }
 
-.WalkthroughVid {
-  display: flex;
-}
+  .WalkthroughVid {
+    display: flex;
+  }
 
-.MobileOnly {
-  display: none;
-}
+  .MobileOnly {
+    display: none;
+  }
 
-.ProjCard {
-  width: 413px;
-  margin-bottom: 20px;
-}
+  .ProjCard {
+    width: 413px;
+    margin-bottom: 20px;
+  }
 
   /*About Body*/
   .portrait {
@@ -1253,7 +1262,7 @@ width: 100%;
   .FeaturedOverlay {
     position: absolute;
     top: 0;
-    height: 100%;
+    height: 86%;
     width: 84%;
     opacity: 0;
     transition: .5s ease;
@@ -1287,8 +1296,9 @@ width: 100%;
   }
 
   .button:hover {
-    background-color: #0B8889;
-    color: #ffffff;
+    background: rgb(210,255,255);
+    background: linear-gradient(0deg, rgba(210,255,255,1) 0%, rgba(24,235,237,1) 50%, rgba(13,115,116,1) 100%);
+    color: #000000;
   }
 
   .Featuredbutton {
@@ -1309,7 +1319,7 @@ width: 100%;
 
   .HomeBgTexture {
     background-color: #002937;
-    color: #ffffff;
+    color: #f7f7f7;
     display: flex;
     width: 80%;
     padding-left: 10%;
@@ -1326,7 +1336,7 @@ width: 100%;
 
   .ProjectCards {
 
-    color: #ffffff;
+    color: #f7f7f7;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1539,7 +1549,7 @@ width: 100%;
   }
 
   .SWOTImage {
-    background-color: #DEF2FE;
+    background-color: rgb(0, 37, 50);
     padding-bottom: 20px;
     padding-top: 20px;
     width: 100%;
@@ -1606,7 +1616,7 @@ width: 100%;
   }
 
   .ControllerImage {
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     margin-top: -10px;
     width: 100%;
   }
@@ -1740,8 +1750,9 @@ width: 100%;
 
   /*Iron Silver and Salt general*/
   .CaseStudyBody {
-    background-color: #E1E8F0;
+    background-color: #002937;
     font-size: 18px;
+    color: #f7f7f7;
   }
 
   .CaseStudyBody h3 {
@@ -1765,7 +1776,6 @@ width: 100%;
   }
 
   .CaseStudyContents h1 {
-    border-bottom: 2px solid #002938;
     padding-bottom: 10px;
     font-size: 48px;
     font-weight: normal;
@@ -1778,7 +1788,7 @@ width: 100%;
   }
 
   .CSopening span {
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     border-top: 2px;
     padding-bottom: 20px;
     margin-top: 20px;
@@ -1798,16 +1808,15 @@ width: 100%;
     height: auto;
     margin-bottom: 50px;
     margin-top: 50px;
-    width: 100%;
   }
 
   /*Iron Silver Salt Discovery*/
   .CSSectionHeader {
-    padding-left: 25.35%;
-    padding-right: 25.35%;
+    padding-left: 15%;
+    padding-right: 15%;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 49.3%;
+    width: 70%;
   }
 
   .CSCompAnalysis {
@@ -1978,6 +1987,43 @@ width: 100%;
 
   .trgfUI ul {
     padding-left: 30px;
+  }
+
+  /*Case Study grid layout stuff*/
+
+  .GDCaseStudy {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 20px;
+  }
+
+  .all-col-grid-item {
+    grid-column-end: span 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .two-col-grid-item {
+    grid-column-end: span 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .three-col-grid-item {
+    grid-column-end: span 2;
+    display: flex;
+    align-items: center;
+    justify-content: Top;
+    flex-direction: column;
+  }
+
+  .three-col-grid-item em {
+    font-weight: bold;
+    color: #b3ffda;
   }
 
 }
