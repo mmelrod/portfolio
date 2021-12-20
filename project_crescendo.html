@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, width=device-width, viewport-fit=cover">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Crescendo</title>
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="CaseStudyBody">
+    <section class="AboutBody">
+      <header class="BurgerMenu" id="myTopNav">
+        <img src="graphics/teal_logo.png" alt="Personal Logo" class="MenuTop NavLogoFloat" id="NavLogo">
+        <a href="gdh.html">Home</a>
+        <!--<a href="musings.html">Musings</a>-->
+        <a href="gprojects.html">Projects</a>
+        <a href="gabout.html">About</a>
+        <a href="https://melrod8.wixsite.com/twocansgaming" target="_blank">Blog</a>
+        <a href="mailto:melrod8@gmail.com" target="_blank" class="MenuLinks">Email</a>
+        <a href="javascript:void(0);" class="icon" onclick="UseBurger()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </header>
+    </section>
+
+    <article class="CaseStudyContents">
+      <section class="CSSectionHeader">
+        <h1>Crescendo</h1>
+        <sub>A rhythm-based first person shooter</sub>
+        <section class="WalkthroughButton">
+          <a href=https://harbingersmark.itch.io/crescendo target="_blank" class="button">Play the demo</a>
+        </section>
+        <iframe class="WalkthroughVid DesktopOnly" style="width:100%;" src="https://youtu.be/T6mv6J_zvao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <section class="WalkthroughButton MobileOnly">
+          <a href=https://youtu.be/T6mv6J_zvao target="_blank" class="button">Watch a short playthrough</a>
+        </section>
+        <section class="GDCaseStudy">
+          <section class="two-col-grid-item">
+            <h3>About</h3>
+            <ul class="AboutGameList">
+              <li><em>Role:</em> Sole Developer</li>
+              <li><em>Team Size:</em> 1</li>
+              <li><em>Development Time:</em> 1 month</li>
+              <li><em>Platform:</em> Windows</li>
+              <li><em>Engine:</em> UE 4.26</li>
+            </ul>
+          </section>
+          <section class="two-col-grid-item DesktopOnly">
+            <img src="graphics/crescendo_logo.png" alt="Crescendo Logo" class="BrainBulb">
+          </section>
+          <section class="two-col-grid-item">
+            <img src="graphics/crescendo_overview.jpg" alt="Level overview" class="ISSOpener">
+          </section>
+          <section class="two-col-grid-item">
+            <p>Crescendo is a rhytm-based first person shooter, created to be my take on a modern 90s-era shooter. </p>
+          </section>
+          <section class="two-col-grid-item">
+            <h3>Sole Developer</h3>
+            <p>As the sole developer, I was responsible for, well, everything. I designed the weapons, level, and mechanics present in the game. I also programmed all of the logic used throughout the game, testing everything as I went and fixing bugs where necessary.</p>
+            <p>Over the course of this one-month project, I also chronicled my progress and the reasoning behind my decisions in weekly installments over on the Two Cans Gaming blog.</p>
+            <section class="WalkthroughButton">
+              <a href=https://melrod8.wixsite.com/twocansgaming/post/the-journey-begins target="_blank" class="button">Read More</a>
+            </section>
+          </section>
+          <section class="two-col-grid-item">
+            <img src="graphics/crescendo_action_shot.jpg" alt="Level overview" class="ISSOpener">
+          </section>
+          <section class="two-col-grid-item">
+          </section>
+
+          <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="graphics/chevron-up.png" alt="Back to top button" class="HighlightBTTChevron"></button>
+
+          <section class="all-col-grid-item">
+            <h3>Retrospective</h3>
+          </section>
+
+          <section class="three-col-grid-item">
+            <p><em>What Went Well</em></p>
+            <ul>
+              <li><em>Scope Limitation:</em> Over the course of the project, I was able to keep myself from adding features beyond what I would be able to create in my one-month timeline.</li>
+              <li><em>Core Design:</em> Early playtests confirmed that my initial direction of a rhythm-based fps held substantial promise.</li>
+              <li><em>Goal Setting:</em> Each week I was able to set clear and completable goals formyself, and allocate my time accordingly.</li>
+            </ul>
+          </section>
+          <section class="three-col-grid-item">
+            <p><em>What Went Wrong</em></p>
+            <ul>
+              <li><em>QA:</em> I did not give myself sufficent time to test the core systems that I was constructing the game around, and discovered a massive bug 3 days before my self-imposed deadline.</li>
+              <li><em>Art Direction:</em> I waited too long to decide on an overall art direction, and as a direct result, did not have enough time at the end of the project to create the sprites I wanted to include.</li>
+            </ul>
+          </section>
+          <section class="three-col-grid-item">
+            <p><em>What to Improve</em></p>
+            <ul>
+              <li><em>Shooting Mechanics:</em> The current iteration of the shooting mechanics needs to be reworked so that there isn't a delay between player providing inputs and the game providing audio/visual feedback.</li>
+              <li><em>Audio Design:</em> Making everything happen in time with the music can lead to too many sound effects playing simultaneously, so a system needs to be implemented to decide what sounds to prioritize.</li>
+              <li><em>Trust First Impressions:</em> If I have a poor first impression of a mechanic I'm implementing, this frequently means said mechanic will also leave a poor first impression on players.</li>
+            </ul>
+          </section>
+
+        </section>
+      </section>
+
+      <section class="CSContent">
+        <a href="mailto:melrod8@gmail.com" target="_blank" class="button">Share your thoughts</a>
+      </section>
+    </article>
+
+    <section class="prefooter">
+      <section class="prefootertext">
+        <h2>Thanks for stopping by!</h2>
+        <p>If you like what you see, shoot me an email.</p>
+      </section>
+    </section>
+
+    <footer id="contact_anchor">
+      <img src="graphics/bw_logo.png" alt="Personal Logo" class="BottomLogoImage">
+      <section class="ContactLinks">
+        <a href="https://harbingersmark.itch.io" target="_blank">
+          <img src="graphics/itchio-textless-black.png" alt="Itch.IO link" class="BottomNavLink">
+        </a>
+        <a href="https://www.linkedin.com/in/elrodmark/" target="_blank">
+          <img src="graphics/linkedin.png" alt="Linkedin link" class="BottomNavLink">
+        </a>
+        <a href="https://github.com/mmelrod" target="_blank">
+          <img src="graphics/github.png" alt="Github link" class="BottomNavLink">
+        </a>
+        <a href="mailto:melrod8@gmail.com" target="_blank">
+          <img src="graphics/email.png" alt="email link" class="BottomNavLink">
+        </a>
+      </section>
+    </footer>
+
+    <script src="JS/backtotop.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160167634-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-160167634-1');
+    </script>
+    <script>
+      /*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
+      initComparisons();
+    </script>
+    <script src="JS/burgermenu.js"></script>
+
+  </body>
+
+</html>
