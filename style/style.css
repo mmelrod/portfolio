@@ -229,10 +229,10 @@ header {
 }
 
 .AboutContent {
-  background-color: rgba(225,239,246,.95);
+  background-color: rgba(225,239,246,.85);
   font-size: 24px;
   font-family: "Oxygen", sans-serif;
-  line-height: 1.5em;
+  line-height: 1.7em;
   padding-left: 8.33%;
   padding-top: 80px;
   padding-bottom: 50px;
@@ -259,6 +259,10 @@ header {
   font-weight: 500;
   margin-bottom: 30px;
   text-align: center;
+}
+
+.AboutContent p {
+  margin-bottom: 25px;
 }
 
 .ArticleContent h2 {
@@ -1348,6 +1352,12 @@ width: 100%;
     padding: 10px 0px;
   }
 
+  .Featuredbutton:hover {
+    background: rgb(210,255,255);
+    background: linear-gradient(0deg, rgba(210,255,255,1) 0%, rgba(24,235,237,1) 50%, rgba(13,115,116,1) 100%);
+    color: #000000;
+  }
+
   .FeaturedProject p {
     font-size: 16px;
     line-height: 150%;
@@ -1411,12 +1421,8 @@ width: 100%;
 
   /*Bio page*/
   .AboutContent {
-    display: grid;
-    grid-template-columns: 43.45% auto;
-    grid-template-rows: auto auto 0px auto;
-    grid-column-gap: 70px;
-    grid-row-gap: 18px;
-    line-height: 1.6em;
+    display: flex;
+    line-height: 1.7em;
     padding-left: 17%;
     padding-bottom: 50px;
     padding-right: 17%;
@@ -1430,8 +1436,6 @@ width: 100%;
   }
 
   .AboutContent h2 {
-    grid-column-start: 1;
-    grid-column-end: 3;
     border-bottom: 2px solid #002938;
     font-size: 48px;
     font-weight: 500;
@@ -1446,8 +1450,6 @@ width: 100%;
   }
 
   .AboutContent p {
-    grid-column-start: 2;
-    grid-column-end: 3;
     width: 100%;
     display: flex;
     padding-top: auto;
@@ -1459,15 +1461,26 @@ width: 100%;
     display: flex;
   }
 
+  .PortraitContainer {
+    display: flex;
+    max-width: 413px;
+    width: 40%;
+    margin-right: 5%;
+  }
+
   .portrait {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 5;
-    margin-bottom: 30px;
-    margin-top: 0px;
+    height: auto;
+    display: flex;
+    margin-bottom: auto;
+    margin-top: 115px;
     max-width: 413px;
     width: 100%;
+  }
+
+  .AboutTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
   }
 
   .AboutBody {
