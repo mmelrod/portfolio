@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, width=device-width, viewport-fit=cover">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Subscription App</title>
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="CaseStudyBody">
+    <section class="AboutBody">
+      <header class="BurgerMenu" id="myTopNav">
+        <img src="graphics/teal_logo.png" alt="Personal Logo" class="MenuTop NavLogoFloat" id="NavLogo">
+        <a href="uxh.html">Home</a>
+        <!--<a href="musings.html">Musings</a>-->
+        <a href="uprojects.html">Projects</a>
+        <a href="uabout.html">About</a>
+        <a href="mailto:melrod8@gmail.com" target="_blank" class="MenuLinks">Email</a>
+        <a href="javascript:void(0);" class="icon" onclick="UseBurger()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </header>
+    </section>
+
+    <article class="CaseStudyContents">
+      <section class="CSopening">
+        <h1>Subscription Tracker</h1>
+        <sub>A mobile app that helps manage your subscriptions</sub>
+        <img src="graphics/sub_hifi.png" alt="Highlight screenshot" style="display:block;max-height:600px;max-width:382px;margin-left:auto;margin-right:auto" class="ISSOpener">
+        <p></p>
+        <a href="https://www.figma.com/proto/CV6oAJsOpdWt5cS4n6r2Av/Subscription-App-HiFi?page-id=0%3A1&node-id=75%3A226&viewport=551%2C203%2C0.15&scaling=scale-down&starting-point-node-id=56%3A2" class="button" target="_blank">Check out the final prototype</a>
+
+      </section>
+
+      <section class="CSopening">
+          <h3>The Problem</h3>
+          <p>A popular trend amongst modern companies is to offer their services for a recurring fee. Keep paying the subscription fee, and you can keep utilizing their product. This payment model has crept its way into almost every industry, leaving consumers with up to one or two dozen recurring payments to track and manage. For a majority of consumers, this is quite the mental load to keep track of, leading to missed payments and unexpected bills from a service they had meant to cancel</p>
+          <p>My subscription tracker app solves this issue by giving customers a tool that keeps all of their subscription information in one easy to access place, and makes keeping track of their monthly payments a much simpler task.<p>
+      </section>
+
+
+      <section id="Discovery_anchor" class="CSSectionHeader">
+        <h2>Discovery</h2>
+      </section>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="graphics/chevron-up.png" alt="Back to top button" class="HighlightBTTChevron"></button>
+
+      <section class="CSContent">
+        <p>The first step in designing this app was to learn more about what problems it would have to solve for people, and what they would expect some of those solutions to look like. I accomplished this by putting out a survey, and following up with several respondees to discuss their responses.</p>
+        <img src="graphics/sub_survey_result_1.png" alt="Survey results" class="DiscoveryImage">
+        <p>From the responses, I learned 3 signifigant lessons:</p>
+        <ul>
+          <li>Helping people track their subscriptions was a problem worth solving, as 67% thought an app that did exactly that would help them.</li>
+          <li>Subscribers often forgot to unsubscribe from a service, resulting in unwanted payments (happening to over 3/4 of respondants).</li>
+          <li>Subscribers placed a higher priority on features that displayed information about their subscriptions than features that allowed them to interact with their subscriptions.</li>
+        </ul>
+        <img src="graphics/sub_survey_result_2.png" alt="More survey results" class="DiscoveryImage">
+      </section>
+
+      <section id="IA_anchor" class="CSSectionHeader">
+        <h2>Information Architecture</h2>
+      </section>
+      <section class="CSContent"
+        <p>From the gathered data, I crafted user stories to help determine which features would be high, medium, and low priorities.</p>
+        <img src="graphics/sub_user_stories.png" alt="User Stories" class="DiscoveryImage">
+        <p>These user stories helped me craft user flows, outlining how users would naviage the app and complete each implemented user story.</p>
+        <section class= "WalkthroughButton">
+          <a href="https://docs.google.com/spreadsheets/d/1jAhSWV3lyKY4f25x10A1Q5iYnTEiy96utQDbri7AI9U/edit?usp=sharing" target="_blank" class="button">View Stories/Flows</a>
+        </section>
+
+        <p>Once all of the information was compiled into user flows and stories, I constructed several wireframes run some usability tests with potential visitors.</p>
+        <img src="graphics/sub_wireframes.png" alt="Dashboard sketch" class="DiscoveryImage">
+        <section class= "WalkthroughButton">
+          <a href="https://www.figma.com/proto/j7RyhPbWwpwTmCsVPtU8xr/Subscription-App-Wireframes?page-id=0%3A1&node-id=56%3A2&viewport=586%2C264%2C0.14&scaling=scale-down&starting-point-node-id=56%3A2" target="_blank" class="button">View Wireframes</a>
+        </section>
+        <p>These usability tests provided excellent feedback, highlighting both the strengths and flaws in my design. One such flaw was that users had trouble creating a new category, meaning a solution had to be prototyped and tested in followup tests. For this particular issue, the solution came in the form of a "Create Category" button on the home screen, giving users easier access to this feature.</p>
+      </section>
+
+      <!--<section class="CSContent">
+        <h3>Branding</h3>
+        <p>I chose the SF Pro font to ensure all of the text was readable on the mobile devices the app was installed on. The font also provided the informative feel I was looking for, since the app mostly provided accessible information for its users.</p>
+        <p>The color scheme took a little trial and error to choose. I initally tried a green color scheme, but several testers said that the app felt more appropriate for a bank. With that information, I switched to a blue-focused theme to better represent the app's informational nature, which further testing proved to be the right call.</p>
+      </section>-->
+
+        <section class="CSSectionHeader">
+          <h2>HiFi Mockups</h2>
+        </section>
+        <section class="CSContent">
+          <p>After choosing typography anbd color schemes to go with the wireframes, I combined everything into a hi-fi mockup. This, in turn, was tested with potential users and senior designers to identify and fix any issues that were not apparent in the wireframes.</p>
+          <img src="graphics/sub_hifi.png" alt="Subscription App HiFi Mockup." class="DiscoveryImage">
+          <section class= "WalkthroughButton">
+            <a href="https://www.figma.com/proto/CV6oAJsOpdWt5cS4n6r2Av/Subscription-App-HiFi?page-id=0%3A1&node-id=73%3A52&viewport=551%2C203%2C0.15&scaling=scale-down&starting-point-node-id=56%3A2" target="_blank" class="button">View HiFi</a>
+          </section>
+        </section>
+
+      <section class="CSContent">
+        <h2>Conclusion</h2>
+        <p>Throughout the design of this app, I was careful to keep the implementation of it in mind. One concern that repeatedly arose from potential users was that of data privacy, and how the app would interface with subscription services. I decided to solve this by designing the app to be completely offline, meaning users could rest assured the data they provide the app isn't being shared with any third parties. One major downside of this is that users would have to provide most of the information displayed on the app themselves. While this approach isn't as user-friendly as I would like, but was an unfortunately necessary trade off to protect users' information.</p>
+      </section>
+    </article>
+
+    <section class="prefooter">
+      <section class="prefootertext">
+        <h2>Thanks for stopping by!</h2>
+        <p>If you like what you see, shoot me an email.</p>
+      </section>
+    </section>
+
+    <footer id="contact_anchor">
+      <img src="graphics/bw_logo.png" alt="Personal Logo" class="BottomLogoImage">
+      <section class="ContactLinks">
+        <a href="https://www.linkedin.com/in/elrodmark/" target="_blank">
+          <img src="graphics/linkedin.png" alt="Linkedin link" class="BottomNavLink">
+        </a>
+        <a href="https://github.com/mmelrod" target="_blank">
+          <img src="graphics/github.png" alt="Github link" class="BottomNavLink">
+        </a>
+        <a href="mailto:melrod8@gmail.com" target="_blank">
+          <img src="graphics/email.png" alt="email link" class="BottomNavLink">
+        </a>
+      </section>
+    </footer>
+
+    <script src="JS/backtotop.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160167634-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-160167634-1');
+    </script>
+    <script src="JS/burgermenu.js"></script>
+
+  </body>
+
+</html>

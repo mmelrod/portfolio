@@ -173,6 +173,7 @@ header {
 .FeaturedScreenshot {
   margin-top: 15px;
   width: 300px;
+  height:auto;
 }
 
 .CaseStudyButton {
@@ -1286,7 +1287,7 @@ width: 100%;
   .FeaturedScreenshot {
     width: 90%;
     padding-left: 5%;
-    padding-right: 5%
+    padding-right: 5%;
   }
 
   .ProjectOverlay {
