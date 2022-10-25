@@ -346,6 +346,10 @@ header {
   display: none;
 }
 
+.DesktopExclusive {
+  display: none;
+}
+
 .CaseStudyContents {
   background-color: #002937;
 }
@@ -691,7 +695,7 @@ header {
   font-size: 29.33px;
   line-height: 150%;
   margin-bottom: 35px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .CaseStudyBody h2 {
@@ -1061,7 +1065,7 @@ width: 100%;
   }
 
   .DesktopOnly {
-    .display: flex;
+    display: flex;
   }
 
   .mySlides p {
@@ -1239,7 +1243,11 @@ width: 100%;
   }
 
   .DesktopOnly {
-    .display: flex;
+    display: flex;
+  }
+
+  .DesktopExclusive {
+    display: flex;
   }
 
   /*Home Page*/
@@ -1614,7 +1622,7 @@ width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 90%;
   }
 
   /*Highlight IA*/
@@ -1807,21 +1815,29 @@ width: 100%;
     padding-left: 5px;
   }
 
-  /*Iron Silver and Salt general*/
+  /*Case Study general*/
   .CaseStudyBody {
     background-color: #002937;
     font-size: 18px;
     color: #f7f7f7;
   }
 
+  .CaseStudyBody p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   .CaseStudyBody h3 {
     font-size: 26px;
     font-weight: 500;
+    padding-top: 20px;
+    margin-top: 0px;
   }
 
   .CaseStudyBody h2 {
     font-size: 37.33px;
     font-weight: 700;
+    margin-top: 30px;
     margin-bottom: 20px;
     text-align: center;
   }
@@ -1873,7 +1889,7 @@ width: 100%;
   .CSSectionHeader {
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
     width: 70%;
   }
@@ -1891,7 +1907,9 @@ width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 90%;
   }
 
   .ISSPersona {
@@ -1927,6 +1945,12 @@ width: 100%;
   .StyleGuideImage {
     margin-top: 20px;
     width: 100%;
+  }
+
+  .TwoColumnContent {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
   }
 
   /*Iron Silver Salt Prototyping and Testing*/
