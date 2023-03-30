@@ -230,7 +230,7 @@ header {
 }
 
 .AboutContent {
-  background-color: rgba(225,239,246,.85);
+  background-color: rgba(225,239,246,.92);
   font-size: 24px;
   font-family: "Oxygen", sans-serif;
   line-height: 1.7em;
@@ -239,6 +239,7 @@ header {
   padding-bottom: 50px;
   padding-right: 8.33%;
   width: 83.33%;
+  font-weight: 600;
 }
 
 .ArticleContent {
@@ -808,10 +809,8 @@ header {
 }
 
 .PersonaPortrait {
-  display: block;
   margin-left: auto;
   margin-right: auto;
-
   width: 221px;
 }
 
@@ -1120,8 +1119,8 @@ width: 100%;
   /*About Body*/
   .portrait {
     margin-bottom: 30px;
-    margin-top: 30px;
     max-width: 350px;
+    margin-top: 10px;
     float: left;
     margin-right: 50px;
   }
@@ -1430,12 +1429,12 @@ width: 100%;
 
   /*Bio page*/
   .AboutContent {
-    display: flex;
     line-height: 1.7em;
     padding-left: 17%;
     padding-bottom: 50px;
     padding-right: 17%;
     width: 66%;
+    flex-direction: column;
   }
 
   .ArticleContent {
@@ -1459,8 +1458,7 @@ width: 100%;
   }
 
   .AboutContent p {
-    width: 100%;
-    display: flex;
+    display: block;
     padding-top: auto;
     padding-bottom: auto;
   }
@@ -1479,11 +1477,11 @@ width: 100%;
 
   .portrait {
     height: auto;
-    display: flex;
-    margin-bottom: auto;
-    margin-top: 115px;
-    max-width: 413px;
-    width: 100%;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    max-width: 350px;
   }
 
   .AboutTextContainer {
