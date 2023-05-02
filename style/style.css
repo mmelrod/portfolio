@@ -2102,7 +2102,7 @@ width: 100%;
     flex-direction: column;
   }
 
-  .three-col-grid-item em {
+  .GDCaseStudy em {
     font-weight: bold;
     color: #b3ffda;
   }
