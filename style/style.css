@@ -115,9 +115,14 @@ header {
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 1.5px;
-  height: 45px;
+  height: auto;
   line-height: 45px;
   text-align: center;
+}
+
+.PortfolioBanner p {
+  font-size: 20px;
+  margin-bottom: 40px;
 }
 
 /* Featured Project Cards*/
@@ -129,6 +134,20 @@ header {
   color: #f7f7f7;
   padding-bottom: 20px;
   padding-top: 20px;
+}
+
+.ImageRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.SmallIcons {
+  max-height: 75px;
+  width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .FeaturedProject {
@@ -230,7 +249,7 @@ header {
 }
 
 .AboutContent {
-  background-color: rgba(225,239,246,.92);
+  background-color: rgba(0,41,55,.90);
   font-size: 24px;
   font-family: "Oxygen", sans-serif;
   line-height: 1.7em;
@@ -239,7 +258,16 @@ header {
   padding-bottom: 50px;
   padding-right: 8.33%;
   width: 83.33%;
-  font-weight: 600;
+  font-weight: 700;
+  color: #f7f7f7;
+}
+
+.AboutContent a:link {
+  color: #18EBED;
+}
+
+.AboutContent a:visited {
+  color: #18a2a3;
 }
 
 .ArticleContent {
@@ -288,7 +316,7 @@ header {
 
 .ResumeButton {
   text-align: center;
-  background-color: rgba(225,239,246,.95);
+  background-color: rgba(0,41,55,.90);
 }
 
 /*About Body*/
@@ -1485,9 +1513,10 @@ width: 100%;
   }
 
   .AboutTextContainer {
-    display: flex;
-    flex-direction: column;
-    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 750px;
   }
 
   .AboutBody {
