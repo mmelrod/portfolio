@@ -2107,6 +2107,15 @@ width: 100%;
     grid-gap: 20px;
   }
 
+  .four-col-mid-grid-item {
+    grid-column-start: 2;
+    grid-column-end: span 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   .all-col-grid-item {
     grid-column-end: span 6;
     display: flex;
