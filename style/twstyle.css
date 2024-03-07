@@ -1,0 +1,991 @@
+@media screen and (max-width: 768px) {
+
+  .BurgerMenu a:not(:first-child) {
+    display: none;
+  }
+
+  .BurgerMenu a.icon {
+    float: right;
+    display: block;
+  }
+
+  .BurgerMenu.responsive {
+    position: relative;
+    background-color: #002937;
+  }
+
+  .BurgerMenu.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .BurgerMenu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    background-color: #002937;
+  }
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*Home Page*/
+.HomeBackground {
+  background-image: url(../graphics/digitaltouch_bg_mobile.png);
+  background-color: #002937;
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+  background-size: 100%;
+  color: #f7f7f7;
+  height: 150px;
+  position: relative;
+  display: block;
+}
+
+header {
+  display: block;
+  height: 100px;
+}
+
+.HomeTransitionGradient {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0,41,55,1));
+  height: 60px;
+  margin-top: -10px;}
+
+.banner {
+  display: block;
+  position: relative;
+  color: #f7f7f7;
+  font-family: "Oxygen", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Portfolio banner properties*/
+.PortfolioBanner {
+  background-color: #002937;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  height: auto;
+  line-height: 45px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.PortfolioBanner p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+/* Featured Project Cards*/
+.HomeBgTexture {
+  background-color: #002937;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  color: #f7f7f7;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.ProjectScreenshot {
+  margin-top: 50px;
+  width: 300px;
+}
+
+.FeaturedScreenshot {
+  margin-top: 15px;
+  width: 300px;
+  height:auto;
+}
+
+.CaseStudyButton {
+  text-align: center;
+}
+
+.Featuredbutton {
+  background: rgb(13,115,116);
+  background: linear-gradient(0deg, rgba(13,115,116,1) 0%, rgba(24,235,237,1) 50%, rgba(210,255,255,1) 100%);
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #002532;
+  color: #000000;
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: 21.33px;
+  font-weight: Bold;
+  padding: 2vw 10vw;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.button {
+  background: rgb(13,115,116);
+  background: linear-gradient(0deg, rgba(13,115,116,1) 0%, rgba(24,235,237,1) 50%, rgba(210,255,255,1) 100%);
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #002532;
+  color: #000000;
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: 21.33px;
+  font-weight: Bold;
+  padding: 2vw 10vw;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+/*Bio page*/
+
+.AboutBody2 {
+  background-color: #E1EFF6;
+}
+
+.AboutBackground  {
+  background-image: url(../graphics/about_bg_color_fixed.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.AboutContent {
+  background-color: rgba(0,41,55,.90);
+  font-size: 20px;
+  font-family: "Oxygen", sans-serif;
+  line-height: 1.7em;
+  padding-left: 8.33%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-right: 8.33%;
+  width: 83.33%;
+  font-weight: 700;
+  color: #f7f7f7;
+}
+
+.AboutContent a:link {
+  color: #18EBED;
+}
+
+.AboutContent a:visited {
+  color: #18a2a3;
+}
+
+.ArticleContent {
+  background-color: #f7f7f7;
+  font-size: 24px;
+  font-family: "Oxygen", sans-serif;
+  line-height: 1.5em;
+  padding-left: 8.33%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-right: 8.33%;
+  width: 83.33%;
+}
+
+.AboutContent h2 {
+  border-bottom: 2px solid #002938;
+  font-size: 48px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.AboutContent p {
+  margin-bottom: 25px;
+}
+
+.ArticleContent h2 {
+  font-size: 44px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.ArticleContent ul {
+  list-style-type: disc;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  line-height: 1.8em;
+}
+
+.ArticleContent p {
+  line-height: 2em;
+}
+
+.ProjectSplitContent ul {
+  padding-left: 8.33%;
+  list-style: disc;
+}
+
+.ResumeButton {
+  text-align: center;
+  background-color: rgba(0,41,55,.90);
+}
+
+/*About Body*/
+
+.portrait {
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Burger Menu Stuff*/
+
+.MenuTop {
+  padding: 0px 10px;
+}
+
+.BurgerMenu {
+  z-index: 99;
+}
+
+.NavLogoFloat {
+  float: left;
+}
+
+.BurgerMenu img {
+  padding-top: 8px;
+}
+
+.BurgerMenu a {
+  float: left;
+  display: block;
+  color: #18EBED;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.BurgerMenu a:hover {
+  background-color: #10d2d5;
+  color: #000000;
+}
+
+.BurgerMenu a.Active {
+    background-color: #18EBED;
+    color: #000000;
+}
+
+.BurgerMenu .icon {
+    display: none;
+}
+
+.DesktopOnly {
+  display: none;
+}
+
+.DesktopExclusive {
+  display: none;
+}
+
+.CaseStudyContents {
+  background-color: #002937;
+}
+
+.CaseStudyContents b {
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.CaseStudyContents ul {
+  list-style-type: disc;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  line-height: 1.5em;
+}
+
+.AboutBody {
+  background-color: #E1E8F0;
+  background-image: url(../graphics/mobile_top_graphic.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 95px;
+  float: none;
+}
+
+.Content3D {
+  padding-left: 8.33%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-right: 8.33%;
+  width: 83.33%;
+  background-color: #002937;
+}
+
+.ProjectListBackground {
+  background-image: url(../graphics/background_pattern_mobile.png);
+  background-color: #002937;
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: 100%;
+}
+
+.ProjectListBackground h2 {
+  font-size: 40px;
+  font-family: "Oxygen", sans-serif;
+  color: #f7f7f7;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ProjectCards {
+    color: #f9f9f9;
+    padding-bottom: 55px;
+}
+
+.ProjectCards p {
+  font-size: 18px;
+  line-height: 1.75em;
+}
+
+.ProjCard h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 26.66px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.ProjCard {
+  font-family: "Oxygen", sans-serif;
+  font-size: 21.33px;
+  line-height: 1.6em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.MusingContainer {
+  border: 2px solid #000000;
+  padding: 5px;
+  background-color: rgba(0,41,55,.8);
+}
+
+/*case study TOC*/
+#menu span {
+  background-color: #f7f7f7;
+  border-top: 50px;
+  margin-top: 20px;
+  margin-left: 0px;
+  opacity: 20%;
+  width: 300px;
+}
+
+/*highlight general*/
+
+.DesktopTOC {
+  display: none;
+}
+
+.HighlightBTTChevron {
+  max-width: 30px;
+}
+
+/*highlight opening*/
+
+/*Back to Top button*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border-style: solid;
+  border-width: 2px;
+  border-color: #002532;
+  outline: none; /* Remove outline */
+  background-color: #18EBED; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #0B8889; /* Add a dark-grey background on hover */
+}
+
+.CSSWOT {
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(0, 37, 50);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.CSContent {
+  background-color: #002937;
+  line-height: 1.5em;
+  padding-bottom: 25px;
+  padding-left: 8.33%;
+  padding-top: 25px;
+  padding-right: 8.33%;
+}
+
+.VDImage {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.PersonaPortrait {
+  margin-left: auto;
+  margin-right: auto;
+  width: 221px;
+}
+
+.WireframeSketches {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/*Footer stuff*/
+
+.prefooter {
+  display: block;
+  font-family: "Oxygen", sans-serif;
+  font-size: 21.33px;
+  line-height: 1.5em;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #f7f7f7;
+  background-color: #002532;
+}
+
+.prefootertext {
+  width: 83.34%;
+  text-align: center;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+}
+
+footer {
+  background-color: #18EBED;
+  height: 100px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.BottomLogoImage {
+  width: 18%;
+  max-width: 55px;
+  padding-bottom: 20px;
+}
+
+.BottomNavLink {
+  width: 14%;
+  max-width: 55px;
+  max-height: 55px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.IntermissionImage {
+  width: 100%;
+  background-color: #002937;
+}
+
+.BrainBulb {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  max-width: 300px;
+}
+
+.img-comp-container {
+  margin-top: 30px;
+}
+
+/*for tablets*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* text */
+  h1 {
+    font-size: 85.33px;
+    line-height: 1.5em;
+  }
+
+  h2 {
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    line-height: 1.5em;
+  }
+
+  .HomeBackground {
+    background-image: url(../graphics/digitaltouch_bg_tablet.png);
+    background-position: center;
+    height: 680px;
+  }
+
+  .HomeTransitionGradient {
+    height: 300px;
+    margin-top: -273px;
+  }
+
+  .banner {
+    line-height: 150%;
+    position: relative;
+    padding-top: 0px;
+    width: 450px;
+    z-index: 0;
+  }
+
+  .button:hover {
+    background: rgb(210,255,255);
+    background: linear-gradient(0deg, rgba(210,255,255,1) 0%, rgba(24,235,237,1) 50%, rgba(13,115,116,1) 100%);
+    color: #000000;
+  }
+
+  .DesktopOnly {
+    display: flex;
+  }
+
+  .ProjCard h3 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  .ProjectScreenshot {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 413px;
+  }
+
+  .FeaturedScreenshot {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 413px;
+  }
+
+  .MobileOnly {
+    display: none;
+  }
+
+  .ProjCard {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  /*Footer stuff*/
+
+  footer {
+    padding-bottom: 0px;
+  }
+
+  .prefootertext {
+    text-align: center;
+    width: 49.34%;
+    padding-left: 25.33%;
+    padding-right: 25.33%;
+  }
+
+  .BottomLogoImage {
+    padding-top: 20px;
+    max-width: 64px;
+    max-height: 22px;
+  }
+
+  #contact_anchor {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 8.33%;
+    padding-right: 8.33%;
+    height: 100px;
+    align-items: center;
+  }
+
+  .ContactLinks {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .BottomNavLink {
+    height: 40px;
+    width: 40px;
+  }
+
+}
+
+/*for computers*/
+@media only screen and (min-width: 991px) {
+  /* text */
+  h1 {
+    font-size: 66.66px;
+    line-height: 1.5em;
+  }
+
+  h2 {
+    font-size: 44px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    line-height: 1.25em;
+  }
+
+  .HomeTransitionGradient {
+    height: 300px;
+    margin-top: -270px;
+  }
+
+  .banner h2 {
+    width: 450px;
+    text-align: center;
+  }
+
+  .DesktopOnly {
+    display: flex;
+  }
+
+  /*Home Page*/
+  .HomeBackground {
+    background-image: url(../graphics/digitaltouch_bg.jpg);
+    background-size: 100%;
+    background-position: 50% 58%;
+    height: 130px;
+  }
+
+  .BurgerMenu {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  .banner {
+    line-height: 1.25em;
+    padding-top: 0px;
+    position: relative;
+    width: 450px;
+  }
+
+  .ProjectScreenshot {
+    width: 450px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .ProjectOverlay h3 {
+    text-align: center;
+  }
+
+
+  .button {
+    padding: 1vw 5vw;
+  }
+
+  .button:hover {
+    background: rgb(210,255,255);
+    background: linear-gradient(0deg, rgba(210,255,255,1) 0%, rgba(24,235,237,1) 50%, rgba(13,115,116,1) 100%);
+    color: #000000;
+  }
+
+  .Featuredbutton {
+    width: 20vw;
+    max-width: 300px;
+    padding: 10px 0px;
+  }
+
+  .Featuredbutton:hover {
+    background: rgb(210,255,255);
+    background: linear-gradient(0deg, rgba(210,255,255,1) 0%, rgba(24,235,237,1) 50%, rgba(13,115,116,1) 100%);
+    color: #000000;
+  }
+
+  .ProjCard p {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .HomeBgTexture {
+    background-color: #002937;
+    color: #f7f7f7;
+    display: flex;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .ProjectListBackground {
+    background-image: none;
+    background-color: #002937;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  .ProjectCards {
+    color: #f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+  }
+
+  .ProjectCards p {
+    font-size: 18px;
+    line-height: 2em;
+  }
+
+  .ProjCardBackground{
+    position: relative;
+    display: block;
+    background-image: url(../graphics/background_pattern.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+  }
+
+  .ProjCard {
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    width:80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12%;
+    padding-right: 12%;
+    max-width: 1000px;
+  }
+
+  .MobileOnly {
+    display: none;
+  }
+
+  /*Bio page*/
+  .AboutContent {
+    line-height: 1.7em;
+    padding-left: 12%;
+    padding-bottom: 50px;
+    padding-right: 12%;
+    width: 76%;
+    flex-direction: column;
+  }
+
+  .AboutContent p {
+    display: block;
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+
+  .ArticleContent p {
+    width: 100%;
+    display: flex;
+  }
+
+  .PortraitContainer {
+    display: flex;
+    max-width: 413px;
+    width: 40%;
+    margin-right: 5%;
+  }
+
+  .portrait {
+    height: auto;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    max-width: 400px;
+    max-height: 100%;
+  }
+
+  .AboutTextContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 750px;
+  }
+
+  .AboutBody {
+    background-image: url(../graphics/Top_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 95px;
+    float: none;
+  }
+
+  .ProjectSplitContent {
+    display: flex;
+    padding-top: 15px;
+    width: 100%;
+  }
+
+  .ProjectSplitContent ul {
+    padding-left: 4.15%;
+    list-style: disc;
+  }
+
+  .ProjectLeft {
+    width: 45%;
+    margin-right: 5%;
+  }
+
+  .ProjectRight {
+    width: 45%;
+    margin-left: 5%;
+  }
+
+  /*Footer stuff*/
+
+  footer {
+    padding-bottom: 0px;
+  }
+
+  .prefootertext {
+    text-align: center;
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .BottomLogoImage {
+    padding-top: 20px;
+    max-width: 64px;
+    max-height: 22px;
+  }
+
+  #contact_anchor {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 12%;
+    padding-right: 12%;
+    height: 100px;
+    align-items: center;
+  }
+
+  .ContactLinks {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .BottomNavLink {
+    height: 40px;
+    width: 40px;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 2px;
+    background-color: #18EBED;
+    border-radius: 50%;
+    border-color: #000000;
+    border-width: medium;
+    border-style: solid;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #0B8889;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .TwoColumnContent {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .four-col-mid-grid-item {
+    grid-column-start: 2;
+    grid-column-end: span 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .all-col-grid-item {
+    grid-column-end: span 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .two-col-grid-item {
+    grid-column-end: span 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .three-col-grid-item {
+    grid-column-end: span 2;
+    display: flex;
+    align-items: center;
+    justify-content: Top;
+    flex-direction: column;
+  }
+
+  .GDCaseStudy em {
+    font-weight: bold;
+    color: #b3ffda;
+  }
+
+}
