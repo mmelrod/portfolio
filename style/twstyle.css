@@ -173,7 +173,7 @@ header {
 
 .AboutContent {
   background-color: rgba(0,41,55,.90);
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Oxygen", sans-serif;
   line-height: 1.7em;
   padding-left: 8.33%;
@@ -181,7 +181,7 @@ header {
   padding-bottom: 50px;
   padding-right: 8.33%;
   width: 83.33%;
-  font-weight: 700;
+  font-weight: 600;
   color: #f7f7f7;
 }
 
@@ -371,12 +371,30 @@ header {
 .ProjectCards p {
   font-size: 18px;
   line-height: 1.75em;
+  font-weight: 300;
+  padding-bottom: 1.5em;
+}
+
+.ProjectCards li {
+  font-size: 18px;
+  line-height: 1.75em;
+  font-weight: 300;
+}
+
+.ProjCard h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-bottom: 2px solid #18EBED;
+  border-top: 2px solid #18EBED;
 }
 
 .ProjCard h3 {
   font-family: "Open Sans", sans-serif;
-  font-size: 26.66px;
-  font-weight: 500;
+  font-size: 23px;
+  font-weight: 700;
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -465,10 +483,21 @@ header {
   width: 100%;
 }
 
-.PersonaPortrait {
-  margin-left: auto;
-  margin-right: auto;
-  width: 221px;
+.PortraitContainer {
+  display: flex;
+  max-width: 413px;
+  width: 40%;
+  margin-right: 5%;
+}
+
+.portrait {
+  height: auto;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  max-width: 250px;
+  max-height: 100%;
 }
 
 .WireframeSketches {
@@ -762,12 +791,14 @@ footer {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
+    margin-top: 10px;
   }
 
   .ProjectCards p {
     font-size: 18px;
-    line-height: 2em;
+    line-height: 1.7em;
+    font-weight: 500;
   }
 
   .ProjCardBackground{
@@ -775,20 +806,20 @@ footer {
     display: block;
     background-image: url(../graphics/background_pattern.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    height: 100%;
     width: 100%;
   }
 
   .ProjCard {
     position: relative;
-    display: inline-block;
+    display: block;
     top: 0px;
-    width:80%;
+    width:100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 12%;
-    padding-right: 12%;
-    max-width: 1000px;
+    padding-left: auto;
+    padding-right: auto;
+    max-width: 800px;
   }
 
   .MobileOnly {
@@ -809,11 +840,8 @@ footer {
     display: block;
     padding-top: auto;
     padding-bottom: auto;
-  }
-
-  .ArticleContent p {
-    width: 100%;
-    display: flex;
+    font-size: 18px;
+    font-weight: 400;
   }
 
   .PortraitContainer {
@@ -829,7 +857,7 @@ footer {
     float: left;
     margin-right: 10px;
     margin-top: 10px;
-    max-width: 400px;
+    max-width: 350px;
     max-height: 100%;
   }
 
