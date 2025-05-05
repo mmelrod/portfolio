@@ -37,6 +37,16 @@ h2 {
   padding-bottom: 20px;
 }
 
+ul {
+  list-style-type: disc;
+  padding-bottom: 15px;
+}
+
+li {
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+
 /*Home Page*/
 .HomeBackground {
   background-image: url(../graphics/digitaltouch_bg_mobile.png);
@@ -138,6 +148,11 @@ header {
   margin-top: 30px;
   margin-bottom: 20px;
   text-decoration: none;
+}
+
+.Featuredbutton:hover {
+  background: rgb(210,255,255,1);
+  background: linear-gradient(0deg, rgba(210,255,255,1) 0%, rgba(24,235,237,1) 50%, rgba(13,115,116,1) 100%);
 }
 
 .button {
@@ -414,6 +429,16 @@ header {
   background-color: rgba(0,41,55,.8);
 }
 
+.DiscoveryImage {
+  display: block;
+  max-width:450px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 /*case study TOC*/
 #menu span {
   background-color: #f7f7f7;
@@ -422,6 +447,18 @@ header {
   margin-left: 0px;
   opacity: 20%;
   width: 300px;
+}
+
+.WalkthroughVid {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: none;
+  width: 70vw;
+  height: 40vh;
+  max-width: 1280px;
+  max-height: 720px;
 }
 
 /*highlight general*/
